@@ -31,7 +31,7 @@
   ],
   "rewrites": [
     {
-      "source": "/:v(temas|partidos|brujula|cumple|congreso|encuestas|noticias)/:rest*",
+      "source": "/:v(temas|partidos|brujula|cumple|congreso|encuestas|opina|noticias)/:rest*",
       "destination": "/index.html"
     }
   ]

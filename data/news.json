@@ -1,12 +1,116 @@
 {
  "meta": {
   "highlight": {
-   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral, después de que el Congreso tumbara sus decretos de vivienda con los votos en contra de PP, Vox y Junts. El BOE publicó la convocatoria el 6 de octubre; la campaña irá del 13 al 27 de noviembre.",
-   "title": "Elecciones generales el 29 de noviembre de 2026"
+   "title": "Elecciones generales el 29 de noviembre de 2026",
+   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral, después de que el Congreso tumbara sus decretos de vivienda. El BOE publicó la convocatoria el 6 de octubre. El 10 de octubre PSOE y PP abrieron la precampaña; la campaña irá del 13 al 27 de noviembre."
   },
-  "updated": "2026-10-08"
+  "updated": "2026-10-10"
  },
  "items": [
+  {
+   "date": "2026-10-10",
+   "parties": [
+    "psoe"
+   ],
+   "source": "El Español",
+   "title": "Sánchez abre la precampaña en Dos Hermanas con la vivienda como eje",
+   "summary": "En un acto con María Jesús Montero, Sánchez afirmó que la política de vivienda «no tiene fecha de caducidad» y defendió el sistema público de pensiones. Calificó de «bulo» las acusaciones del PP sobre el voto por correo. El domingo 11 estará en Ponferrada.",
+   "url": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
+   "id": "n29"
+  },
+  {
+   "date": "2026-10-10",
+   "parties": [
+    "pp"
+   ],
+   "source": "El Español",
+   "title": "Feijóo arranca la precampaña en Ifema junto a Ayuso y Almeida",
+   "summary": "Feijóo pidió un «cambio total, sereno, pero contundente» y habló de «reconstrucción nacional». Almeida dijo prever una campaña «sucia» por parte de la izquierda.",
+   "url": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
+   "id": "n30"
+  },
+  {
+   "date": "2026-10-10",
+   "parties": [
+    "vox"
+   ],
+   "source": "Moncloa.com (Efe)",
+   "title": "Garriga presenta el 29N como la «última oportunidad»",
+   "summary": "El secretario general de Vox, Ignacio Garriga, advirtió de que Sánchez podría volver a ganar pese a las encuestas y pidió a sus votantes que acudan a las urnas.",
+   "url": "https://www.moncloa.com/2026/10/10/vox-29n-ultima-oportunidad-espana-3445816/",
+   "id": "n31"
+  },
+  {
+   "date": "2026-10-10",
+   "parties": [
+    "podemos"
+   ],
+   "source": "El Español",
+   "title": "Podemos centra su acto de Getafe en los desahucios",
+   "summary": "Irene Montero pidió acabar con el negocio en la vivienda e Ione Belarra propuso expropiar las viviendas de los fondos de inversión.",
+   "url": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
+   "id": "n32"
+  },
+  {
+   "date": "2026-10-10",
+   "parties": [
+    "sumar",
+    "psoe"
+   ],
+   "source": "El Español",
+   "title": "IU vota su candidato y el Frente Amplio estudia una lista al Senado con el PSOE",
+   "summary": "Toni Valero y Santiago Moreno compiten en las primarias de IU, con resultados el 14 de octubre. El PSOE y el Frente Amplio se reúnen el domingo para estudiar una lista conjunta de izquierdas al Senado.",
+   "url": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
+   "id": "n33"
+  },
+  {
+   "date": "2026-10-09",
+   "parties": [
+    "pp",
+    "vox",
+    "psoe"
+   ],
+   "source": "Telemadrid",
+   "title": "Tres nuevas encuestas dan a PP y Vox cerca de 200 escaños",
+   "summary": "40dB (El País), IMOP (El Confidencial) y DYM (20minutos) sitúan al PP entre 130 y 143 escaños, a Vox entre 61 y 70 y al PSOE entre 107 y 112. La mayoría absoluta está en 176.",
+   "url": "https://www.telemadrid.es/programas/buenos-dias-madrid/PP-y-Vox-rozan-los-200-escanos-en-las-encuestas-para-las-elecciones-del-29N-2-2933126666--20261009105650.html",
+   "id": "n34"
+  },
+  {
+   "date": "2026-10-09",
+   "parties": [
+    "sumar",
+    "podemos",
+    "erc"
+   ],
+   "source": "El Español",
+   "title": "Podemos propone a Rufián para encabezar la lista de la izquierda",
+   "summary": "Más Madrid había propuesto a Ada Colau como candidata del Frente Amplio e IU celebra sus propias primarias. ERC prepara una alternativa con Jordi Albert si Rufián no encabeza sus listas.",
+   "url": "https://elespanol.com/espana/politica/20261009/frente-amplio-podemos-promueve-rufian-tumbar-colau-erc-busca-cabeza-lista/1003744414444_0.html",
+   "id": "n35"
+  },
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "erc"
+   ],
+   "source": "Artículo14",
+   "title": "Rufián se da hasta el domingo para decidir si repite como candidato",
+   "summary": "Rufián quiere encabezar una candidatura de ERC junto a otras fuerzas de izquierdas. ERC sostiene que sigue siendo su candidato y que está «en reflexión» hasta el 11 de octubre.",
+   "url": "https://www.articulo14.es/politica/rufian-erc-lo-intentare-hasta-el-final-20261008.html",
+   "id": "n36"
+  },
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "pp"
+   ],
+   "source": "Diario de León",
+   "title": "Alma Ezcurra preparará el programa del PP y Ester Muñoz será portavoz de campaña",
+   "summary": "Feijóo presentó los nombramientos a la Junta Directiva del partido. El programa del PP para el 29N aún no se ha publicado.",
+   "url": "https://www.diariodeleon.es/nacional/261008/2099663/elecciones-generales-leon-2026-feijoo-elige-leonesa-ester-munoz-portavoz-campana.html",
+   "id": "n37"
+  },
   {
    "date": "2026-10-08",
    "parties": [
