@@ -1,0 +1,38 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/news?w=verano",
+      "schedule": "0 20 * * *"
+    },
+    {
+      "path": "/api/cron/news?w=invierno",
+      "schedule": "0 21 * * *"
+    },
+    {
+      "path": "/api/cron/programs",
+      "schedule": "0 19 * * *"
+    }
+  ],
+  "functions": {
+    "api/cron/*.js": {
+      "maxDuration": 300
+    }
+  },
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:v(temas|partidos|brujula|cumple|congreso|encuestas|noticias)/:rest*",
+      "destination": "/index.html"
+    }
+  ]
+}
