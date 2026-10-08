@@ -1,0 +1,328 @@
+{
+ "meta": {
+  "highlight": {
+   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral, después de que el Congreso tumbara sus decretos de vivienda con los votos en contra de PP, Vox y Junts. El BOE publicó la convocatoria el 6 de octubre; la campaña irá del 13 al 27 de noviembre.",
+   "title": "Elecciones generales el 29 de noviembre de 2026"
+  },
+  "updated": "2026-10-08"
+ },
+ "items": [
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "pp"
+   ],
+   "source": "El Español",
+   "title": "Feijóo reúne a la cúpula del PP y pide no dar la victoria por hecha",
+   "summary": "Miguel Tellado dirigirá la campaña, con Marta Varela como adjunta. Feijóo centró sus críticas en la vivienda y en los casos judiciales que afectan al entorno del presidente.",
+   "url": "https://www.elespanol.com/espana/politica/20261008/ultima-hora-politica-directo-feijoo-reune-genova-cupula-pp-barones-definir-campana-electoral/1003744412713_10.html",
+   "id": "n24"
+  },
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "junts"
+   ],
+   "source": "El Español",
+   "title": "Junts confirma a Miriam Nogueras como candidata por Barcelona",
+   "summary": "Madrenas, Gavín y Cruset encabezarán las listas de Girona, Lleida y Tarragona.",
+   "url": "https://www.elespanol.com/espana/politica/20261008/ultima-hora-politica-directo-feijoo-reune-genova-cupula-pp-barones-definir-campana-electoral/1003744412713_10.html",
+   "id": "n25"
+  },
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "El Español",
+   "title": "Colau se ofrece como candidata de consenso de Frente Amplio",
+   "summary": "Ada Colau encabezaría la lista solo si hay una única candidatura de izquierdas. IU propone a Toni Valero y Podemos mantiene que las primarias del 14 y 15 de octubre son la única vía.",
+   "url": "https://www.elespanol.com/espana/politica/20261008/ultima-hora-politica-directo-feijoo-reune-genova-cupula-pp-barones-definir-campana-electoral/1003744412713_10.html",
+   "id": "n26"
+  },
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "psoe",
+    "pp"
+   ],
+   "source": "El Español",
+   "title": "PSOE y PP chocan por el voto por correo",
+   "summary": "El ministro Félix Bolaños critica la campaña del PP sobre el voto por correo y pide al Supremo que resuelva pronto el caso de la «Ley de Nietos».",
+   "url": "https://www.elespanol.com/espana/politica/20261008/ultima-hora-politica-directo-feijoo-reune-genova-cupula-pp-barones-definir-campana-electoral/1003744412713_10.html",
+   "id": "n27"
+  },
+  {
+   "date": "2026-10-08",
+   "parties": [
+    "psoe",
+    "sumar",
+    "vox",
+    "pp"
+   ],
+   "source": "The Objective",
+   "title": "La estrategia del PSOE para el 29N: vivienda y voto útil de izquierdas",
+   "summary": "Según el diario, el PSOE quiere movilizar a su electorado con la vivienda, atraer voto de otras izquierdas y confía en que el auge de Vox reste al PP.",
+   "url": "https://theobjective.com/espana/politica/2026-10-08/estrategia-sanchez-voto-izquierdas-vox-pp/",
+   "id": "n28"
+  },
+  {
+   "date": "2026-10-07",
+   "parties": [
+    "pp",
+    "vox"
+   ],
+   "source": "Moncloa.com",
+   "title": "PP y Vox afrontan el 29N en Andalucía como un choque de bloques",
+   "summary": "Seis meses después de las autonómicas que llevaron a su primer gobierno de coalición en Andalucía, el PP teme que Vox crezca a su costa. Los partidos dan por hecho que Adelante Andalucía entrará en el Congreso.",
+   "url": "https://www.moncloa.com/2026/10/07/bloque-pp-vox-andalucia-29n-3444179",
+   "id": "n21"
+  },
+  {
+   "date": "2026-10-07",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox"
+   ],
+   "source": "El Español",
+   "title": "Los escenarios del 29N según SocioMétrica",
+   "summary": "El director de SocioMétrica calcula que PP y Vox mantendrían la mayoría aunque se movilizaran 1,8 millones de abstencionistas de izquierda. Según su análisis, el PSOE necesitaría atraer unos 4 millones de votos para seguir gobernando.",
+   "url": "https://www.elespanol.com/espana/politica/20261007/escenarios-sanchez-solo-retendra-poder-saca-abstencion-millones-votos-izquierda/1003744411070_0.html",
+   "id": "n22"
+  },
+  {
+   "date": "2026-10-07",
+   "parties": [],
+   "source": "Euronews",
+   "title": "CCOO y UGT sitúan la huelga general por la vivienda el 11 de noviembre",
+   "summary": "Sería la primera huelga general en 14 años: 24 horas, dos días antes de que empiece la campaña. Piden sueldos que permitan pagar la vivienda, limitar los alquileres y más vivienda pública. CSIF no se suma y la patronal CEOE pide dirigir esas demandas a las administraciones.",
+   "url": "https://es.euronews.com/2026/10/07/huelga-general-vivienda-espana-11-noviembre-ccoo-ugt",
+   "id": "n20"
+  },
+  {
+   "date": "2026-10-07",
+   "parties": [
+    "psoe",
+    "junts",
+    "pp"
+   ],
+   "source": "Infobae (Europa Press)",
+   "title": "Illa reta a Junts a elegir entre una «coalición progresista» o una «involucionista»",
+   "summary": "En el Parlament, el presidente catalán respondió a las críticas de Junts por los compromisos incumplidos en financiación preguntando si los perseguirá con un Gobierno de PP y Vox.",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/07/illa-reta-a-junts-a-tomar-partido-o-coalicion-progresista-o-coalicion-involucionista/",
+   "id": "n16"
+  },
+  {
+   "date": "2026-10-07",
+   "parties": [
+    "pnv"
+   ],
+   "source": "Moncloa.com",
+   "title": "El PNV presenta sus listas de candidatos para las elecciones del 29N",
+   "summary": "Maribel Vaquero encabezará la lista por Gipuzkoa y Gorka Urtaran la de Álava. Aitor Esteban no será cabeza de lista por primera vez en cinco elecciones. La asamblea del 17 de octubre debe ratificar las listas.",
+   "url": "https://www.moncloa.com/2026/10/07/listas-pnv-29n-vaquero-urtaran-goia-3444165/",
+   "id": "n17"
+  },
+  {
+   "date": "2026-10-06",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Catalunya Press",
+   "title": "Frente Amplio acelera la elección de su candidato mientras Podemos y Sumar chocan por las primarias",
+   "summary": "Entre los nombres que se barajan están Mónica García y Ada Colau. Podemos mantiene las primarias del 14 y 15 de octubre como condición; Sumar prefiere un acuerdo entre organizaciones.",
+   "url": "https://www.catalunyapress.es/articulo/politica-nacional/2026-10-06/6042292-frente-amplio-acelera-elegir-candidato-mientras-podemos-sumar-chocan-primarias",
+   "id": "n18"
+  },
+  {
+   "date": "2026-10-06",
+   "parties": [],
+   "source": "El Debate",
+   "title": "El BOE publica el decreto que convoca las elecciones generales del 29 de noviembre",
+   "summary": "Las Cortes quedan disueltas desde la publicación. La campaña electoral irá del 13 al 27 de noviembre.",
+   "url": "https://www.eldebate.com/espana/20261006/boe-publica-decreto-convoca-elecciones-generales-29-noviembre-cns_466555.html",
+   "id": "n19"
+  },
+  {
+   "date": "2026-10-06",
+   "parties": [
+    "pp",
+    "vox"
+   ],
+   "source": "Moncloa.com",
+   "summary": "Feijóo pide no confiarse como en 2023; Vox, que gobierna con el PP en cinco comunidades, pide a los votantes elegir «el equilibrio de fuerzas».",
+   "title": "Feijóo y Abascal escenifican una tregua entre PP y Vox ante el 29N",
+   "url": "https://www.moncloa.com/2026/10/06/vox-pp-tregua-29n-abascal-feijoo-3443380/",
+   "id": "n04"
+  },
+  {
+   "date": "2026-10-06",
+   "parties": [
+    "podemos",
+    "sumar"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "Ione Belarra propone primarias el 14 y 15 de octubre para elegir candidatura de izquierdas; Sumar las rechaza y ofrece a Podemos negociar su entrada en el Frente Amplio.",
+   "title": "Podemos insta a Sumar a aceptar unas primarias abiertas",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/06/podemos-insta-a-sumar-a-que-recapacite-y-acepte-que-las-primarias-es-el-unico-camino-para-salir-del-bucle/",
+   "id": "n07"
+  },
+  {
+   "date": "2026-10-06",
+   "parties": [
+    "erc"
+   ],
+   "source": "The Objective",
+   "summary": "El presidente de ERC confirma que Gabriel Rufián repetirá como cabeza de lista al Congreso.",
+   "title": "Junqueras asegura que Rufián será el candidato de ERC en las elecciones",
+   "url": "https://theobjective.com/espana/politica/2026-10-06/junqueras-rufian-erc-candidato-elecciones/",
+   "id": "n08"
+  },
+  {
+   "date": "2026-10-06",
+   "parties": [
+    "upn",
+    "pp"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "UPN y PP negocian presentarse juntos en Navarra el 29N.",
+   "title": "El PP de Navarra apuesta por concurrir con UPN a las elecciones generales",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/06/el-pp-de-navarra-apuesta-por-concurrir-con-upn-a-las-elecciones-generales/",
+   "id": "n14"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [],
+   "source": "Artículo 14",
+   "title": "Unos 400.000 nacionalizados por la «Ley de Nietos» podrán votar el 29N",
+   "summary": "El censo que se usará es el del 1 de agosto, anterior a la suspensión cautelar del Tribunal Supremo. El Supremo sigue estudiando el caso y pide alegaciones a los partidos.",
+   "url": "https://www.articulo14.es/politica/la-junta-electoral-confirma-que-al-menos-400-000-nietos-pueden-votar-el-29n-20261005.html",
+   "id": "n23"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "psoe",
+    "junts"
+   ],
+   "source": "Crónica Global",
+   "summary": "Junts votó en contra de los decretos de vivienda junto a PP y Vox. Sánchez, que había dicho que las elecciones serían en 2027, las adelanta al 29 de noviembre.",
+   "title": "Sánchez convoca elecciones el 29N tras el 'no' de Junts a los decretos de vivienda",
+   "url": "https://cronicaglobal.elespanol.com/politica/20261005/sanchez-convoca-elecciones-no-junts-decretos-vivienda/1003742799802_0.html",
+   "id": "n01"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "psoe"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "Sánchez será proclamado candidato el 17 de octubre, sin primarias al estar en el Gobierno.",
+   "title": "Sánchez anima a la cúpula del PSOE a salir a ganar las elecciones del 29 de noviembre",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/05/sanchez-anima-a-la-cupula-del-psoe-a-salir-a-ganar-las-elecciones-del-29-de-noviembre/",
+   "id": "n02"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "pp"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "El líder del PP presenta las elecciones como una elección entre «decadencia o cambio» y relaciona el adelanto con los casos de corrupción que afectan al PSOE.",
+   "title": "Feijóo apela al cambio para una \"reconstrucción nacional\"",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/05/feijoo-apela-al-cambio-para-una-reconstruccion-nacional-y-cree-que-sanchez-merece-el-mayor-de-los-castigos/",
+   "id": "n03"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "vox"
+   ],
+   "source": "Moncloa.com",
+   "summary": "El líder de Vox pide a sus votantes que voten en persona en lugar de por correo.",
+   "title": "Abascal llama al voto presencial el 29N",
+   "url": "https://www.moncloa.com/2026/10/05/abascal-voto-presencial-29n-3442803/",
+   "id": "n05"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "junts"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "La militancia votará la propuesta de lista por Barcelona con un reglamento que el partido aprueba esta semana.",
+   "title": "Miriam Nogueras se mantiene como la apuesta de Junts para liderar la candidatura del 29N",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/05/miriam-nogueras-se-mantiene-como-la-apuesta-de-junts-para-liderar-la-candidatura-del-29n/",
+   "id": "n09"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "bildu"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "La coalición se declara preparada para el 29N y plantea evitar un gobierno de PP y Vox.",
+   "title": "EH Bildu dice estar listo para elecciones y que se puede \"cerrar la puerta a la derecha\"",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/05/eh-bildu-dice-estar-listo-para-elecciones-y-que-se-puede-cerrar-la-puerta-a-la-derecha/",
+   "id": "n11"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "pnv"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "El PNV pide votar en clave vasca, por encima de los bloques de izquierda y derecha.",
+   "title": "Esteban (PNV): \"No estamos para defender bloques, sino los intereses de Euskadi\"",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/05/esteban-pnv-no-estamos-para-defender-bloques-sino-los-intereses-de-euskadi/",
+   "id": "n12"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "bng"
+   ],
+   "source": "Galiciapress",
+   "summary": "El BNG se declara preparado para el 29N y destaca como logros de la legislatura el traspaso de la AP-9 y descuentos en autopistas.",
+   "title": "El BNG abre el proceso de las listas y Pontón da por hecho que Rego y Da Silva tendrán un \"papel relevante\"",
+   "url": "https://www.galiciapress.es/articulo/politica/2026-10-05/6040120-bng-abre-proceso-listas-ponton-da-hecho-rego-da-silva-tendran-papel-relevante",
+   "id": "n13"
+  },
+  {
+   "date": "2026-10-05",
+   "parties": [
+    "cc"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "CC repite candidata por Santa Cruz de Tenerife y explora alianzas en la provincia de Las Palmas.",
+   "title": "Coalición Canaria propone a Cristina Valido como candidata al Congreso",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/05/coalicion-canaria-cc-propone-a-cristina-valido-como-candidata-al-congreso/",
+   "id": "n15"
+  },
+  {
+   "date": "2026-10-04",
+   "parties": [
+    "sumar"
+   ],
+   "source": "Infobae (Europa Press)",
+   "summary": "Movimiento Sumar, IU, Más Madrid y los comunes presentarán ese día su nuevo proyecto, llamado Frente Amplio, y su candidato o candidata.",
+   "title": "El nuevo Sumar anunciará el 17 de octubre su cabeza de lista para las elecciones generales",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/04/el-nuevo-sumar-anunciara-el-17-de-octubre-su-cabeza-de-lista-para-las-elecciones-generales/",
+   "id": "n06"
+  },
+  {
+   "date": "2026-10-02",
+   "parties": [
+    "junts"
+   ],
+   "source": "Infobae",
+   "summary": "Incluye limitar la compra de pisos por fondos hasta 2028 y deducciones fiscales por alquiler.",
+   "title": "Junts presenta una propuesta alternativa de vivienda de 59 páginas",
+   "url": "https://www.infobae.com/espana/2026/10/02/junts-presenta-una-propuesta-alternativa-de-vivienda-de-59-paginas-que-incluye-una-restriccion-a-la-compra-de-pisos-por-fondos-buitre-hasta-2028-y-deducciones-fiscales-por-alquiler/",
+   "id": "n10"
+  }
+ ]
+}

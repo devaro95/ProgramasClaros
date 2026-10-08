@@ -1,0 +1,1180 @@
+{
+ "parties": [
+  {
+   "id": "pp",
+   "name": "PP",
+   "full": "Partido Popular"
+  },
+  {
+   "id": "psoe",
+   "name": "PSOE",
+   "full": "Partido Socialista Obrero Español"
+  },
+  {
+   "id": "sumar",
+   "name": "Sumar",
+   "full": "Sumar"
+  },
+  {
+   "id": "vox",
+   "name": "Vox",
+   "full": "Vox"
+  },
+  {
+   "id": "podemos",
+   "name": "Podemos",
+   "full": "Podemos"
+  },
+  {
+   "id": "salf",
+   "name": "SALF",
+   "full": "Se Acabó La Fiesta"
+  },
+  {
+   "id": "bng",
+   "name": "BNG",
+   "full": "Bloque Nacionalista Galego"
+  },
+  {
+   "id": "bildu",
+   "name": "EH Bildu",
+   "full": "Euskal Herria Bildu"
+  },
+  {
+   "id": "erc",
+   "name": "ERC",
+   "full": "Esquerra Republicana de Catalunya"
+  },
+  {
+   "id": "junts",
+   "name": "Junts",
+   "full": "Junts per Catalunya"
+  },
+  {
+   "id": "pnv",
+   "name": "PNV",
+   "full": "Partido Nacionalista Vasco (EAJ-PNV)"
+  },
+  {
+   "id": "upn",
+   "name": "UPN",
+   "full": "Unión del Pueblo Navarro"
+  },
+  {
+   "id": "cc",
+   "name": "CC",
+   "full": "Coalición Canaria"
+  }
+ ],
+ "glossary": [
+  {
+   "k": "aval",
+   "t": "Aval"
+  },
+  {
+   "k": "ibi",
+   "t": "IBI"
+  },
+  {
+   "k": "alquilersocial",
+   "t": "Alquiler social"
+  },
+  {
+   "k": "leyvivienda",
+   "t": "Ley de Vivienda (2023)"
+  },
+  {
+   "k": "okupacion",
+   "t": "Okupación"
+  },
+  {
+   "k": "bonojoven",
+   "t": "Bono Alquiler Joven"
+  },
+  {
+   "k": "iva",
+   "t": "IVA"
+  },
+  {
+   "k": "suelo",
+   "t": "Liberar suelo"
+  },
+  {
+   "k": "smi",
+   "t": "Salario mínimo (SMI)"
+  },
+  {
+   "k": "salariomedio",
+   "t": "Sueldo medio"
+  },
+  {
+   "k": "reformalaboral",
+   "t": "Reforma laboral de 2021"
+  },
+  {
+   "k": "cuotaautonomo",
+   "t": "Cuota de autónomo"
+  },
+  {
+   "k": "mochila",
+   "t": "Mochila austriaca"
+  },
+  {
+   "k": "jornada",
+   "t": "Jornada laboral"
+  },
+  {
+   "k": "empleosverdes",
+   "t": "Empleos verdes"
+  },
+  {
+   "k": "atprimaria",
+   "t": "Atención primaria"
+  },
+  {
+   "k": "pib",
+   "t": "PIB"
+  },
+  {
+   "k": "listas",
+   "t": "Tiempos máximos de espera"
+  },
+  {
+   "k": "competencias",
+   "t": "Competencias"
+  },
+  {
+   "k": "ipc",
+   "t": "IPC"
+  },
+  {
+   "k": "contributiva",
+   "t": "Pensión contributiva"
+  },
+  {
+   "k": "nocontributiva",
+   "t": "Pensión no contributiva"
+  },
+  {
+   "k": "pactotoledo",
+   "t": "Pacto de Toledo"
+  },
+  {
+   "k": "revalorizacion",
+   "t": "Subir pensiones con el IPC"
+  },
+  {
+   "k": "hucha",
+   "t": "Hucha de las pensiones"
+  },
+  {
+   "k": "jubactiva",
+   "t": "Jubilación activa"
+  },
+  {
+   "k": "brechapension",
+   "t": "Brecha de género en pensiones"
+  },
+  {
+   "k": "planespensiones",
+   "t": "Planes de pensiones"
+  },
+  {
+   "k": "irpf",
+   "t": "IRPF"
+  },
+  {
+   "k": "deflactar",
+   "t": "Ajustar el IRPF a la inflación"
+  },
+  {
+   "k": "grandesfortunas",
+   "t": "Impuesto a las grandes fortunas"
+  },
+  {
+   "k": "patrimonio",
+   "t": "Impuesto de Patrimonio"
+  },
+  {
+   "k": "sucesiones",
+   "t": "Sucesiones y Donaciones"
+  },
+  {
+   "k": "sociedades",
+   "t": "Impuesto de Sociedades"
+  },
+  {
+   "k": "impextra",
+   "t": "Impuestos a eléctricas y bancos"
+  },
+  {
+   "k": "basecero",
+   "t": "Presupuestos base cero"
+  },
+  {
+   "k": "progresivo",
+   "t": "Paga más quien más tiene"
+  },
+  {
+   "k": "lomloe",
+   "t": "LOMLOE"
+  },
+  {
+   "k": "fp",
+   "t": "FP"
+  },
+  {
+   "k": "ebau",
+   "t": "Selectividad (EBAU)"
+  },
+  {
+   "k": "escuela03",
+   "t": "Escuela infantil (0-3 años)"
+  },
+  {
+   "k": "cooficial",
+   "t": "Lenguas cooficiales"
+  },
+  {
+   "k": "pinparental",
+   "t": "Permiso previo de los padres (pin parental)"
+  },
+  {
+   "k": "herencia",
+   "t": "Herencia universal"
+  },
+  {
+   "k": "becas",
+   "t": "Becas"
+  },
+  {
+   "k": "librosgratis",
+   "t": "Libros de texto gratis"
+  },
+  {
+   "k": "cie",
+   "t": "CIE"
+  },
+  {
+   "k": "menores",
+   "t": "Menores no acompañados"
+  },
+  {
+   "k": "bloqueo",
+   "t": "Bloqueo naval"
+  },
+  {
+   "k": "expulsion",
+   "t": "Expulsión"
+  },
+  {
+   "k": "puntos",
+   "t": "Inmigración por puntos"
+  },
+  {
+   "k": "acogida",
+   "t": "Sistema de acogida"
+  },
+  {
+   "k": "racismo",
+   "t": "Ley integral contra el racismo"
+  },
+  {
+   "k": "nuclear",
+   "t": "Centrales nucleares"
+  },
+  {
+   "k": "renovables",
+   "t": "Renovables"
+  },
+  {
+   "k": "fosiles",
+   "t": "Combustibles fósiles"
+  },
+  {
+   "k": "hidrogeno",
+   "t": "Hidrógeno verde"
+  },
+  {
+   "k": "mercadoelectrico",
+   "t": "Intervención del mercado eléctrico"
+  },
+  {
+   "k": "leyclima",
+   "t": "Ley de Cambio Climático"
+  },
+  {
+   "k": "zbe",
+   "t": "Zonas de bajas emisiones"
+  },
+  {
+   "k": "bonosocial",
+   "t": "Tarifa social de la luz"
+  },
+  {
+   "k": "proteger30",
+   "t": "Proteger el 30%"
+  },
+  {
+   "k": "vg",
+   "t": "Ley de Violencia de Género"
+  },
+  {
+   "k": "juzgadosvm",
+   "t": "Juzgados de violencia sobre la mujer"
+  },
+  {
+   "k": "pactovg",
+   "t": "Pacto de Estado contra la Violencia de Género"
+  },
+  {
+   "k": "leytrans",
+   "t": "Ley Trans"
+  },
+  {
+   "k": "ministerioigualdad",
+   "t": "Ministerio de Igualdad"
+  },
+  {
+   "k": "paridad",
+   "t": "Ley de Paridad"
+  },
+  {
+   "k": "proxenetismo",
+   "t": "Proxenetismo"
+  },
+  {
+   "k": "feminismovp",
+   "t": "Vicepresidencia de Feminismo"
+  },
+  {
+   "k": "hombrescrisis",
+   "t": "Teléfono para hombres en crisis"
+  },
+  {
+   "k": "permiso",
+   "t": "Permiso por nacimiento"
+  },
+  {
+   "k": "familianumerosa",
+   "t": "Familia numerosa"
+  },
+  {
+   "k": "conciliar",
+   "t": "Conciliar"
+  },
+  {
+   "k": "deduccion",
+   "t": "Deducción en el IRPF"
+  },
+  {
+   "k": "cuidados",
+   "t": "Red pública de cuidados"
+  },
+  {
+   "k": "monomarental",
+   "t": "Familias monomarentales"
+  },
+  {
+   "k": "cgpj",
+   "t": "CGPJ"
+  },
+  {
+   "k": "sedicion",
+   "t": "Sedición"
+  },
+  {
+   "k": "malversacion",
+   "t": "Malversación"
+  },
+  {
+   "k": "refilegal",
+   "t": "Referéndum ilegal"
+  },
+  {
+   "k": "ppr",
+   "t": "Prisión permanente revisable"
+  },
+  {
+   "k": "aforamiento",
+   "t": "Aforamiento"
+  },
+  {
+   "k": "justiciamilitar",
+   "t": "Justicia militar"
+  },
+  {
+   "k": "lecrim",
+   "t": "Ley de Enjuiciamiento Criminal"
+  },
+  {
+   "k": "equiparacion",
+   "t": "Equiparación salarial"
+  },
+  {
+   "k": "financiacion",
+   "t": "Financiación autonómica"
+  },
+  {
+   "k": "cohesion",
+   "t": "Cohesión territorial"
+  },
+  {
+   "k": "desconcentrar",
+   "t": "Sacar organismos de Madrid"
+  },
+  {
+   "k": "generalitat",
+   "t": "Generalitat"
+  },
+  {
+   "k": "mesadialogo",
+   "t": "Mesa de diálogo"
+  },
+  {
+   "k": "plurinacional",
+   "t": "Plurinacional"
+  },
+  {
+   "k": "policiasaut",
+   "t": "Policías autonómicas"
+  },
+  {
+   "k": "ilegalizar",
+   "t": "Ilegalizar partidos"
+  },
+  {
+   "k": "estatutos",
+   "t": "Estatuto de Autonomía"
+  },
+  {
+   "k": "pac",
+   "t": "PAC"
+  },
+  {
+   "k": "desaladora",
+   "t": "Desaladora"
+  },
+  {
+   "k": "planagua",
+   "t": "Plan Nacional del Agua"
+  },
+  {
+   "k": "cuenca",
+   "t": "Cuenca"
+  },
+  {
+   "k": "arancel",
+   "t": "Arancel"
+  },
+  {
+   "k": "cadena",
+   "t": "Cadena alimentaria"
+  },
+  {
+   "k": "regadio",
+   "t": "Regadío"
+  },
+  {
+   "k": "tierras",
+   "t": "Mercado de tierras"
+  },
+  {
+   "k": "territorio30",
+   "t": "Territorio a 30 minutos"
+  },
+  {
+   "k": "tc",
+   "t": "Tribunal Constitucional"
+  },
+  {
+   "k": "memoria",
+   "t": "Ley de Memoria Democrática"
+  },
+  {
+   "k": "subvenciones",
+   "t": "Subvenciones a partidos y sindicatos"
+  },
+  {
+   "k": "debates",
+   "t": "Debates electorales obligatorios"
+  },
+  {
+   "k": "reformaconst",
+   "t": "Reforma de la Constitución"
+  },
+  {
+   "k": "aborto",
+   "t": "Ley del aborto"
+  },
+  {
+   "k": "eutanasia",
+   "t": "Ley de eutanasia"
+  },
+  {
+   "k": "zonasseg",
+   "t": "Zonas de seguridad junto a clínicas"
+  },
+  {
+   "k": "saludsexual",
+   "t": "Salud sexual y reproductiva"
+  },
+  {
+   "k": "saludmental",
+   "t": "Salud mental"
+  },
+  {
+   "k": "amnistia",
+   "t": "Ley de amnistía"
+  },
+  {
+   "k": "autodeterminacion",
+   "t": "Autodeterminación / derecho a decidir"
+  },
+  {
+   "k": "extranjeria",
+   "t": "Ley de Extranjería"
+  },
+  {
+   "k": "regularizacion",
+   "t": "Regularizar"
+  },
+  {
+   "k": "devoluciones",
+   "t": "Devoluciones en caliente"
+  },
+  {
+   "k": "leymordaza",
+   "t": "Ley mordaza"
+  },
+  {
+   "k": "injurias",
+   "t": "Injurias a la Corona"
+  },
+  {
+   "k": "senado",
+   "t": "Senado y diputaciones"
+  },
+  {
+   "k": "concierto",
+   "t": "Concierto económico"
+  },
+  {
+   "k": "sareb",
+   "t": "Sareb"
+  },
+  {
+   "k": "copago",
+   "t": "Copago"
+  },
+  {
+   "k": "mir",
+   "t": "Plazas MIR"
+  },
+  {
+   "k": "ley15",
+   "t": "Gestión privada de la sanidad (Ley 15/1997)"
+  },
+  {
+   "k": "indemnizacion",
+   "t": "Indemnización por despido"
+  },
+  {
+   "k": "smipropio",
+   "t": "Salario mínimo propio"
+  },
+  {
+   "k": "inspeccion",
+   "t": "Inspección de Trabajo"
+  },
+  {
+   "k": "sstransfer",
+   "t": "Gestionar la Seguridad Social"
+  },
+  {
+   "k": "art135",
+   "t": "Artículo 135 de la Constitución"
+  },
+  {
+   "k": "marginalista",
+   "t": "Cómo se fija el precio de la luz"
+  },
+  {
+   "k": "eolicamarina",
+   "t": "Eólica marina"
+  },
+  {
+   "k": "feminicidio",
+   "t": "Feminicidio"
+  },
+  {
+   "k": "imv",
+   "t": "Ingreso Mínimo Vital"
+  },
+  {
+   "k": "secretos",
+   "t": "Ley de Secretos Oficiales"
+  },
+  {
+   "k": "cni",
+   "t": "CNI"
+  },
+  {
+   "k": "inviolabilidad",
+   "t": "Inviolabilidad del Rey"
+  },
+  {
+   "k": "concordato",
+   "t": "Concordato"
+  },
+  {
+   "k": "rodalies",
+   "t": "Rodalies"
+  },
+  {
+   "k": "tac",
+   "t": "Cuotas de captura (TAC)"
+  },
+  {
+   "k": "tasadigital",
+   "t": "Impuesto a las grandes tecnológicas"
+  }
+ ],
+ "topics": [
+  {
+   "id": "vivienda",
+   "name": "Vivienda",
+   "intro": "Cómo hacer que comprar o alquilar una casa sea posible para la gente.",
+   "ejes": [
+    {
+     "id": "v1",
+     "q": "¿Quién debe poner las casas: el Estado o el mercado?",
+     "options": [
+      "Ayudar a comprar: el Estado da un {{aval|aval}} a los menores de 35 para la hipoteca, y se hace un gran pacto con comunidades y ayuntamientos.",
+      "Que el Estado construya 183.000 casas públicas de alquiler (la mitad para jóvenes) y ampliar el {{bonojoven|Bono Alquiler Joven}}.",
+      "Que el Estado ponga 2 millones de casas públicas de alquiler en 10 años y obligar a los grandes propietarios a ofrecer {{alquilersocial|alquiler social}}.",
+      "Que se construya más {{suelo|liberando suelo}}, y quitar el {{iva|IVA}} al comprar la primera vivienda.",
+      "Más {{alquilersocial|alquiler social}} público y que el alquiler no supere el 30% de los ingresos del hogar.",
+      "Que se construya más {{suelo|liberando suelo}} y con ventajas fiscales.",
+      "Que el Estado invierta 250 € por habitante y ceda gratis los pisos y el suelo de la {{sareb|Sareb}}.",
+      "Más dinero del Estado para vivienda (0,6% del PIB), más bono joven y {{aval|avales}} para menores de 35."
+     ]
+    },
+    {
+     "id": "v2",
+     "q": "La Ley de Vivienda: ¿mantenerla o quitarla?",
+     "options": [
+      "Quitarla.",
+      "No propone quitarla (es la ley actual).",
+      "Mantenerla y añadir que los grandes propietarios tengan que ofrecer {{alquilersocial|alquiler social}}.",
+      "Ir más allá: que el alquiler no supere el 30% de los ingresos del hogar.",
+      "Ir más allá: que los alquileres se prorroguen automáticamente sin límite."
+     ]
+    },
+    {
+     "id": "v3",
+     "q": "¿Qué hacer con la okupación?",
+     "options": [
+      "Desalojo en un máximo de 24 horas y más policías dedicados a ello.",
+      "Tolerancia cero, que el dueño no pague el {{ibi|IBI}} mientras la casa esté okupada e impedir que el okupa se empadrone en ella.",
+      "Cárcel inmediata para el okupa y desalojos más rápidos.",
+      "Proteger la propiedad privada y luchar contra la okupación."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trabajo",
+   "name": "Trabajo y sueldos",
+   "intro": "Empleo, sueldo mínimo y horas de trabajo.",
+   "ejes": [
+    {
+     "id": "t1",
+     "q": "¿Trabajar menos horas por el mismo sueldo?",
+     "options": [
+      "No propone reducir horas, pero sí horarios más flexibles y trabajo mixto entre casa y oficina.",
+      "Bajar a 37,5 horas en 2024 y, poco a poco, hasta 32 horas, sin bajar el sueldo.",
+      "Bajar a 30 horas semanales.",
+      "Bajar a 35 horas sin bajar el sueldo.",
+      "Bajar a 32 horas sin bajar el sueldo.",
+      "Semana laboral de 4 días.",
+      "Horarios más racionales, sin proponer menos horas."
+     ]
+    },
+    {
+     "id": "t2",
+     "q": "¿Cómo debe subir el salario mínimo?",
+     "options": [
+      "Actualizarlo, sin una regla fija.",
+      "Fijar por ley que nunca baje del 60% del {{salariomedio|sueldo medio}}.",
+      "Subirlo cada año más que el {{ipc|IPC}}.",
+      "Impulsar la subida de todos los sueldos, sobre todo los bajos, sin cifra concreta.",
+      "Que sea el 75% del sueldo medio.",
+      "Que sea el 60% del sueldo medio.",
+      "1.200 € y que el País Vasco pueda fijar uno propio.",
+      "Que Cataluña tenga uno propio, más alto que el estatal.",
+      "Uno propio de Cataluña de 1.319 €."
+     ]
+    },
+    {
+     "id": "t3",
+     "q": "La reforma laboral de 2021: ¿mantenerla o quitarla?",
+     "options": [
+      "No propone cambiarla (es la norma actual).",
+      "Quitarla.",
+      "Volver a 45 días de indemnización por despido.",
+      "Mejorarla: 45 días de indemnización por despido y un marco vasco de relaciones laborales.",
+      "Recuperar los 45 días de indemnización por despido.",
+      "Un marco vasco propio de relaciones laborales."
+     ]
+    },
+    {
+     "id": "t4",
+     "q": "¿Cómo ayudar a los autónomos?",
+     "options": [
+      "Cuota cero el primer año para quien empieza.",
+      "Que no pague cuota quien gane menos del salario mínimo.",
+      "Una figura de «autónomo vulnerable» con protección específica.",
+      "Cambiar cómo tributan los autónomos."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sanidad",
+   "name": "Sanidad",
+   "intro": "Médicos, listas de espera y qué cubre la sanidad pública.",
+   "ejes": [
+    {
+     "id": "s1",
+     "q": "¿Qué más debería pagar la sanidad pública?",
+     "options": [
+      "No propone añadir servicios: plan de choque por falta de especialistas y 1.000 plazas más de médicos de familia.",
+      "Añadir dentista, fisioterapia, oculista, psiquiatría y psicología.",
+      "Añadir dentista, óptica, audífonos, nutrición, psicoterapia y fisioterapia, y subir el gasto medio punto del {{pib|PIB}}.",
+      "No propone añadir servicios: más inversión en {{atprimaria|atención primaria}}.",
+      "Añadir dentista, oculista y audífonos al 100% y quitar la {{ley15|gestión privada}}.",
+      "Sin {{copago|copagos}} y gastar por habitante como la media europea.",
+      "Añadir dentista y oculista básicos, más salud mental y quitar la {{ley15|gestión privada}}."
+     ]
+    },
+    {
+     "id": "s2",
+     "q": "¿Plazos máximos de espera por ley?",
+     "options": [
+      "Plan de choque de especialistas, sin plazos concretos.",
+      "Plazos por ley: 30 días para pruebas, 60 para el especialista, 120 para operarse y 15 para el psicólogo en jóvenes.",
+      "Tiempos máximos de espera, sin cifras en las fuentes revisadas.",
+      "No propone plazos.",
+      "Más plazas {{mir|MIR}} y reforzar la atención primaria, sin plazos concretos."
+     ]
+    },
+    {
+     "id": "s3",
+     "q": "¿Quién manda en la sanidad: las comunidades o el Estado?",
+     "options": [
+      "Mantener el sistema actual con una nueva ley general de sanidad.",
+      "No propone cambiarlo.",
+      "Que la sanidad vuelva al Estado, con tarjeta e historial únicos, dando prioridad a españoles y extranjeros con residencia legal.",
+      "Que las comunidades gestionen lo que aún lleva el Ministerio de Sanidad."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pensiones",
+   "name": "Pensiones",
+   "intro": "Cuánto cobran los jubilados y cómo se asegura que se puedan pagar.",
+   "ejes": [
+    {
+     "id": "p1",
+     "q": "¿Cómo debe subir la pensión cada año?",
+     "options": [
+      "Subirlas en el marco del {{pactotoledo|Pacto de Toledo}}, sin fórmula concreta en su resumen.",
+      "Subirlas cada año con el {{ipc|IPC}} y mejorar las mínimas.",
+      "Subirlas con el {{ipc|IPC}}, y las mínimas y {{nocontributiva|no contributivas}}, por encima.",
+      "Que las pensiones {{contributiva|contributivas}} no paguen {{irpf|IRPF}}.",
+      "Subir las pensiones mínimas.",
+      "Mínimas al 60% del sueldo medio y jubilación a los 65.",
+      "Mínimas a 1.080 € y no retrasar la jubilación.",
+      "Subir poco a poco las mínimas, de orfandad y de viudedad.",
+      "Subirlas con el {{ipc|IPC}}.",
+      "Pensiones dignas y sin recortes."
+     ]
+    },
+    {
+     "id": "p2",
+     "q": "¿Cómo asegurar que haya pensiones en el futuro?",
+     "options": [
+      "Animar el ahorro privado, dando las mismas ventajas fiscales a los {{planespensiones|planes individuales}} que a los de empresa.",
+      "Meter 5.000 millones al año en la {{hucha|hucha de las pensiones}}.",
+      "Proteger el ahorro de los jubilados frente a la subida de precios.",
+      "Blindar el sistema público frente a la privatización.",
+      "Que el País Vasco gestione la {{sstransfer|Seguridad Social}}.",
+      "Garantizar que el sistema aguante y que Euskadi gestione la {{sstransfer|Seguridad Social}}."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "impuestos",
+   "name": "Impuestos",
+   "intro": "Quién paga, cuánto paga y en qué impuestos.",
+   "ejes": [
+    {
+     "id": "i1",
+     "q": "¿Bajar o subir impuestos?",
+     "options": [
+      "Bajar el {{irpf|IRPF}} a quien gana menos de 40.000 €, {{deflactar|ajustarlo a la inflación}} y bajar un tiempo el {{iva|IVA}} de carne y pescado.",
+      "Más {{deduccion|deducciones}} por hijos y dependientes, y que {{progresivo|pague más quien más tiene}}.",
+      "Subir el {{irpf|IRPF}} a quien gana más de 120.000 € (hasta el 52% por encima de 300.000 €) y que las grandes empresas paguen al menos un 15%.",
+      "Una gran bajada: {{irpf|IRPF}} del 15% y 25%, los primeros 22.000 € del sueldo libres de IRPF y bajar mucho el IVA de los productos básicos.",
+      "Que no pague {{irpf|IRPF}} quien gane menos de 30.000–35.000 € al año.",
+      "Más impuestos a banca y grandes fortunas, e IVA reducido en la energía.",
+      "Hacer permanentes los impuestos a banca, eléctricas y grandes fortunas, y uno nuevo a las grandes cadenas de alimentación.",
+      "Subir los impuestos a las ganancias del ahorro y hacer permanentes los de banca y eléctricas.",
+      "Bajar impuestos a empresas y el IVA de alimentos, peluquería, cultura y funerarias.",
+      "Impuestos progresivos, decididos por cada territorio foral.",
+      "Bajar impuestos y ajustar el IRPF a la inflación."
+     ]
+    },
+    {
+     "id": "i2",
+     "q": "¿Qué hacer con los impuestos a la riqueza y a las herencias?",
+     "options": [
+      "Quitar el {{grandesfortunas|impuesto a las grandes fortunas}}.",
+      "Hacer permanente el {{grandesfortunas|impuesto a las grandes fortunas}}.",
+      "Quitar {{patrimonio|Patrimonio}} y {{sucesiones|Sucesiones y Donaciones}}.",
+      "Endurecer los impuestos a las grandes fortunas.",
+      "Hacer permanente el impuesto a las grandes fortunas."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "educacion",
+   "name": "Educación",
+   "intro": "Colegios, universidad, Formación Profesional y becas.",
+   "ejes": [
+    {
+     "id": "e1",
+     "q": "¿Qué debería ser gratis?",
+     "options": [
+      "La {{escuela03|escuela infantil}} de 0 a 3 años.",
+      "La universidad y la FP superior para quien apruebe a la primera, y los {{librosgratis|libros de texto}}.",
+      "La {{escuela03|escuela infantil}} de 0 a 3 años, más {{becas|becas}} y una {{herencia|herencia universal}} de 20.000 € a los 18.",
+      "No concreta qué etapas serían gratuitas.",
+      "Escuela gratis de 0 a 18 años.",
+      "Educación pública, laica y gratuita de 0 a 18 años, con un 7% del PIB."
+     ]
+    },
+    {
+     "id": "e2",
+     "q": "¿Quién decide qué y cómo se enseña?",
+     "options": [
+      "Reformar la {{lomloe|LOMLOE}}, una {{ebau|selectividad}} igual en toda España y garantizar el castellano en las comunidades con {{cooficial|dos lenguas}}.",
+      "No propone cambiar la ley actual.",
+      "No propone cambiar la ley actual; reforzar la educación pública.",
+      "Que el Estado recupere la educación, el {{pinparental|permiso previo de los padres}} para ciertos contenidos y no pasar de curso con suspensos.",
+      "Proteger los modelos educativos y lingüísticos propios.",
+      "Que las comunidades gestionen lo que aún lleva el Ministerio de Educación.",
+      "Proteger el catalán: oficial en la UE y en el Congreso.",
+      "Libertad de los padres para elegir y no imponer el euskera."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "inmigracion",
+   "name": "Inmigración",
+   "intro": "Quién puede venir a vivir y trabajar a España y cómo se controla.",
+   "ejes": [
+    {
+     "id": "m1",
+     "q": "¿Cómo controlar quién entra?",
+     "options": [
+      "Elegir inmigrantes legales según su formación ({{puntos|sistema por puntos}}), más control de fronteras y una respuesta europea.",
+      "Más plazas de {{acogida|acogida}} y ayudar a que los inmigrantes encuentren trabajo.",
+      "Una {{racismo|ley contra el racismo}} y cerrar los {{cie|CIE}}.",
+      "{{expulsion|Expulsar}} a todos los que entren ilegalmente, un {{bloqueo|bloqueo naval}} y quitar ayudas públicas a quien esté en situación ilegal.",
+      "Cerrar los {{cie|CIE}} y garantizar los derechos de los migrantes.",
+      "{{expulsion|Deportación}} masiva de quien esté en situación irregular y usar la Armada en las fronteras.",
+      "Quitar la {{extranjeria|Ley de Extranjería}}, vías seguras y fin de las {{devoluciones|devoluciones en caliente}}.",
+      "{{regularizacion|Regularizar}} a quien vive sin papeles y quitar la {{extranjeria|Ley de Extranjería}}.",
+      "Garantías en las {{devoluciones|devoluciones en caliente}} y que Euskadi gestione la inmigración."
+     ]
+    },
+    {
+     "id": "m2",
+     "q": "¿Qué hacer con los menores que llegan solos?",
+     "options": [
+      "Un servicio específico de atención a estos menores.",
+      "Devolverlos de inmediato con sus padres a su país.",
+      "Tratarlos siempre como niños y no devolverlos contra su voluntad.",
+      "Repartirlos de forma equitativa entre todas las comunidades."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "energia",
+   "name": "Energía y clima",
+   "intro": "La luz, las renovables y el cambio climático.",
+   "ejes": [
+    {
+     "id": "en1",
+     "q": "¿Mantener las centrales nucleares?",
+     "options": [
+      "Que funcionen más años.",
+      "No propone alargarlas; apuesta por {{renovables|renovables}}.",
+      "No propone alargarlas; apuesta por {{renovables|renovables}} y dejar los {{fosiles|combustibles fósiles}}.",
+      "Invertir en ellas y modernizarlas."
+     ]
+    },
+    {
+     "id": "en2",
+     "q": "¿Qué hacer con las leyes contra el cambio climático?",
+     "options": [
+      "Mantener el objetivo de descarbonizar e impulsar {{renovables|renovables}} e {{hidrogeno|hidrógeno verde}}.",
+      "Seguir con las {{renovables|renovables}}, que los vecinos ganen con los parques cercanos y {{proteger30|proteger el 30%}} del territorio.",
+      "Dejar de invertir en {{fosiles|combustibles fósiles}}, una {{bonosocial|tarifa social}} y gravar a las grandes empresas que más contaminan.",
+      "Quitar la {{leyclima|Ley de Cambio Climático}} y depender menos de energía de fuera.",
+      "Reindustrialización verde y una transición energética justa.",
+      "Nada de eólica marina en la costa gallega y una tarifa de la luz propia para Galicia.",
+      "Metas más ambiciosas para 2040, cambiar cómo se fija el precio de la luz y empresas públicas de electricidad.",
+      "Más puntos de recarga y priorizar el tren frente al avión.",
+      "Reducir emisiones un 55% para 2030, {{eolicamarina|eólica marina}} e hidrógeno verde.",
+      "Canarias 100% {{renovables|renovable}} y no explotar petróleo o gas en el mar."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "igualdad",
+   "name": "Mujer y violencia de género",
+   "intro": "Igualdad entre hombres y mujeres y protección frente a la violencia.",
+   "ejes": [
+    {
+     "id": "g1",
+     "q": "¿Una ley especial para la violencia contra la mujer?",
+     "options": [
+      "Mantenerla y ampliarla: que los {{juzgadosvm|juzgados especializados}} lleven todos los delitos machistas y castigar el acoso por internet.",
+      "Mantenerla, renovar el {{pactovg|Pacto de Estado}} y asegurar que toda víctima sea atendida.",
+      "Mantenerla, con una {{feminismovp|vicepresidencia de Feminismo}} y un {{hombrescrisis|teléfono de prevención para hombres}}.",
+      "Quitarla y sustituirla por una ley de violencia en el hogar para cualquier víctima, sin distinguir por sexo.",
+      "Mantenerla, con más dinero y que la violencia vicaria sea delito en toda Europa.",
+      "Mantenerla, con juzgados exclusivos en 5 ciudades y el término «feminicidio» en la ley.",
+      "Mantener y defender todos los avances feministas.",
+      "Mantenerla, con más recursos, juzgados especializados y abogado gratis para las víctimas."
+     ]
+    },
+    {
+     "id": "g2",
+     "q": "¿Qué hacer con la Ley Trans?",
+     "options": [
+      "Hacer una nueva ley tras hablar con los distintos colectivos.",
+      "No propone cambiarla (es la ley actual).",
+      "Quitarla y prohibir tratamientos hormonales a menores.",
+      "Proteger los derechos de las personas LGTBI."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "familias",
+   "name": "Familias e hijos",
+   "intro": "Ayudas por tener hijos, permisos y conciliar trabajo y familia.",
+   "ejes": [
+    {
+     "id": "f1",
+     "q": "¿Cómo ayudar con dinero a quien tiene hijos?",
+     "options": [
+      "Adelantar las ayudas por hijo al quinto mes de embarazo y {{escuela03|escuela infantil}} gratis.",
+      "Más {{deduccion|deducciones}} por hijo y transporte gratis hasta los 24 años.",
+      "200 € al mes por cada hijo hasta los 18 años.",
+      "Una {{deduccion|deducción}} por nacimiento: 1.200 €, 1.600 €, 2.500 € o 2.750 € según el número de hijo.",
+      "Una prestación universal por crianza.",
+      "Bajar 5 puntos del {{irpf|IRPF}} por cada hijo.",
+      "Subir el {{imv|Ingreso Mínimo Vital}} al menos un 12%.",
+      "Subir la prestación por hijo a cargo."
+     ]
+    },
+    {
+     "id": "f2",
+     "q": "¿Más tiempo para cuidar?",
+     "options": [
+      "Un gran pacto para {{conciliar|conciliar}} y horarios flexibles.",
+      "Pasar de 16 a 20 semanas de permiso y una {{cuidados|red pública de cuidados}}.",
+      "32 semanas para {{monomarental|madres que crían solas}} y 5 días pagados para cuidar a familiares.",
+      "Permisos de 36 semanas para cada progenitor, pagados al 100%.",
+      "Compensar con dinero a quien reduce su jornada para cuidar.",
+      "Permiso de maternidad de 6 meses."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "justicia",
+   "name": "Justicia y seguridad",
+   "intro": "Jueces, cárceles, delitos y policía.",
+   "ejes": [
+    {
+     "id": "j1",
+     "q": "¿Quién elige a quienes gobiernan a los jueces?",
+     "options": [
+      "Garantizar la independencia del poder judicial.",
+      "Renovarlo ya con el sistema actual, elegido por el Parlamento.",
+      "Renovarlo.",
+      "Cambiar por ley cómo se eligen sus miembros."
+     ]
+    },
+    {
+     "id": "j2",
+     "q": "¿Endurecer el Código Penal?",
+     "options": [
+      "Volver a castigar la {{sedicion|sedición}}, endurecer la {{malversacion|malversación}} y ampliar la {{ppr|prisión permanente revisable}}.",
+      "Quitar el {{aforamiento|aforamiento}} a los políticos para delitos ajenos a su cargo.",
+      "Quitar la {{justiciamilitar|justicia militar}}.",
+      "Más castigo para violadores y agresores sexuales.",
+      "Una macrocárcel, sin permisos penitenciarios, y que la corrupción no prescriba.",
+      "Quitar la {{leymordaza|ley mordaza}} y la prisión permanente revisable.",
+      "Quitar partes de la {{leymordaza|ley mordaza}} y prohibir las pelotas de goma.",
+      "Quitar la {{leymordaza|ley mordaza}} y que no sean delito las {{injurias|injurias a la Corona}}.",
+      "Cambiar los delitos de malversación y desórdenes públicos.",
+      "Quitar los aforamientos."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "territorio",
+   "name": "Comunidades y Cataluña",
+   "intro": "Cómo se reparte el poder entre el Gobierno de España y las comunidades autónomas.",
+   "ejes": [
+    {
+     "id": "te1",
+     "q": "¿Más poder para las comunidades o para el Estado?",
+     "options": [
+      "Mantener el modelo y cambiar la {{financiacion|financiación autonómica}}.",
+      "Mantener el modelo, una ley de {{cohesion|cohesión territorial}} y cambiar la {{financiacion|financiación}}.",
+      "Más reconocimiento a las nacionalidades: España como {{plurinacional|«país de países»}} e impulso de todas las lenguas.",
+      "Devolver al Estado educación, sanidad, seguridad y justicia, e ir quitando las {{policiasaut|policías autonómicas}}.",
+      "Un concierto económico para Galicia y más competencias (Seguridad Social, trabajo, energía).",
+      "Reconocer a Euskal Herria como nación y transferir las competencias pendientes.",
+      "Suprimir el Senado y las diputaciones y una nueva financiación para Cataluña.",
+      "Traspasar a Cataluña aeropuertos, puertos, Rodalies y carreteras, y que recaude sus impuestos.",
+      "Reconocer a Euskadi como nación y una relación bilateral con el Estado.",
+      "Más autogobierno para Canarias y blindar su régimen especial en la Constitución."
+     ]
+    },
+    {
+     "id": "te2",
+     "q": "¿Qué hacer con Cataluña?",
+     "options": [
+      "Volver a castigar la {{sedicion|sedición}} y el {{refilegal|referéndum ilegal}}.",
+      "Considera que la situación está más tranquila que en 2017 y apuesta por seguir esa línea.",
+      "Seguir con la {{mesadialogo|mesa de diálogo}} con la {{generalitat|Generalitat}}.",
+      "{{ilegalizar|Prohibir partidos}} que busquen la independencia y recuperar delitos como la {{sedicion|sedición}}.",
+      "El {{autodeterminacion|derecho de autodeterminación}} también para Galicia.",
+      "El {{autodeterminacion|derecho a decidir}} también para Euskal Herria.",
+      "Una {{amnistia|ley de amnistía}} y negociar un {{autodeterminacion|referéndum de autodeterminación}} pactado.",
+      "Lista independentista; las fuentes revisadas no detallan su propuesta concreta."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "campo",
+   "name": "Campo, agua y pueblos",
+   "intro": "Agricultura, ganadería, el agua y la España rural.",
+   "ejes": [
+    {
+     "id": "c1",
+     "q": "¿De dónde sacamos el agua?",
+     "options": [
+      "Un gran Pacto Nacional del Agua, modernizar presas y canales y un {{regadio|regadío}} moderno.",
+      "Duplicar el agua de {{desaladora|desaladoras}} a precio asequible y modernizar el riego.",
+      "Una ley sobre el futuro de la agricultura y la alimentación.",
+      "Un {{planagua|Plan Nacional del Agua}} que lleve agua de unas {{cuenca|cuencas}} a otras y no derribar presas.",
+      "Más inversión e innovación agrícola contra la sequía.",
+      "Que la Generalitat gestione toda el agua de Cataluña.",
+      "Uso sostenible del agua según las normas europeas."
+     ]
+    },
+    {
+     "id": "c2",
+     "q": "¿Cómo proteger al agricultor?",
+     "options": [
+      "Mejorar el funcionamiento de la {{cadena|cadena alimentaria}} y una ley de desarrollo rural.",
+      "Aplicar la nueva {{pac|PAC}} y ayudar a modernizar el riego.",
+      "Intervenir el {{tierras|mercado de tierras}} y {{territorio30|servicios a menos de 30 minutos}} en los pueblos.",
+      "{{arancel|Aranceles}} a productos agrícolas de Marruecos.",
+      "Pesca artesanal sin cuotas de captura y menos IVA en el pescado.",
+      "Más control sobre la cadena alimentaria y proteger al pequeño comercio."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "name": "Limpieza de la política",
+   "intro": "Corrupción, instituciones y cómo funciona la democracia.",
+   "ejes": [
+    {
+     "id": "po1",
+     "q": "¿Cómo hacer que las instituciones sean más limpias?",
+     "options": [
+      "Que nadie entre al {{tc|Tribunal Constitucional}} si ha tenido un cargo político en los últimos 5 años.",
+      "{{debates|Debates electorales obligatorios}} y quitar el {{aforamiento|aforamiento}} para delitos ajenos al cargo.",
+      "{{reformaconst|Reformar la Constitución}} para garantizar derechos sociales.",
+      "Quitar todo el dinero público a partidos, sindicatos y patronales ({{subvenciones|subvenciones}}).",
+      "Limitar el sueldo de los parlamentarios a 4 veces el salario mínimo y frenar las puertas giratorias.",
+      "Quitar el dinero público a partidos, sindicatos y medios ({{subvenciones|subvenciones}}).",
+      "Quitar el {{concordato|Concordato}} con la Iglesia.",
+      "Acabar con la {{secretos|Ley de Secretos Oficiales}}.",
+      "Suprimir el Senado y votar desde los 16 años.",
+      "Nueva {{secretos|Ley de Secretos Oficiales}}, regular los lobbies y limitar la {{inviolabilidad|inviolabilidad del Rey}}."
+     ]
+    },
+    {
+     "id": "po2",
+     "q": "¿Qué hacer con la memoria de la Guerra Civil y el franquismo?",
+     "options": [
+      "Cambiarla por una ley de «concordia».",
+      "Seguir desarrollándola.",
+      "No propone cambiarla (es la ley actual).",
+      "Quitarla.",
+      "Investigar las ganancias ilegítimas de los dirigentes del franquismo.",
+      "Recuperar los bienes expoliados durante el franquismo."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vida",
+   "name": "Aborto y eutanasia",
+   "intro": "Qué dicen sobre el aborto y sobre la ayuda médica para morir.",
+   "ejes": [
+    {
+     "id": "a1",
+     "q": "¿Qué hacer con la ley del aborto?",
+     "options": [
+      "Que las menores de 16 y 17 años necesiten permiso de sus padres.",
+      "Garantizarlo igual en todas las comunidades, {{zonasseg|zonas de seguridad}} en las clínicas y blindarlo como derecho.",
+      "Garantizarlo dentro de la sanidad pública.",
+      "Quitar la ley y dar ayudas a embarazadas con dificultades.",
+      "Defender el derecho de las mujeres a decidir sobre su cuerpo."
+     ]
+    },
+    {
+     "id": "a2",
+     "q": "¿Qué hacer con la ley de eutanasia?",
+     "options": [
+      "Blindarla como derecho.",
+      "Quitarla."
+     ]
+    }
+   ]
+  }
+ ]
+}
