@@ -1,0 +1,1273 @@
+{
+ "updated": "2026-10-11",
+ "src": {
+  "and1": {
+   "t": "Moncloa.com — Las claves del pacto PP-Vox en Andalucía (3 jul 2026)",
+   "u": "https://www.moncloa.com/2026/07/03/investidura-juanma-moreno-andalucia-pacto-vox-3393736/"
+  },
+  "and2": {
+   "t": "Andalucía Información — Balance de la XII legislatura (29 mar 2026)",
+   "u": "https://www.andaluciainformacion.es/articulo/andalucia/parlamento-cierra-xii-legislatura-60-mas-leyes-aprobadas-mitad-decretos-que-precedente/202603291044543235587.html"
+  },
+  "and3": {
+   "t": "El Independiente — La Junta aplaza la ley de regadíos de Doñana (3 oct 2023)",
+   "u": "https://www.elindependiente.com/espana/2023/10/03/la-junta-de-andalucia-aplaza-aprobar-la-ley-de-regadios-de-donana-tras-un-acuerdo-de-moreno-y-ribera/amp/"
+  },
+  "gob": {
+   "t": "Política Electoral — Qué partido gobierna en cada comunidad (2026)",
+   "u": "https://www.politicaelectoral.com/es/espana/gobiernos-autonomicos"
+  },
+  "ara1": {
+   "t": "El Español — Azcón disuelve las Cortes (15 dic 2025)",
+   "u": "https://www.elespanol.com/aragon/actualidad/20251215/azcon-disuelve-cortes-convoca-oficialmente-elecciones-febrero-sin-presupuesto-no-posible-gobernar/1003744055104_0.html"
+  },
+  "ara2": {
+   "t": "El Español — Azcón presentará en septiembre su primer presupuesto con Vox (5 may 2026)",
+   "u": "https://www.elespanol.com/aragon/20260505/azcon-confirma-presentara-septiembre-primer-presupuesto-nuevo-gobierno-pp-vox-aragon/1003744234410_0.html"
+  },
+  "ara3": {
+   "t": "El Debate — El TC suspende la derogación de la ley de memoria de Aragón (17 jun 2024)",
+   "u": "https://www.eldebate.com/espana/20240617/tc-suspende-forma-cautelar-norma-deroga-ley-memoria-aragon_206052.html"
+  },
+  "ast1": {
+   "t": "Junta General del Principado — Iniciativas legislativas y leyes (13 jul 2026)",
+   "u": "https://www.jgpa.es/documents/11156/409837/Junta+General+del+Principado+de+Asturias.+Iniciativas+Legislativas+y+Leyes/2e560e7b-96a3-4e10-89c8-7c4423df4484"
+  },
+  "ast2": {
+   "t": "Moncloa.com — Las leyes LGTBI y de Infancia de Asturias (9 oct 2026)",
+   "u": "https://www.moncloa.com/2026/10/09/leyes-lgtbi-asturias-junta-general-3445335"
+  },
+  "bal1": {
+   "t": "Vozpópuli — Prohens aprueba sus segundos presupuestos con Vox (jul 2025)",
+   "u": "https://www.vozpopuli.com/espana/politica/prohens-aprueba-sus-segundos-presupuestos-con-el-voto-a-favor-de-vox.html"
+  },
+  "bal2": {
+   "t": "elDiario.es — PP y Vox aprueban la ley ómnibus balear (26 may 2026)",
+   "u": "https://www.eldiario.es/illes-balears/politica/militares-policias-restricciones-sociales-ofensiva-catalan-pp-vox-aprueban-ley-omnibus-balears_1_13248515.html"
+  },
+  "bal3": {
+   "t": "El Debate — Prohens sigue con las cuentas prorrogadas (3 dic 2025)",
+   "u": "https://www.eldebate.com/espana/baleares/20251203/prohens-mantiene-legislatura-dramas-cuentas-prorrogadas-varias-leyes-aprobables_361486.html"
+  },
+  "bal4": {
+   "t": "Menorca.info — Vox apunta a apoyar los presupuestos de 2027 (16 sep 2026)",
+   "u": "https://www.menorca.info/balears/noticias/2026/09/16/2709281/vox-insinua-apoyara-nuevos-presupuestos-baleares-para-2027.html"
+  },
+  "bal5": {
+   "t": "El Salto — El PP renuncia a derogar la ley de memoria (10 dic 2024)",
+   "u": "https://www.elsaltodiario.com/baleares/acuerdo-baleares-izquierda-pp-no-derogar-ley-memoria-historica"
+  },
+  "bal6": {
+   "t": "El Debate — PP y Vox reactivan la derogación de la ley de memoria (21 oct 2025)",
+   "u": "https://www.eldebate.com/espana/baleares/20251021/pp-vox-reactivan-derogacion-ley-memoria-democratica-armengol-baleares_346978.html"
+  },
+  "bal7": {
+   "t": "INAP — El Parlament aprueba la primera ley de simplificación administrativa",
+   "u": "https://laadministracionaldia.inap.es/noticia.asp?id=1516121"
+  },
+  "can1": {
+   "t": "RTVC — Claves de la ley de vivienda vacacional (12 nov 2025)",
+   "u": "https://rtvc.es/claves-nueva-ley-vivienda-parlamento-canarias-12-noviembre-2025/"
+  },
+  "can2": {
+   "t": "RTVC — El Parlamento aprueba los presupuestos de 2025",
+   "u": "https://rtvc.es/el-parlamento-canario-aprueba-definitivamente-los-presupuestos-2025-del-gobierno-de-canarias/"
+  },
+  "can3": {
+   "t": "Boletín del Parlamento de Canarias n.º 215 (16 jun 2026)",
+   "u": "https://www.parcan.es/files/pub/bop/11l/2026/215/bo215.pdf"
+  },
+  "can4": {
+   "t": "RTVC — Rechazada la moción para impulsar una tasa turística (28 may 2025)",
+   "u": "https://rtvc.es/pleno-parlamento-canarias-28-mayo-2025/"
+  },
+  "cnt1": {
+   "t": "elDiario.es — Solo cinco leyes en dos años y medio (3 ene 2026)",
+   "u": "https://www.eldiario.es/cantabria/ultimas-noticias/parlamento-cantabria-medio-gas-cinco-leyes-anos-medio-legislatura_1_12879310.html"
+  },
+  "cnt2": {
+   "t": "elDiario Cantabria — Aprobados los presupuestos de 2026 con el PRC (27 abr 2026)",
+   "u": "https://eldiariocantabria.publico.es/articulo/politica/aprobados-presupuestos-2026-cuatro-meses-retraso-nuevo-apoyo-prc/20260427173016192115.html"
+  },
+  "cnt3": {
+   "t": "COPE — El presupuesto de 2026 es devuelto al Gobierno (25 nov 2025)",
+   "u": "https://www.cope.es/emisoras/cantabria/noticias/presupuesto-cantabria-2026-devuelto-gobierno-20251125_3258599.html"
+  },
+  "clm1": {
+   "t": "infoCLM — Las Cortes cierran 2024 con seis leyes (26 dic 2024)",
+   "u": "https://www.infoclm.es/castilla-la-mancha/2024/12/26/las-cortes-de-castilla-la-mancha-cierran-2024-con-la-aprobacion-de-seis-leyes-y-29-comisiones/"
+  },
+  "clm2": {
+   "t": "CLM24 — Balance del periodo de sesiones (27 jul 2026)",
+   "u": "https://www.clm24.es/articulo/actualidad/bellido-cierra-periodo-sesiones-mas-leyes-menos-consenso/20260727160307480322.html"
+  },
+  "cyl1": {
+   "t": "Moncloa.com — Mañueco, investido con Vox (10 jun 2026)",
+   "u": "https://www.moncloa.com/2026/06/10/manueco-investido-presidente-castilla-leon-vox-3383551/"
+  },
+  "cyl2": {
+   "t": "INAP — Prórroga de los presupuestos de Castilla y León para 2026",
+   "u": "https://laadministracionaldia.inap.es/noticia.asp?id=1261924"
+  },
+  "cyl3": {
+   "t": "elDiario.es — Las Cortes piden a Mañueco registrar los presupuestos de 2025 (20 nov 2024)",
+   "u": "https://www.eldiario.es/castilla-y-leon/politica/cortes-castilla-leon-reclaman-manueco-registre-proyecto-presupuestos-2025-negociarlos_1_11835879.amp.html"
+  },
+  "vox24": {
+   "t": "El Debate — Vox abandona los gobiernos autonómicos con el PP (11 jul 2024)",
+   "u": "https://www.eldebate.com/espana/20240711/vox-pierde-cuatro-vicepresidencias-once-consejerias-abandonar-gobiernos-pp_212495.html"
+  },
+  "cat1": {
+   "t": "elDiario.es — El Parlament aprueba los primeros presupuestos de Illa (2 jul 2026)",
+   "u": "https://www.eldiario.es/catalunya/parlament-aprueba-primeros-presupuestos-illa-apoyo-erc-comuns_1_13350830.html"
+  },
+  "cat2": {
+   "t": "Ara — El Govern pasa el examen del Parlament (9 abr 2025)",
+   "u": "https://es.ara.cat/politica/govern-pasa-examen-deja-ver-costuras_1_5342743.html"
+  },
+  "cat3": {
+   "t": "Ara — El Parlament rechaza la propuesta estrella de Illa en vivienda (1 oct 2026)",
+   "u": "https://es.ara.cat/politica/parlamento-rechaza-propuesta-estrella-illa-vivienda_1_5866532.html"
+  },
+  "val1": {
+   "t": "El Debate — Aprobada la Ley de Libertad Educativa (27 jun 2024)",
+   "u": "https://www.eldebate.com/espana/comunidad-valenciana/20240627/pp-vox-aprueban-definitivamente-ley-libertad-educativa-comunidad-valenciana_208743.html"
+  },
+  "val2": {
+   "t": "Valencia Plaza — PP y Vox aprueban la Ley de Concordia (jul 2024)",
+   "u": "https://valenciaplaza.com/pp-vox-aprueban-ley-concordia-frente-carteles-verdad-justicia-reparacion"
+  },
+  "val3": {
+   "t": "El Debate — Mazón aprueba los presupuestos de 2025 con Vox (29 may 2025)",
+   "u": "https://www.eldebate.com/espana/comunidad-valenciana/20250529/mazon-aprueba-presupuestos-2025-respaldo-clave-vox_301828.html"
+  },
+  "val4": {
+   "t": "Moncloa.com — Los presupuestos de 2026 y la «prioridad nacional» (22 jul 2026)",
+   "u": "https://www.moncloa.com/2026/07/22/presupuestos-2026-les-corts-prioridad-nacional-3403980"
+  },
+  "val5": {
+   "t": "Corts Valencianes — Leyes aprobadas",
+   "u": "https://www.cortsvalencianes.es/es/actividad/ley"
+  },
+  "ext1": {
+   "t": "El Independiente — Guardiola, investida con el apoyo de Vox (22 abr 2026)",
+   "u": "https://www.elindependiente.com/espana/extremadura/2026/04/22/maria-guardiola-elegida-presidenta-extremadura-apoyo-vox/"
+  },
+  "ext2": {
+   "t": "BOE — Ley 2/2026 de Presupuestos de Extremadura (17 ago 2026)",
+   "u": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17839.pdf"
+  },
+  "ext3": {
+   "t": "Orain — Guardiola adelanta las elecciones (27 oct 2025)",
+   "u": "https://orain.eus/es/politica/2025/10/27/guardiola-convoca-elecciones-anticipadas-ante-la-imposibilidad-sacar-los-presupuestos/"
+  },
+  "ext4": {
+   "t": "El Salto — PP y Vox pactan en Extremadura (feb 2025)",
+   "u": "https://www.elsaltodiario.com/extremadura-/pp-vox-sellan-reconciliacion-extremadura-sacrificando-ley-memoria-historica"
+  },
+  "ext5": {
+   "t": "Infobae (EFE) — Vox se queda solo con su ley de concordia (30 ene 2025)",
+   "u": "https://www.infobae.com/espana/agencias/2025/01/30/vox-se-queda-solo-con-su-ley-concordia-y-se-reivindica-como-unica-derecha-en-extremadura/"
+  },
+  "gal1": {
+   "t": "El Debate — Aprobados los presupuestos de la Xunta para 2026 (16 dic 2025)",
+   "u": "https://www.eldebate.com/espana/galicia/20251216/aprobados-presupuestos-xunta-2026-voto-unico-pp_365991_amp.html"
+  },
+  "gal2": {
+   "t": "El Español — La ley para transferir la AP-9 avanza en el Congreso (26 may 2026)",
+   "u": "https://www.elespanol.com/quincemil/actualidad/galicia/20260526/luz-verde-texto-pactado-psoe-bng-sumar-transferir-ap-9-pp-vox-votan-no/1003744260357_0.amp.html"
+  },
+  "mad1": {
+   "t": "Última Hora (Europa Press) — Presupuestos, leyes LGTBI y simplificación (22 dic 2023)",
+   "u": "https://www.ultimahora.es/noticias/comunidades/2023/12/22/2073379/aprobacion-presupuestos-modificaciones-lgtbi-ley-simplificacion-cierra-ano-asamblea.html"
+  },
+  "mad2": {
+   "t": "Última Hora (Europa Press) — Ley de Hacienda y reconocimiento del IE (11 dic 2025)",
+   "u": "https://www.ultimahora.es/noticias/comunidades/2025/12/11/2529235/asamblea-aprueba-este-jueves-ley-hacienda-reconoce-como-universidad-privada.html"
+  },
+  "mad3": {
+   "t": "El Salto — Ayuso cesa al consejero en pleno debate de la Ley de Universidades (16 feb 2026)",
+   "u": "https://www.elsaltodiario.com/comunidad-madrid/ayuso-despacha-viciana-consejero-educacion-pleno-debate-ley-universidades-lesuc"
+  },
+  "mur1": {
+   "t": "The Objective — Murcia aprueba los presupuestos de 2025 (23 jul 2025)",
+   "u": "https://theobjective.com/espana/politica/2025-07-23/pp-presupuestos-murcia-vox/"
+  },
+  "mur2": {
+   "t": "El Español — López Miras y los presupuestos tras la salida de dos diputados de Vox (18 abr 2026)",
+   "u": "https://www.elespanol.com/espana/murcia/20260418/lopez-miras-descarta-negociar-presupuestos-murcia-antelo-martinez-dejar-vox-pp-pacta-partidos/1003744212311_0.html"
+  },
+  "mur3": {
+   "t": "elDiario.es — Vox rompe el Gobierno de Murcia (jul 2024)",
+   "u": "https://www.eldiario.es/murcia/politica/ruptura-16-ninos-ninas-vox-cumple-amenaza-murcia-gobierno-regional-pende-hilo_1_11516464.html"
+  },
+  "nav1": {
+   "t": "Orain — Navarra aprueba los presupuestos de 2025 (19 dic 2024)",
+   "u": "https://orain.eus/es/actualidad/economia/2024/12/19/el-parlamento-de-navarra-aprueba-presupuestos-de-para-2025-sextos-que-chivite-pacta-con-eh-bildu/"
+  },
+  "nav2": {
+   "t": "Orain — Navarra aprueba los presupuestos de 2026 (18 dic 2025)",
+   "u": "https://orain.eus/es/politica/2025/12/18/los-socios-sacan-adelante-los-presupuestos-navarra-2026-el-rechazo-upn-ppn-vox/"
+  },
+  "eus1": {
+   "t": "BOPV — Ley 6/2025 de medidas urgentes en vivienda, suelo y urbanismo",
+   "u": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2025/12/2505519a.shtml"
+  },
+  "eus2": {
+   "t": "Deia — PNV y PSE aprueban los presupuestos de 2026 (24 dic 2025)",
+   "u": "https://www.deia.eus/politica/2025/12/24/pnv-pse-aprueban-cuentas-altas-10510414.html"
+  },
+  "rio1": {
+   "t": "Parlamento de La Rioja — Leyes aprobadas",
+   "u": "https://www.parlamento-larioja.org/recursos-de-informacion/leyes-aprobadas"
+  },
+  "ceu1": {
+   "t": "El Faro de Ceuta — Luz verde al presupuesto de 2026 (19 dic 2025)",
+   "u": "https://elfarodeceuta.es/luz-verde-presupuesto-ceuta-2026-votos-club-sensatos/"
+  },
+  "mel1": {
+   "t": "Ciudad Autónoma de Melilla — Memoria del presupuesto de 2026",
+   "u": "https://www.melilla.es/melillaPortal/RecursosWeb/SITES/presup2026/pres2026/docpres/MEMORIA_PRESIDENTE.pdf"
+  }
+ },
+ "items": [
+  {
+   "id": "and",
+   "name": "Andalucía",
+   "pres": "Juanma Moreno",
+   "since": "2019",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ],
+    [
+     "vox",
+     "Vox"
+    ]
+   ],
+   "form": "Coalición de PP y Vox. Es la primera vez que Vox entra en el Gobierno andaluz: Manuel Gavira es vicepresidente.",
+   "elec": "17 de mayo de 2026",
+   "next": "2030",
+   "govsrc": [
+    "and1",
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2026-07",
+     "t": "Moreno es investido en segunda votación con el apoyo de Vox. El pacto recoge 150 medidas, entre ellas la «prioridad nacional» que pedía Vox (dar preferencia en ayudas y recursos a quien lleva tiempo viviendo en la comunidad).",
+     "src": [
+      "and1"
+     ]
+    },
+    {
+     "d": "2026-03",
+     "t": "La legislatura 2022-2026 se cierra con 32 leyes aprobadas, un 60% más que la anterior.",
+     "src": [
+      "and2"
+     ]
+    },
+    {
+     "d": "2025",
+     "t": "Ley de vivienda de Andalucía.",
+     "src": [
+      "and2"
+     ]
+    },
+    {
+     "d": "2025",
+     "t": "Presupuestos de 2026, aprobados con la mayoría absoluta que el PP tenía entonces.",
+     "src": [
+      "and2"
+     ]
+    },
+    {
+     "d": "2026-03",
+     "t": "Leyes de universidades, gestión ambiental, montes y patrimonio cultural, aprobadas en los últimos meses de la legislatura.",
+     "src": [
+      "and2"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2023-10",
+     "t": "La ley para ampliar los regadíos junto a Doñana se aplaza tras un acuerdo entre la Junta y el Gobierno central, después de las críticas de la UE y de grupos ecologistas.",
+     "src": [
+      "and3"
+     ]
+    },
+    {
+     "d": "2026-03",
+     "t": "Cuatro leyes quedan sin aprobar al disolverse el Parlamento, entre ellas una de turismo sostenible y otra de ciencia y tecnología.",
+     "src": [
+      "and2"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "ara",
+   "name": "Aragón",
+   "pres": "Jorge Azcón",
+   "since": "2023",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ],
+    [
+     "vox",
+     "Vox"
+    ]
+   ],
+   "form": "Coalición de PP y Vox. Alejandro Nolasco (Vox) es vicepresidente.",
+   "elec": "8 de febrero de 2026 (adelantadas)",
+   "next": "2030",
+   "govsrc": [
+    "ara2",
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2024-02",
+     "t": "Se deroga la ley de memoria democrática de Aragón de 2018 (Ley 1/2024), con los votos de PP y Vox. En junio de 2024 el Tribunal Constitucional la suspendió de forma cautelar tras el recurso del Gobierno central.",
+     "src": [
+      "ara3"
+     ]
+    },
+    {
+     "d": "2026-04",
+     "t": "PP y Vox firman un pacto de gobierno que incluye aprobar cuatro presupuestos en la legislatura.",
+     "src": [
+      "ara2"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-12",
+     "t": "El presupuesto de 2026 (9.145 millones) no consigue el apoyo de Vox. Azcón disuelve las Cortes y adelanta las elecciones: «Estar en el Gobierno sin presupuesto no es gobernar».",
+     "src": [
+      "ara1"
+     ]
+    },
+    {
+     "d": "2026-05",
+     "t": "En 2026 no habrá presupuesto nuevo: se harán cambios sobre el vigente. El de 2027 se presentará en septiembre.",
+     "src": [
+      "ara2"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "ast",
+   "name": "Asturias",
+   "pres": "Adrián Barbón",
+   "since": "2019",
+   "gov": [
+    [
+     "psoe",
+     "PSOE"
+    ],
+    [
+     "iu",
+     "IU-Convocatoria por Asturies"
+    ]
+   ],
+   "form": "Coalición de PSOE e IU-Convocatoria por Asturies.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2023-12",
+     "t": "Presupuestos de 2024, 2025 (dic. 2024) y 2026 (dic. 2025), aprobados cada año.",
+     "src": [
+      "ast1"
+     ]
+    },
+    {
+     "d": "2024-04",
+     "t": "Ley de impulso demográfico, para frenar la pérdida de población.",
+     "src": [
+      "ast1"
+     ]
+    },
+    {
+     "d": "2024-11",
+     "t": "Ley de la red autonómica de escuelas infantiles (de 0 a 3 años).",
+     "src": [
+      "ast1"
+     ]
+    },
+    {
+     "d": "2024-12",
+     "t": "Ley de proyectos de interés estratégico, para agilizar grandes inversiones.",
+     "src": [
+      "ast1"
+     ]
+    },
+    {
+     "d": "2025-02",
+     "t": "Ley de ciencia, tecnología e innovación.",
+     "src": [
+      "ast1"
+     ]
+    },
+    {
+     "d": "2026-05",
+     "t": "Leyes de colegios profesionales y de cooperativas.",
+     "src": [
+      "ast1"
+     ]
+    }
+   ],
+   "tr": [
+    {
+     "d": "2026-10",
+     "t": "Las leyes LGTBI y de infancia y adolescencia se votan en el pleno del 13 de octubre de 2026. Se rechazaron las enmiendas a la totalidad de Vox.",
+     "src": [
+      "ast2"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-06",
+     "t": "Se rechaza la reforma del Estatuto para hacer oficiales el asturiano y el eonaviego.",
+     "src": [
+      "ast1"
+     ]
+    },
+    {
+     "d": "2024-2026",
+     "t": "Se rechazan las propuestas de ley del PP para bajar el IRPF y el impuesto de sucesiones, simplificar trámites y sobre vivienda y suelo.",
+     "src": [
+      "ast1"
+     ]
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "bal",
+   "name": "Islas Baleares",
+   "pres": "Marga Prohens",
+   "since": "2023",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "PP en minoría. Depende de Vox, que apoyó su investidura.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2024",
+     "t": "Primera ley de simplificación administrativa de Baleares.",
+     "src": [
+      "bal7"
+     ]
+    },
+    {
+     "d": "2025-07",
+     "t": "Presupuestos de 2025 (7.469 millones), con los votos de Vox. Son los segundos de Prohens.",
+     "src": [
+      "bal1"
+     ]
+    },
+    {
+     "d": "2026-05",
+     "t": "Ley «ómnibus» con PP y Vox: cambia unas 70 leyes. Pide tres años de residencia legal para la renta social, deja de exigir el catalán en algunos puestos públicos, permite legalizar viviendas en suelo rústico y reservar el 20% de las plazas de policía local a militares.",
+     "src": [
+      "bal2"
+     ]
+    }
+   ],
+   "tr": [
+    {
+     "d": "2025-10",
+     "t": "El Parlament admite a trámite, con PP y Vox, la propuesta de derogar la ley de memoria democrática. En diciembre de 2024 el PP había frenado un intento anterior.",
+     "src": [
+      "bal6",
+      "bal5"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-11",
+     "t": "El Parlament tumba el techo de gasto de 2026 (30 votos en contra y 28 a favor) porque Vox retira su apoyo. Sin él no hay presupuesto de 2026 y se prorrogan los de 2025.",
+     "src": [
+      "bal3",
+      "bal4"
+     ]
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "can",
+   "name": "Canarias",
+   "pres": "Fernando Clavijo",
+   "since": "2023",
+   "gov": [
+    [
+     "cc",
+     "CC"
+    ],
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "Coalición de Coalición Canaria y PP, con el apoyo de ASG y AHI.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob",
+    "can1"
+   ],
+   "si": [
+    {
+     "d": "2024",
+     "t": "Presupuestos de 2025.",
+     "src": [
+      "can2"
+     ]
+    },
+    {
+     "d": "2025-11",
+     "t": "Ley del alquiler vacacional: al menos el 90% de las viviendas previstas en cada municipio deben ser de uso residencial, y las turísticas ya abiertas tienen cinco años para adaptarse.",
+     "src": [
+      "can1"
+     ]
+    },
+    {
+     "d": "2026-06",
+     "t": "Ley de cabildos insulares.",
+     "src": [
+      "can3"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-05",
+     "t": "Se rechaza una moción para mejorar la ejecución del presupuesto e impulsar una tasa turística.",
+     "src": [
+      "can4"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "cnt",
+   "name": "Cantabria",
+   "pres": "María José Sáenz de Buruaga",
+   "since": "2023",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "PP en minoría. Saca los presupuestos con el apoyo del PRC.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob",
+    "cnt2"
+   ],
+   "si": [
+    {
+     "d": "2023-12",
+     "t": "Presupuestos de 2024 y de 2025, con el apoyo del PRC.",
+     "src": [
+      "cnt1"
+     ]
+    },
+    {
+     "d": "2024",
+     "t": "Derogación de la ley de memoria histórica, recurrida ante el Tribunal Constitucional.",
+     "src": [
+      "cnt1"
+     ]
+    },
+    {
+     "d": "2025",
+     "t": "Leyes de simplificación administrativa (abril), juventud (junio) y voluntariado (octubre).",
+     "src": [
+      "cnt1"
+     ]
+    },
+    {
+     "d": "2026-04",
+     "t": "Presupuestos de 2026, con cuatro meses de retraso y de nuevo con el PRC.",
+     "src": [
+      "cnt2"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-11",
+     "t": "El primer proyecto de presupuesto de 2026 es devuelto al Gobierno.",
+     "src": [
+      "cnt3"
+     ]
+    },
+    {
+     "d": "2026-01",
+     "t": "El Parlamento solo ha aprobado cinco leyes (sin contar presupuestos) en dos años y medio.",
+     "src": [
+      "cnt1"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "clm",
+   "name": "Castilla-La Mancha",
+   "pres": "Emiliano García-Page",
+   "since": "2015",
+   "gov": [
+    [
+     "psoe",
+     "PSOE"
+    ]
+   ],
+   "form": "Mayoría absoluta del PSOE.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2024",
+     "t": "Ley de integridad pública, cambios en la ley contra la violencia de género y en la ley de aguas, y presupuestos de 2024.",
+     "src": [
+      "clm1"
+     ]
+    },
+    {
+     "d": "2026",
+     "t": "Ley de medidas urgentes de vivienda y suelo y ley de evaluación ambiental, con divisiones en la Cámara.",
+     "src": [
+      "clm2"
+     ]
+    }
+   ],
+   "tr": [
+    {
+     "d": "2024-12",
+     "t": "Reforma del Estatuto de Autonomía, en trámite.",
+     "src": [
+      "clm1"
+     ]
+    },
+    {
+     "d": "2026-07",
+     "t": "Propuestas de Vox para quitar la protección al lobo, derogar la ley LGTBI y cambiar la ley contra la violencia machista, en trámite.",
+     "src": [
+      "clm2"
+     ]
+    }
+   ],
+   "no": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "cyl",
+   "name": "Castilla y León",
+   "pres": "Alfonso Fernández Mañueco",
+   "since": "2019",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ],
+    [
+     "vox",
+     "Vox"
+    ]
+   ],
+   "form": "Coalición de PP y Vox, que vuelve a entrar en el Gobierno tras salir en 2024.",
+   "elec": "15 de marzo de 2026",
+   "next": "2030",
+   "govsrc": [
+    "cyl1",
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2024-05",
+     "t": "Presupuestos de 2024 (Ley 5/2024).",
+     "src": [
+      "cyl2"
+     ]
+    },
+    {
+     "d": "2026-06",
+     "t": "Mañueco es investido por tercera vez con el apoyo de Vox, que asume la «prioridad nacional».",
+     "src": [
+      "cyl1"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2024-07",
+     "t": "Vox sale del Gobierno, junto a los de otras cuatro comunidades, por el reparto de menores migrantes.",
+     "src": [
+      "vox24"
+     ]
+    },
+    {
+     "d": "2024-11",
+     "t": "La Junta no presenta el presupuesto de 2025 en las Cortes.",
+     "src": [
+      "cyl3"
+     ]
+    },
+    {
+     "d": "2025-12",
+     "t": "Sin presupuesto de 2026: se prorrogan los de 2024.",
+     "src": [
+      "cyl2"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "cat",
+   "name": "Cataluña",
+   "pres": "Salvador Illa",
+   "since": "2024",
+   "gov": [
+    [
+     "psoe",
+     "PSC"
+    ]
+   ],
+   "form": "PSC en minoría. Fue investido con ERC y Comuns.",
+   "elec": "12 de mayo de 2024",
+   "next": "2028",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-04",
+     "t": "Se convalida el decreto de vivienda tras pactarlo con ERC, Comuns y la CUP: pone tope al precio del alquiler de temporada y crea un cuerpo de inspectores.",
+     "src": [
+      "cat2"
+     ]
+    },
+    {
+     "d": "2026-07",
+     "t": "Presupuestos de 2026 (49.162 millones) con PSC, ERC y Comuns. Son los primeros desde 2023.",
+     "src": [
+      "cat1"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-04",
+     "t": "El Govern retira el decreto sobre campings en zonas inundables por falta de apoyos.",
+     "src": [
+      "cat2"
+     ]
+    },
+    {
+     "d": "2026-10",
+     "t": "El Parlament no aprueba la propuesta de Illa de vivienda compartida (la Generalitat se quedaría con el 50%) por la abstención de los Comuns.",
+     "src": [
+      "cat3"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "val",
+   "name": "Comunidad Valenciana",
+   "pres": "Juanfran Pérez Llorca",
+   "since": "2025",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "PP en minoría con el apoyo de Vox. Pérez Llorca sustituyó a Carlos Mazón a finales de 2025. Vox estuvo en el Gobierno hasta julio de 2024.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob",
+    "vox24"
+   ],
+   "si": [
+    {
+     "d": "2024-06",
+     "t": "Ley de libertad educativa: las familias eligen la lengua principal de estudio (valenciano o castellano). Sustituye a la ley de plurilingüismo.",
+     "src": [
+      "val1"
+     ]
+    },
+    {
+     "d": "2024-07",
+     "t": "Ley de concordia, con PP y Vox: sustituye a la ley de memoria democrática de 2017 y abarca desde 1931.",
+     "src": [
+      "val2"
+     ]
+    },
+    {
+     "d": "2025-05",
+     "t": "Presupuestos de 2025, con los votos de Vox.",
+     "src": [
+      "val3"
+     ]
+    },
+    {
+     "d": "2026-04",
+     "t": "Ley de mejora de la renta valenciana de inclusión.",
+     "src": [
+      "val5"
+     ]
+    },
+    {
+     "d": "2026-07",
+     "t": "Presupuestos de 2026 (33.305 millones) con PP y Vox. Incluyen la «prioridad nacional»: dar preferencia en recursos y vivienda a quien tenga «arraigo» en la comunidad.",
+     "src": [
+      "val4"
+     ]
+    }
+   ],
+   "no": [],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "ext",
+   "name": "Extremadura",
+   "pres": "María Guardiola",
+   "since": "2023",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ],
+    [
+     "vox",
+     "Vox"
+    ]
+   ],
+   "form": "Coalición de PP y Vox, con dos consejeros de Vox.",
+   "elec": "21 de diciembre de 2025 (adelantadas)",
+   "next": "2029",
+   "govsrc": [
+    "ext1",
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-02",
+     "t": "Decreto de rebajas fiscales, con PP y Vox.",
+     "src": [
+      "ext4"
+     ]
+    },
+    {
+     "d": "2026-08",
+     "t": "Presupuestos de 2026 (Ley 2/2026), con PP y Vox.",
+     "src": [
+      "ext2"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2025-01",
+     "t": "La propuesta de Vox de una ley de concordia (que derogaría la ley de memoria histórica) no recibe el apoyo de ningún otro grupo en el debate.",
+     "src": [
+      "ext5"
+     ]
+    },
+    {
+     "d": "2025-10",
+     "t": "Guardiola, en minoría desde que Vox salió del Gobierno, no consigue apoyos para el presupuesto y adelanta las elecciones al 21 de diciembre.",
+     "src": [
+      "ext3"
+     ]
+    }
+   ],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "gal",
+   "name": "Galicia",
+   "pres": "Alfonso Rueda",
+   "since": "2022",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "Mayoría absoluta del PP.",
+   "elec": "18 de febrero de 2024",
+   "next": "2028",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-12",
+     "t": "Presupuestos de 2026 (14.240 millones), solo con los votos del PP.",
+     "src": [
+      "gal1"
+     ]
+    }
+   ],
+   "tr": [
+    {
+     "d": "2026-05",
+     "t": "La ley para transferir la autopista AP-9 a Galicia avanza en el Congreso con el apoyo de todos los grupos menos PP y Vox. La Xunta se opone al texto porque, según dice, empeora las condiciones de la ley que aprobó el Parlamento gallego por unanimidad.",
+     "src": [
+      "gal2"
+     ]
+    }
+   ],
+   "no": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "mad",
+   "name": "Comunidad de Madrid",
+   "pres": "Isabel Díaz Ayuso",
+   "since": "2019",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "Mayoría absoluta del PP.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2023-12",
+     "t": "Presupuestos de 2024 (más de 27.500 millones) y una ley de simplificación que cambia 15 normas, entre ellas las de Telemadrid y la Cámara de Cuentas.",
+     "src": [
+      "mad1"
+     ]
+    },
+    {
+     "d": "2023-12",
+     "t": "Cambios en las leyes trans y contra la LGTBIfobia: se elimina el concepto de identidad de género y una veintena de artículos.",
+     "src": [
+      "mad1"
+     ]
+    },
+    {
+     "d": "2025-12",
+     "t": "Nueva ley de Hacienda y reconocimiento de IE Universidad como universidad privada.",
+     "src": [
+      "mad2"
+     ]
+    }
+   ],
+   "tr": [
+    {
+     "d": "2026-02",
+     "t": "La ley de universidades (LESUC) aún no ha llegado a la Asamblea. Rectores y parte de la comunidad universitaria se oponen.",
+     "src": [
+      "mad3"
+     ]
+    }
+   ],
+   "no": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "mur",
+   "name": "Región de Murcia",
+   "pres": "Fernando López Miras",
+   "since": "2017",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "PP en minoría desde que Vox salió del Gobierno en 2024.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-07",
+     "t": "Presupuestos de 2025, con los votos del PP y la abstención de Vox.",
+     "src": [
+      "mur1"
+     ]
+    }
+   ],
+   "tr": [
+    {
+     "d": "2026-04",
+     "t": "Ley de vivienda asequible (25.000 viviendas en cinco años), pendiente de apoyos. Dos diputados de Vox pasan al Grupo Mixto y el PP se queda con 21 de los 23 escaños que necesita.",
+     "src": [
+      "mur2"
+     ]
+    }
+   ],
+   "no": [
+    {
+     "d": "2024-07",
+     "t": "Vox rompe el Gobierno de coalición con el PP.",
+     "src": [
+      "mur3"
+     ]
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "nav",
+   "name": "Navarra",
+   "pres": "María Chivite",
+   "since": "2019",
+   "gov": [
+    [
+     "psoe",
+     "PSN"
+    ],
+    [
+     "gbai",
+     "Geroa Bai"
+    ],
+    [
+     "contigo",
+     "Contigo-Zurekin"
+    ]
+   ],
+   "form": "Coalición de PSN, Geroa Bai y Contigo-Zurekin. Pacta los presupuestos con EH Bildu.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob",
+    "nav2"
+   ],
+   "si": [
+    {
+     "d": "2024-12",
+     "t": "Presupuestos de 2025, pactados con EH Bildu.",
+     "src": [
+      "nav1"
+     ]
+    },
+    {
+     "d": "2025-12",
+     "t": "Presupuestos de 2026 (6.741 millones), con la abstención de EH Bildu y el voto en contra de UPN, PP y Vox.",
+     "src": [
+      "nav2"
+     ]
+    }
+   ],
+   "no": [],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "eus",
+   "name": "País Vasco",
+   "pres": "Imanol Pradales",
+   "since": "2024",
+   "gov": [
+    [
+     "pnv",
+     "PNV"
+    ],
+    [
+     "psoe",
+     "PSE-EE"
+    ]
+   ],
+   "form": "Coalición de PNV y PSE-EE (PSOE), con mayoría absoluta.",
+   "elec": "21 de abril de 2024",
+   "next": "2028",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-12",
+     "t": "Ley de medidas urgentes de vivienda, suelo y urbanismo: más suelo para vivienda protegida, sobre todo en alquiler, y freno a nuevos pisos turísticos en zonas con alquileres tensionados.",
+     "src": [
+      "eus1"
+     ]
+    },
+    {
+     "d": "2025-12",
+     "t": "Presupuestos de 2026, aprobados por PNV y PSE.",
+     "src": [
+      "eus2"
+     ]
+    }
+   ],
+   "no": [],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "rio",
+   "name": "La Rioja",
+   "pres": "Gonzalo Capellán",
+   "since": "2023",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "Mayoría absoluta del PP.",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-06",
+     "t": "Ley de derechos de las personas que necesitan cuidados paliativos.",
+     "src": [
+      "rio1"
+     ]
+    },
+    {
+     "d": "2025-07",
+     "t": "Ley de medidas fiscales de apoyo al medio rural y ley del paisaje.",
+     "src": [
+      "rio1"
+     ]
+    },
+    {
+     "d": "2025-12",
+     "t": "Presupuestos de 2026.",
+     "src": [
+      "rio1"
+     ]
+    },
+    {
+     "d": "2026-04",
+     "t": "Ley de simplificación administrativa.",
+     "src": [
+      "rio1"
+     ]
+    },
+    {
+     "d": "2026-07",
+     "t": "Grados universitarios oficiales gratis en La Rioja (Ley 3/2026).",
+     "src": [
+      "rio1"
+     ]
+    }
+   ],
+   "no": [],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "ceu",
+   "name": "Ceuta",
+   "pres": "Juan Jesús Vivas",
+   "since": "2001",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "PP en minoría (ciudad autónoma).",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-12",
+     "t": "Presupuestos de 2026, con 13 votos a favor (PP y cuatro diputados no adscritos) y 11 en contra.",
+     "src": [
+      "ceu1"
+     ]
+    }
+   ],
+   "no": [],
+   "tr": [],
+   "checked": "2026-10-11"
+  },
+  {
+   "id": "mel",
+   "name": "Melilla",
+   "pres": "Juan José Imbroda",
+   "since": "2023",
+   "gov": [
+    [
+     "pp",
+     "PP"
+    ]
+   ],
+   "form": "Mayoría absoluta del PP (ciudad autónoma).",
+   "elec": "28 de mayo de 2023",
+   "next": "mayo de 2027",
+   "govsrc": [
+    "gob"
+   ],
+   "si": [
+    {
+     "d": "2025-11",
+     "t": "El Gobierno aprueba el proyecto de presupuesto de 2026 (421 millones), sin subir impuestos y con escuelas infantiles gratis.",
+     "src": [
+      "mel1"
+     ]
+    }
+   ],
+   "no": [],
+   "tr": [],
+   "checked": "2026-10-11"
+  }
+ ]
+}

@@ -11,6 +11,10 @@
     {
       "path": "/api/cron/programs",
       "schedule": "0 19 * * *"
+    },
+    {
+      "path": "/api/cron/ccaa",
+      "schedule": "0 3 * * *"
     }
   ],
   "functions": {
@@ -31,7 +35,7 @@
   ],
   "rewrites": [
     {
-      "source": "/:v(temas|partidos|brujula|cumple|congreso|encuestas|opina|noticias)/:rest*",
+      "source": "/:v(temas|partidos|brujula|cumple|congreso|encuestas|opina|comunidades|noticias)/:rest*",
       "destination": "/index.html"
     }
   ]

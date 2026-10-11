@@ -2,11 +2,68 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral, después de que el Congreso tumbara sus decretos de vivienda. El BOE publicó la convocatoria el 6 de octubre. El 10 de octubre PSOE y PP abrieron la precampaña; la campaña irá del 13 al 27 de noviembre."
+   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. PSOE, PP y Vox ya han abierto la precampaña y el 11 de octubre ERC confirmó a Rufián como candidato. La campaña irá del 13 al 27 de noviembre."
   },
-  "updated": "2026-10-10"
+  "updated": "2026-10-11"
  },
  "items": [
+  {
+   "date": "2026-10-11",
+   "parties": [
+    "erc"
+   ],
+   "source": "Moncloa.com",
+   "title": "ERC confirma a Rufián como candidato por Barcelona y descarta el Frente Amplio",
+   "summary": "La dirección de ERC confirmó a Gabriel Rufián como cabeza de lista por Barcelona para el 29N. El partido no se suma al Frente Amplio que pedían los Comuns, que dicen respetar la decisión y seguirán sin ERC.",
+   "url": "https://www.moncloa.com/2026/10/11/erc-rufian-candidato-barcelona-29n-3446431",
+   "id": "n38"
+  },
+  {
+   "date": "2026-10-11",
+   "parties": [
+    "psoe"
+   ],
+   "source": "101TV",
+   "title": "Sánchez repite en Ponferrada su mensaje sobre vivienda y defiende el voto por correo",
+   "summary": "En su segundo acto de precampaña, Sánchez dijo que la vivienda será una prioridad de su gobierno y defendió la intervención pública para facilitar el acceso. También defendió el voto por correo y pidió al Supremo frenar lo que llamó un «intento de atropello» de PP y Vox sobre el voto de quienes obtuvieron la nacionalidad por la «Ley de Nietos».",
+   "url": "https://www.101tv.es/espana/pedro-sanchez-carga-contra-la-oposicion-el-ponferrada-en-feijoo-no-confia-ni-feijoo",
+   "id": "n39"
+  },
+  {
+   "date": "2026-10-11",
+   "parties": [
+    "vox"
+   ],
+   "source": "Infobae (Europa Press)",
+   "title": "Abascal abre la precampaña de Vox en Estepona con el foco en Ceuta",
+   "summary": "Vox empieza su precampaña con un mitin de Santiago Abascal en Estepona (Málaga) centrado en la inmigración. El lunes 12 de octubre Abascal irá a Ceuta por el Día de la Hispanidad en lugar de acudir al desfile de Madrid.",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/11/abascal-arranca-este-domingo-la-precampana-en-estepona-con-el-foco-en-ceuta-donde-celebrara-la-hispanidad/",
+   "id": "n40"
+  },
+  {
+   "date": "2026-10-11",
+   "parties": [
+    "pp",
+    "vox",
+    "psoe"
+   ],
+   "source": "El Debate",
+   "title": "Encuesta Target Point: PP y Vox sumarían entre 193 y 203 escaños",
+   "summary": "Según Target Point para El Debate (6–9 oct, 1.002 entrevistas), el PP tendría el 32% de los votos y Vox el 18,7%. El PSOE obtendría entre 102 y 105 escaños.",
+   "url": "https://www.eldebate.com/espana/20261011/izquierda-apenas-reacciona-adelanto-frente-derecha-le-saca-casi-15-puntos_468080.html",
+   "id": "n41"
+  },
+  {
+   "date": "2026-10-10",
+   "parties": [
+    "pnv"
+   ],
+   "source": "El Español",
+   "title": "El PNV descarta apoyar una investidura de Feijóo",
+   "summary": "La portavoz Maribel Vaquero dijo que el PNV no se situará en ningún «bloque» tras el 29N y actuará «en clave vasca». Descartó apoyar a Feijóo por lo que considera su cercanía a Vox.",
+   "url": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
+   "id": "n42"
+  },
   {
    "date": "2026-10-10",
    "parties": [
