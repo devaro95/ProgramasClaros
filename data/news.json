@@ -2,11 +2,83 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. PSOE, PP y Vox ya han abierto la precampaña y el 11 de octubre ERC confirmó a Rufián como candidato. La campaña irá del 13 al 27 de noviembre."
+   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. Los partidos ya están en precampaña. Hasta el 16 de octubre se pueden registrar coaliciones: ERC llevará a Podemos en sus listas de Cataluña y el Frente Amplio propone a Ada Colau. La campaña irá del 13 al 27 de noviembre."
   },
-  "updated": "2026-10-11"
+  "updated": "2026-10-13"
  },
  "items": [
+  {
+   "date": "2026-10-13",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Mundiario",
+   "title": "IU, Comuns, Más Madrid y Movimiento Sumar proponen a Ada Colau como candidata del Frente Amplio",
+   "summary": "Los cuatro partidos acordaron proponer a Ada Colau como candidata a la presidencia del Gobierno. Podemos no forma parte del acuerdo, pero le invitan a sumarse. El plazo para registrar coaliciones termina el 16 de octubre.",
+   "url": "https://www.mundiario.com/articulo/politica/frente-amplio-apuesta-ada-colau-deja-abierta-puerta-podemos/20261013005131446365.html",
+   "id": "n43"
+  },
+  {
+   "date": "2026-10-12",
+   "parties": [
+    "pp",
+    "vox",
+    "psoe"
+   ],
+   "source": "elDiario.es",
+   "title": "El Supremo mantiene sin voto el 29N a los nacionalizados por la Ley de Nietos",
+   "summary": "El Tribunal Supremo mantiene la suspensión cautelar del voto de unas 163.000 personas nacionalizadas por la Ley de Nietos. Fiscalía y Abogacía del Estado pedían levantarla. Vox y PP celebran la decisión; el Gobierno y el PSOE la critican.",
+   "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13579188.html",
+   "id": "n44"
+  },
+  {
+   "date": "2026-10-12",
+   "parties": [
+    "erc",
+    "podemos"
+   ],
+   "source": "elDiario.es",
+   "title": "ERC incluirá a Podemos en sus listas de Cataluña",
+   "summary": "Podemos no se presentará por separado en Cataluña y tendrá candidatos en las listas de ERC. Rufián e Irene Montero harán campaña juntos. Los Comuns mantienen su propia candidatura en las provincias catalanas.",
+   "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13579188.html",
+   "id": "n45"
+  },
+  {
+   "date": "2026-10-12",
+   "parties": [
+    "vox"
+   ],
+   "source": "elDiario.es",
+   "title": "Abascal pasa el 12 de octubre en Ceuta y no acude al desfile",
+   "summary": "El líder de Vox no asistió al desfile del Día de la Fiesta Nacional en Madrid y viajó a Ceuta con el político francés Jordan Bardella.",
+   "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13579188.html",
+   "id": "n46"
+  },
+  {
+   "date": "2026-10-12",
+   "parties": [
+    "pp",
+    "vox",
+    "psoe"
+   ],
+   "source": "ElNacional.cat",
+   "title": "Cuatro encuestas dan a PP y Vox entre 197 y 205 escaños",
+   "summary": "GESOP, SocioMétrica, Sigma Dos y GAD3 sitúan a la suma de PP y Vox por encima de la mayoría absoluta (176). El PSOE quedaría entre 103 y 112 escaños, según el sondeo.",
+   "url": "https://elnacional.cat/es/politica/pp-vox-abren-precampana-electoral-con-clara-mayoria-absoluta-segun-cuatro-encuestas_1708504_102.html",
+   "id": "n47"
+  },
+  {
+   "date": "2026-10-11",
+   "parties": [
+    "bildu"
+   ],
+   "source": "El Español",
+   "title": "Mertxe Aizpurua no será la candidata de EH Bildu",
+   "summary": "La portavoz de EH Bildu en el Congreso anunció que no repetirá como candidata de la coalición en las elecciones del 29N.",
+   "url": "https://www.elespanol.com/espana/20261011/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744416371_10.html",
+   "id": "n48"
+  },
   {
    "date": "2026-10-11",
    "parties": [
