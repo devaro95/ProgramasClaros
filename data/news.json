@@ -2,11 +2,82 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. Los partidos ya están en precampaña. Hasta el 16 de octubre se pueden registrar coaliciones: ERC llevará a Podemos en sus listas de Cataluña y el Frente Amplio propone a Ada Colau. La campaña irá del 13 al 27 de noviembre."
+   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. Los partidos están en precampaña. El 16 de octubre termina el plazo para registrar coaliciones: el Frente Amplio y Podemos siguen negociando. El PSOE ratificará sus listas el 17 de octubre y todas las candidaturas deben presentarse antes del 26 de octubre. La campaña irá del 13 al 27 de noviembre."
   },
-  "updated": "2026-10-13"
+  "updated": "2026-10-15"
  },
  "items": [
+  {
+   "id": "n49",
+   "date": "2026-10-14",
+   "parties": [
+    "psoe",
+    "pp",
+    "vox"
+   ],
+   "source": "CMM",
+   "title": "El CIS de octubre sitúa al PSOE en el 34 % y al PP en el 22,2 %",
+   "summary": "El barómetro del CIS (5.025 entrevistas del 1 al 6 de octubre) estima PSOE 34 %, PP 22,2 %, Vox 17,1 %, Sumar-Frente Amplio 6,1 %, Podemos 3,1 % y ERC 3 %. No publica reparto de escaños. Las encuestas privadas de estos días dan primero al PP.",
+   "url": "https://www.cmmedia.es/noticias/espana/barometro-cis-octubre-2026-psoe-pp-vox.html"
+  },
+  {
+   "id": "n50",
+   "date": "2026-10-14",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Última Hora",
+   "title": "Ada Colau se ofrece a no ser la candidata si eso permite ir con Podemos",
+   "summary": "La candidata del Frente Amplio (IU, Movimiento Sumar, Más Madrid y Comuns) dijo en TVE que cedería su puesto a otra persona con más consenso. Podemos está dispuesto a hablar, pero mantiene a Irene Montero como su candidata. El plazo para registrar coaliciones termina el 16 de octubre. En la Comunidad Valenciana, Baleares y Aragón, Compromís, Ara Més y Chunta negocian listas de unidad.",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/14/2728883/ada-colau-ofrece-liderar-frente-amplio-para-incluir-podemos-pero-pacto-sigue-lejos.html"
+  },
+  {
+   "id": "n51",
+   "date": "2026-10-14",
+   "parties": [
+    "podemos",
+    "erc"
+   ],
+   "source": "Última Hora",
+   "title": "Podemos abre primarias con Irene Montero como única aspirante a la Presidencia",
+   "summary": "Las primarias de Podemos empezaron el 14 de octubre. Montero es la única candidata a presidir el Gobierno. Podemos mantiene su acuerdo con ERC para ir juntos en Cataluña y para que Montero y Gabriel Rufián hagan campaña juntos en el resto de España.",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/14/2728883/ada-colau-ofrece-liderar-frente-amplio-para-incluir-podemos-pero-pacto-sigue-lejos.html"
+  },
+  {
+   "id": "n52",
+   "date": "2026-10-14",
+   "parties": [
+    "psoe"
+   ],
+   "source": "EFE / Infobae",
+   "title": "El PSOE empieza a colocar a ministros en sus listas",
+   "summary": "Según fuentes del partido, Óscar Puente encabezaría la lista en Castilla y León, Jordi Hereu la de Barcelona e Isabel Rodríguez la de Ciudad Real. Óscar López, Ángel Víctor Torres y Diana Morant no irán en las listas al Congreso. El Comité Federal ratificará las candidaturas el sábado 17 de octubre en Fuenlabrada.",
+   "url": "https://infobae.com/espana/agencias/2026/10/14/el-psoe-comienza-a-colocar-en-sus-listas-para-el-29n-a-los-ministros-de-sanchez"
+  },
+  {
+   "id": "n53",
+   "date": "2026-10-14",
+   "parties": [
+    "pp",
+    "psoe"
+   ],
+   "source": "El Español",
+   "title": "Las pensiones entran en la precampaña",
+   "summary": "Feijóo dijo que subiría las pensiones según el IPC (lo que suben los precios). Sánchez prometió en Zaragoza cuatro años más de subidas según el IPC. El PP dice que el sistema necesita reforzarse y el PSOE rechaza pedir «sacrificios» a los pensionistas.",
+   "url": "https://www.elespanol.com/espana/20261014/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744419157_10.html"
+  },
+  {
+   "id": "n54",
+   "date": "2026-10-14",
+   "parties": [
+    "pp"
+   ],
+   "source": "Infobae",
+   "title": "El PP presentará sus listas al final del plazo, el 26 de octubre",
+   "summary": "Miguel Tellado dirige la campaña del PP. El partido agotará el plazo legal para presentar candidaturas, que acaba el 26 de octubre. La Junta Electoral Central publicará las candidaturas oficiales a principios de noviembre.",
+   "url": "https://infobae.com/espana/2026/10/14/elecciones-generales-de-2026-en-directo-ultima-hora-sobre-las-coaliciones-para-el-29-n-encuestas-y-la-visita-de-los-reyes-en-melilla"
+  },
   {
    "date": "2026-10-13",
    "parties": [
