@@ -2,11 +2,108 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. Los partidos están en precampaña. El 16 de octubre termina el plazo para registrar coaliciones: el Frente Amplio y Podemos siguen negociando. El PSOE ratificará sus listas el 17 de octubre y todas las candidaturas deben presentarse antes del 26 de octubre. La campaña irá del 13 al 27 de noviembre."
+   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. Los partidos están en precampaña. El plazo para registrar coaliciones termina a medianoche del 16 de octubre: la izquierda ha cerrado pactos en Canarias, Aragón, Baleares y la Comunidad Valenciana, pero el Frente Amplio y Podemos siguen sin acuerdo nacional. Todas las candidaturas deben presentarse antes del 26 de octubre. La campaña irá del 13 al 27 de noviembre."
   },
-  "updated": "2026-10-15"
+  "updated": "2026-10-16"
  },
  "items": [
+  {
+   "id": "n55",
+   "date": "2026-10-16",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Público",
+   "title": "Último día para registrar coaliciones: Frente Amplio y Podemos siguen sin acuerdo",
+   "summary": "El plazo termina a medianoche del 16 de octubre. A mediodía no había acuerdo nacional entre el Frente Amplio (Movimiento Sumar, IU, Más Madrid y Comuns) y Podemos; Movimiento Sumar afirma que no hay reuniones. Podemos consultó a su militancia hasta las 14:00 sobre sus pactos con ERC, en Canarias, en la Comunidad Valenciana y para el Senado.",
+   "url": "https://www.publico.es/politica/acuerdo-frente-amplio-elecciones-29n-directo-ultima-hora-negociaciones-reacciones.html"
+  },
+  {
+   "id": "n56",
+   "date": "2026-10-16",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Infobae",
+   "title": "La izquierda cierra coaliciones en Canarias, Aragón, Baleares y la Comunidad Valenciana",
+   "summary": "En Canarias, IU, Movimiento Sumar, Nueva Canarias y Podemos irán juntos como «Unidad del Pueblo Canario». En Aragón concurrirá «Chunta Aragonesista-Frente Amplio Aragón» y en Baleares «Ara Més-Front Ampli». Compromís y Podemos cierran coalición en la Comunidad Valenciana; EUPV rechazó unirse.",
+   "url": "https://www.infobae.com/espana/2026/10/16/elecciones-generales-espana-29-n-en-directo-ultima-hora-del-frente-amplio-y-del-viernes-clave-para-la-izquierda/"
+  },
+  {
+   "id": "n57",
+   "date": "2026-10-16",
+   "parties": [
+    "pp"
+   ],
+   "source": "Infobae",
+   "title": "Feijóo propone eliminar impuestos a la compra de vivienda habitual en zonas rurales",
+   "summary": "El PP propone «impuesto cero» a la compra de vivienda habitual en zonas rurales, quitar el impuesto de transmisiones (ITP-AJD) a menores de 40 años, una cuota de autónomos de 50 euros al mes durante tres años para jóvenes emprendedores rurales y avales públicos de hasta el 80 % para explotaciones agrarias.",
+   "url": "https://www.infobae.com/espana/2026/10/16/elecciones-generales-espana-29-n-en-directo-ultima-hora-del-frente-amplio-y-del-viernes-clave-para-la-izquierda/"
+  },
+  {
+   "id": "n58",
+   "date": "2026-10-16",
+   "parties": [
+    "pp",
+    "vox"
+   ],
+   "source": "Moncloa.com",
+   "title": "Ayuso y Moñino escenifican la paz entre PP y Vox en Madrid antes del 29N",
+   "summary": "La presidenta madrileña, Isabel Díaz Ayuso (PP), y la portavoz de Vox en la Asamblea de Madrid, Isabel Pérez Moñino, rebajan la tensión entre ambos partidos tras un año de choques por la inmigración. Moñino será también portavoz nacional de Vox en la campaña.",
+   "url": "https://www.moncloa.com/2026/10/16/pp-vox-madrid-29n-ayuso-monino-3449608/"
+  },
+  {
+   "id": "n59",
+   "date": "2026-10-15",
+   "parties": [
+    "pp",
+    "upn"
+   ],
+   "source": "Infobae",
+   "title": "PP y UPN concurrirán juntos en Navarra",
+   "summary": "Los dos partidos presentarán una candidatura conjunta en Navarra el 29N, como ya hicieron en otras elecciones generales. Además, Ciudadanos vuelve a presentarse junto a Democracia 21 y UCIN con la marca «Democracia para el Siglo XXI».",
+   "url": "https://www.infobae.com/espana/2026/10/15/elecciones-generales-en-espana-29-n-en-directo-ultima-hora-del-frente-amplio-los-sondeos-las-pensiones-y-la-ley-de-nietos/"
+  },
+  {
+   "id": "n60",
+   "date": "2026-10-15",
+   "parties": [
+    "psoe",
+    "pp"
+   ],
+   "source": "elDiario.es",
+   "title": "Sánchez confirma que las pensiones subirán con el IPC; el PP lo condiciona a «la economía adecuada»",
+   "summary": "Pedro Sánchez afirma que las pensiones se revalorizarán según el IPC antes de fin de año y acusa a PP y Vox de querer recortarlas. El responsable de economía del PP condicionó esa subida a la situación económica; después, Feijóo dijo que actualizarlas con el IPC es «innegociable».",
+   "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13586718.html"
+  },
+  {
+   "id": "n61",
+   "date": "2026-10-15",
+   "parties": [
+    "psoe"
+   ],
+   "source": "Infobae",
+   "title": "La Junta Electoral abre un expediente a Sánchez por sus palabras en La Moncloa",
+   "summary": "La Junta Electoral Central estudia si Sánchez rompió la neutralidad institucional al pedir en La Moncloa «una mayoría más rotunda» tras convocar las elecciones. El PP lo denunció como un «mitin». No es una sanción firme; la multa podría ir de 300 a 3.000 euros.",
+   "url": "https://www.infobae.com/espana/2026/10/15/elecciones-generales-en-espana-29-n-en-directo-ultima-hora-del-frente-amplio-los-sondeos-las-pensiones-y-la-ley-de-nietos/"
+  },
+  {
+   "id": "n62",
+   "date": "2026-10-15",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "elDiario.es",
+   "title": "La media de encuestas da a PP y Vox 15 puntos de ventaja sobre el bloque de izquierdas",
+   "summary": "Según la media de sondeos de elDiario.es: PP 32 %, PSOE 26 %, Vox 19 %, Sumar 6 % y Podemos 3 %. En escaños: PP 135, PSOE 106, Vox 66 y Sumar y Podemos 13 entre los dos. El CIS, en cambio, sitúa al PSOE primero.",
+   "url": "https://www.eldiario.es/politica/dice-hoy-media-encuestas-pp-vox-aventajan-bloque-progresista-15-puntos-izquierda-sigue-negociando_1_13585216.html"
+  },
   {
    "id": "n49",
    "date": "2026-10-14",
