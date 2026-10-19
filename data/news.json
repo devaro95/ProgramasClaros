@@ -2,11 +2,130 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Pedro Sánchez anunció el 5 de octubre el adelanto electoral y el BOE publicó la convocatoria el 6 de octubre. Los partidos están en precampaña. El plazo para registrar coaliciones termina a medianoche del 16 de octubre: la izquierda ha cerrado pactos en Canarias, Aragón, Baleares y la Comunidad Valenciana, pero el Frente Amplio y Podemos siguen sin acuerdo nacional. Todas las candidaturas deben presentarse antes del 26 de octubre. La campaña irá del 13 al 27 de noviembre."
+   "text": "Se cerró el plazo de coaliciones: la Junta Electoral registró nueve. Frente Amplio y Podemos irán por separado salvo en Canarias y la Comunidad Valenciana, y el PSOE se une al Frente Amplio en una lista única al Senado («Senado de Progreso»). Todas las candidaturas deben presentarse antes del 26 de octubre. La campaña irá del 13 al 27 de noviembre."
   },
-  "updated": "2026-10-16"
+  "updated": "2026-10-19"
  },
  "items": [
+  {
+   "id": "n63",
+   "date": "2026-10-19",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "Electográfica / El Mundo",
+   "title": "Sigma Dos: PP 31,5 %, PSOE 25,3 % y Vox 19,5 %",
+   "summary": "La encuesta de Sigma Dos para El Mundo (3.007 entrevistas del 1 al 14 de octubre) da al PP entre 132 y 137 escaños, al PSOE entre 101 y 106 y a Vox entre 65 y 68. Frente Amplio y Compromís sumarían un 8,1 % y entre 12 y 14 escaños; Podemos, un 2,8 % y 1 escaño.",
+   "url": "https://www.electografica.com/2026/10/encuesta-sigmados-261019.html"
+  },
+  {
+   "id": "n70",
+   "date": "2026-10-18",
+   "parties": [
+    "pp",
+    "vox"
+   ],
+   "source": "Vozpópuli",
+   "title": "Feijóo presentará el 19 de octubre su «Contrato con España»",
+   "summary": "El líder del PP lo describe como un manifiesto de valores y principios. En un acto en Barcelona encargó a García Albiol una ley contra la okupación y, en una entrevista en El Periódico, dijo que un gobierno con Vox «puede funcionar».",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-ultima-hora-de-pedro-sanchez-feijoo-abascal-y-frente-amplio.html"
+  },
+  {
+   "id": "n71",
+   "date": "2026-10-18",
+   "parties": [
+    "vox"
+   ],
+   "source": "Vozpópuli",
+   "title": "Vox pide al Constitucional que no admita el recurso del Defensor del Pueblo sobre la «ley de nietos»",
+   "summary": "El Defensor del Pueblo recurrió la decisión del Supremo de suspender el voto de los nacionalizados por esta ley. Vox alega que es prematuro porque el plazo para personarse en el Supremo acaba el 22 de octubre.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-ultima-hora-de-pedro-sanchez-feijoo-abascal-y-frente-amplio.html"
+  },
+  {
+   "id": "n72",
+   "date": "2026-10-18",
+   "parties": [
+    "junts"
+   ],
+   "source": "Vozpópuli",
+   "title": "Junts afirma que puede influir en Madrid si obtiene fuerza suficiente",
+   "summary": "Míriam Nogueras, candidata de Junts por Barcelona, defendió el peso de su partido en el Congreso. Xavier Trias pidió a Junts ser «hábil» tras el 29N.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-ultima-hora-de-pedro-sanchez-feijoo-abascal-y-frente-amplio.html"
+  },
+  {
+   "id": "n64",
+   "date": "2026-10-17",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Menorca.info (Europa Press/EFE)",
+   "title": "Frente Amplio y Podemos no logran un acuerdo nacional y competirán por separado en casi toda España",
+   "summary": "Al cerrar el plazo de coaliciones, solo irán juntos en Canarias y la Comunidad Valenciana. En Madrid y Barcelona tendrán listas distintas: Irene Montero por Podemos y Emilio Delgado y Ada Colau por el Frente Amplio. Ambos partidos se culpan del fracaso.",
+   "url": "https://www.menorca.info/actualidad/elecciones-29n/2026/10/17/2730679/frente-amplio-podemos-consuman-fractura-llegar-acuerdo-global-para-coaliciones-29n.html"
+  },
+  {
+   "id": "n65",
+   "date": "2026-10-17",
+   "parties": [
+    "psoe",
+    "sumar"
+   ],
+   "source": "Vozpópuli",
+   "title": "PSOE y Frente Amplio irán juntos al Senado como «Senado de Progreso»",
+   "summary": "PSOE, IU, Movimiento Sumar, Más Madrid, Compromís, Chunta Aragonesista y Batzarre presentan una lista única al Senado en la mayoría de provincias. Podemos queda fuera. El objetivo declarado es disputar al PP la mayoría del Senado.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-ultima-hora-de-las-listas-electorales-sanchez-y-feijoo.html"
+  },
+  {
+   "id": "n66",
+   "date": "2026-10-17",
+   "parties": [
+    "erc",
+    "bildu"
+   ],
+   "source": "Demócrata",
+   "title": "ERC y EH Bildu se presentan juntos al Senado",
+   "summary": "Los dos partidos registraron una coalición para el Senado en Cataluña, País Vasco y Navarra. Al Congreso se presentan por separado.",
+   "url": "https://www.democrata.es/elecciones-generales-espana/erc-bildu-se-unen-elecciones-29n-iran-juntos-senado/"
+  },
+  {
+   "id": "n67",
+   "date": "2026-10-17",
+   "parties": [
+    "cc"
+   ],
+   "source": "Don Porqué",
+   "title": "La Junta Electoral registra nueve coaliciones para el 29N",
+   "summary": "Entre ellas: Frente Amplio, Senado de Progreso, Compromís-Front Valencià, Unidad del Pueblo Canario, Coalición Existe (Teruel Existe y Aragón Existe), Coalición Canaria-Municipalistas Primero, Democracia para el Siglo 21 (Ciudadanos, Democracia21 y UCIN, solo en Madrid y Barcelona), ERC-EH Bildu al Senado y Comuns-Front Ampli al Senado.",
+   "url": "https://donporque.com/por-que-nueve-coaliciones-elecciones-29-noviembre/"
+  },
+  {
+   "id": "n68",
+   "date": "2026-10-17",
+   "parties": [
+    "psoe"
+   ],
+   "source": "Vozpópuli",
+   "title": "El Comité Federal del PSOE proclama a Sánchez candidato y aprueba las listas",
+   "summary": "Sánchez fue proclamado por unanimidad; el 52 % de los cabezas de lista al Congreso son mujeres. Rebeca Torró es la nueva portavoz del partido tras la dimisión de Montse Mínguez. Emiliano García-Page no acudió.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-ultima-hora-de-las-listas-electorales-sanchez-y-feijoo.html"
+  },
+  {
+   "id": "n69",
+   "date": "2026-10-17",
+   "parties": [
+    "pp",
+    "upn"
+   ],
+   "source": "Vozpópuli",
+   "title": "El PP presenta a Xavier García Albiol como cabeza de lista por Barcelona",
+   "summary": "En Navarra, Sergio Sayas será el número 2 de la candidatura conjunta PP-UPN. Foro Asturias anunció que apoyará al PP.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-ultima-hora-de-las-listas-electorales-sanchez-y-feijoo.html"
+  },
   {
    "id": "n55",
    "date": "2026-10-16",
@@ -593,137 +712,6 @@
    "title": "El PP de Navarra apuesta por concurrir con UPN a las elecciones generales",
    "url": "https://www.infobae.com/espana/agencias/2026/10/06/el-pp-de-navarra-apuesta-por-concurrir-con-upn-a-las-elecciones-generales/",
    "id": "n14"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [],
-   "source": "Artículo 14",
-   "title": "Unos 400.000 nacionalizados por la «Ley de Nietos» podrán votar el 29N",
-   "summary": "El censo que se usará es el del 1 de agosto, anterior a la suspensión cautelar del Tribunal Supremo. El Supremo sigue estudiando el caso y pide alegaciones a los partidos.",
-   "url": "https://www.articulo14.es/politica/la-junta-electoral-confirma-que-al-menos-400-000-nietos-pueden-votar-el-29n-20261005.html",
-   "id": "n23"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "psoe",
-    "junts"
-   ],
-   "source": "Crónica Global",
-   "summary": "Junts votó en contra de los decretos de vivienda junto a PP y Vox. Sánchez, que había dicho que las elecciones serían en 2027, las adelanta al 29 de noviembre.",
-   "title": "Sánchez convoca elecciones el 29N tras el 'no' de Junts a los decretos de vivienda",
-   "url": "https://cronicaglobal.elespanol.com/politica/20261005/sanchez-convoca-elecciones-no-junts-decretos-vivienda/1003742799802_0.html",
-   "id": "n01"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "psoe"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "Sánchez será proclamado candidato el 17 de octubre, sin primarias al estar en el Gobierno.",
-   "title": "Sánchez anima a la cúpula del PSOE a salir a ganar las elecciones del 29 de noviembre",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/05/sanchez-anima-a-la-cupula-del-psoe-a-salir-a-ganar-las-elecciones-del-29-de-noviembre/",
-   "id": "n02"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "pp"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "El líder del PP presenta las elecciones como una elección entre «decadencia o cambio» y relaciona el adelanto con los casos de corrupción que afectan al PSOE.",
-   "title": "Feijóo apela al cambio para una \"reconstrucción nacional\"",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/05/feijoo-apela-al-cambio-para-una-reconstruccion-nacional-y-cree-que-sanchez-merece-el-mayor-de-los-castigos/",
-   "id": "n03"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "vox"
-   ],
-   "source": "Moncloa.com",
-   "summary": "El líder de Vox pide a sus votantes que voten en persona en lugar de por correo.",
-   "title": "Abascal llama al voto presencial el 29N",
-   "url": "https://www.moncloa.com/2026/10/05/abascal-voto-presencial-29n-3442803/",
-   "id": "n05"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "junts"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "La militancia votará la propuesta de lista por Barcelona con un reglamento que el partido aprueba esta semana.",
-   "title": "Miriam Nogueras se mantiene como la apuesta de Junts para liderar la candidatura del 29N",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/05/miriam-nogueras-se-mantiene-como-la-apuesta-de-junts-para-liderar-la-candidatura-del-29n/",
-   "id": "n09"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "bildu"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "La coalición se declara preparada para el 29N y plantea evitar un gobierno de PP y Vox.",
-   "title": "EH Bildu dice estar listo para elecciones y que se puede \"cerrar la puerta a la derecha\"",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/05/eh-bildu-dice-estar-listo-para-elecciones-y-que-se-puede-cerrar-la-puerta-a-la-derecha/",
-   "id": "n11"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "pnv"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "El PNV pide votar en clave vasca, por encima de los bloques de izquierda y derecha.",
-   "title": "Esteban (PNV): \"No estamos para defender bloques, sino los intereses de Euskadi\"",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/05/esteban-pnv-no-estamos-para-defender-bloques-sino-los-intereses-de-euskadi/",
-   "id": "n12"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "bng"
-   ],
-   "source": "Galiciapress",
-   "summary": "El BNG se declara preparado para el 29N y destaca como logros de la legislatura el traspaso de la AP-9 y descuentos en autopistas.",
-   "title": "El BNG abre el proceso de las listas y Pontón da por hecho que Rego y Da Silva tendrán un \"papel relevante\"",
-   "url": "https://www.galiciapress.es/articulo/politica/2026-10-05/6040120-bng-abre-proceso-listas-ponton-da-hecho-rego-da-silva-tendran-papel-relevante",
-   "id": "n13"
-  },
-  {
-   "date": "2026-10-05",
-   "parties": [
-    "cc"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "CC repite candidata por Santa Cruz de Tenerife y explora alianzas en la provincia de Las Palmas.",
-   "title": "Coalición Canaria propone a Cristina Valido como candidata al Congreso",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/05/coalicion-canaria-cc-propone-a-cristina-valido-como-candidata-al-congreso/",
-   "id": "n15"
-  },
-  {
-   "date": "2026-10-04",
-   "parties": [
-    "sumar"
-   ],
-   "source": "Infobae (Europa Press)",
-   "summary": "Movimiento Sumar, IU, Más Madrid y los comunes presentarán ese día su nuevo proyecto, llamado Frente Amplio, y su candidato o candidata.",
-   "title": "El nuevo Sumar anunciará el 17 de octubre su cabeza de lista para las elecciones generales",
-   "url": "https://www.infobae.com/espana/agencias/2026/10/04/el-nuevo-sumar-anunciara-el-17-de-octubre-su-cabeza-de-lista-para-las-elecciones-generales/",
-   "id": "n06"
-  },
-  {
-   "date": "2026-10-02",
-   "parties": [
-    "junts"
-   ],
-   "source": "Infobae",
-   "summary": "Incluye limitar la compra de pisos por fondos hasta 2028 y deducciones fiscales por alquiler.",
-   "title": "Junts presenta una propuesta alternativa de vivienda de 59 páginas",
-   "url": "https://www.infobae.com/espana/2026/10/02/junts-presenta-una-propuesta-alternativa-de-vivienda-de-59-paginas-que-incluye-una-restriccion-a-la-compra-de-pisos-por-fondos-buitre-hasta-2028-y-deducciones-fiscales-por-alquiler/",
-   "id": "n10"
   }
  ]
 }
