@@ -129,6 +129,23 @@ b,strong{font-weight:600}
 .hv-legend i{width:8px;height:8px;background:var(--c)}
 .hv-legend span{color:var(--pc,var(--ink-2));font-weight:600}
 .hv-legend b{font-weight:600;color:var(--ink)}
+.hb{display:flex;flex-direction:column;gap:10px;padding-top:10px;border-top:1px solid var(--line)}
+.hb-bar{position:relative;display:flex;height:14px;background:var(--line);border-radius:2px}
+.hb-bar span{height:100%}
+.hb-bar span+span{box-shadow:inset 1px 0 var(--paper)}
+.hb-bar i{position:absolute;top:-4px;bottom:-4px;width:0;border-left:2px dashed var(--ink);opacity:.6}
+.hb-cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;font-variant-numeric:tabular-nums}
+.hb-cols>div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.hb-m{text-align:center;align-items:center}
+.hb-r{text-align:right;align-items:flex-end}
+.hb-k{font:600 11.5px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.hb-cols b{font:400 clamp(26px,2.4vw,32px)/1.05 var(--serif);color:var(--ink)}
+.hb-cols em{font:600 12.5px var(--sans);font-style:normal;color:var(--muted)}
+.hb-cols em.ok{color:var(--ink)}
+.hb-cols small{font-size:12.5px;line-height:1.4;color:var(--ink-2)}
+.hb-cols small i{font-style:normal;white-space:nowrap}
+.hb-cols small span{color:var(--pc,var(--ink-2));font-weight:600}
+.hb-v{margin:0;font-size:14px;line-height:1.45;color:var(--ink-2)}
 .hv-link{align-self:flex-start;font:500 13.5px var(--sans);color:var(--ink);background:none;border:0;padding:0;margin-top:2px;cursor:pointer;text-decoration:underline;text-decoration-color:var(--chip-strong);text-underline-offset:4px}
 .hv-link:hover{text-decoration-color:currentColor}
 @media (max-width:960px){
@@ -2211,9 +2228,14 @@ function avgPoll(list){
   Object.entries(means).sort((a,b)=>(b[1]%1)-(a[1]%1)).slice(0,Math.max(0,target-used)).forEach(([k])=>seats[k]++);
   return {votes,seats:Object.keys(seats).length?seats:null,n:list.length,nSeats:list.filter(p=>p.seats).length}}
 // Hemiciclo: puntos en filas semicirculares; los partidos se colocan de mayor a menor número de escaños (sin orden ideológico)
-function hemicycle(seats,label){
+// ideo=true: izquierda a la izquierda, derecha a la derecha y el resto en el centro (usa los bloques de BLOCS)
+const IDEO_L=["podemos","sumar","psoe"],IDEO_R=["pp","upn","vox"];
+function hemicycle(seats,label,ideo){
   const s=seatsWithOthers(seats);
-  const order=Object.entries(s).filter(([k,v])=>v>0&&k!=="otros").sort((a,b)=>b[1]-a[1]);if(s.otros)order.push(["otros",s.otros]);
+  let order=Object.entries(s).filter(([k,v])=>v>0&&k!=="otros").sort((a,b)=>b[1]-a[1]);
+  if(ideo){const rank=k=>IDEO_L.includes(k)?IDEO_L.indexOf(k):IDEO_R.includes(k)?100+IDEO_R.indexOf(k):50;order.sort((a,b)=>rank(a[0])-rank(b[0])||b[1]-a[1]);
+    const i=order.findIndex(([k])=>rank(k)>=100);if(s.otros)order.splice(i<0?order.length:i,0,["otros",s.otros])}
+  else if(s.otros)order.push(["otros",s.otros]);
   const R=12,r0=0.38,W=420,H=230,cx=W/2,cy=H-14,Rad=200;
   const radii=[...Array(R)].map((_,i)=>r0+(1-r0)*i/(R-1));const rs=radii.reduce((a,b)=>a+b,0);
   const counts=radii.map(r=>Math.round(TOTAL_SEATS*r/rs));let diff=TOTAL_SEATS-counts.reduce((a,b)=>a+b,0);counts[R-1]+=diff;
@@ -2256,6 +2278,25 @@ function blocs(seats){
   return `<div class="blocs"><h4>¿Y si se unen?</h4><p class="pmeta">Escaños que sumarían los grupos de partidos que suelen ir juntos. La línea marca los ${MAJ} escaños de la mayoría absoluta. Son sumas de escaños, no pactos anunciados.${s.otros?` Esta estimación tiene ${s.otros} escaños sin detallar, que podrían cambiar las sumas.`:""}</p>${rows}</div>`;
 }
 
+// Portada: izquierda | resto | derecha, con la línea de mayoría absoluta medida desde cada extremo
+function heroBlocs(seats){
+  const s=seatsWithOthers(seats);
+  const grp=ks=>ks.filter(k=>s[k]>0).map(k=>[k,s[k]]);
+  const L=grp(IDEO_L),R=grp(IDEO_R),M=Object.entries(s).filter(([k,v])=>v>0&&!IDEO_L.includes(k)&&!IDEO_R.includes(k)).sort((a,b)=>(a[0]==="otros")-(b[0]==="otros")||b[1]-a[1]);
+  const sum=a=>a.reduce((t,[,v])=>t+v,0),tl=sum(L),tr=sum(R),tm=sum(M);
+  const w=v=>(v/TOTAL_SEATS*100).toFixed(2)+"%";
+  const seg=([k,v])=>`<span style="width:${w(v)};background:${k==="otros"?"var(--chip-strong)":P(k).c}" title="${esc(k==="otros"?"Sin detallar":P(k).name)}: ${v}"></span>`;
+  const st=t=>t>=MAJ?`<em class="ok">✓ Mayoría absoluta</em>`:`<em>Le faltan ${MAJ-t}</em>`;
+  const list=a=>a.map(([k,v])=>k==="otros"?`<i>Sin detallar ${v}</i>`:`<i><span style="--pc:var(--t-${k})">${esc(P(k).name)}</span> ${v}</i>`).join(" · ");
+  const verdict=tr>=MAJ?"La derecha (PP, Vox y UPN) sumaría mayoría absoluta.":tl>=MAJ?"La izquierda (PSOE, Sumar y Podemos) sumaría mayoría absoluta.":`Ningún bloque llega a ${MAJ}: haría falta el apoyo de otros partidos.`;
+  return `<div class="hb">
+    <div class="hb-bar" role="img" aria-label="Izquierda ${tl}, otros ${tm}, derecha ${tr} escaños">${L.map(seg).join("")}${M.map(seg).join("")}${R.map(seg).join("")}<i style="left:50%"></i></div>
+    <div class="hb-cols">
+      <div><span class="hb-k">Izquierda</span><b>${tl}</b>${st(tl)}<small>${list(L)}</small></div>
+      <div class="hb-m"><span class="hb-k">Otros</span><b>${tm}</b><small>${list(M)}</small></div>
+      <div class="hb-r"><span class="hb-k">Derecha</span><b>${tr}</b>${st(tr)}<small>${list(R)}</small></div>
+    </div>
+    <p class="hb-v">${verdict} <span class="muted">La línea marca la mitad: para la mayoría absoluta hacen falta ${MAJ} escaños. Son sumas de escaños, no pactos anunciados.</span></p></div>`}
 function blocNote(seats){
   if(!seats)return "";
   const top=Object.entries(seats).sort((a,b)=>b[1]-a[1])[0];
@@ -2337,9 +2378,8 @@ function renderHero(){
   $("#heroStats").innerHTML=st.map(([n,l])=>`<div><dt>${l}</dt><dd>${n}</dd></div>`).join("");
   const avg=avgPoll(POLLS_DATA);
   if(!avg.seats){$("#heroViz").hidden=true;return}
-  const top=Object.entries(avg.seats).sort((x,y)=>y[1]-x[1]).slice(0,6);
-  $("#heroViz").innerHTML=`<div class="hv-k">Si las elecciones fueran hoy</div><div class="hv-t">Media de ${avg.n} encuestas</div>${hemicycle(avg.seats,"Media de escaños de las encuestas")}
-    <div class="hv-legend">${top.map(([k,v])=>`<span style="--c:${P(k).c};--pc:var(--t-${k})"><i></i>${esc(P(k).name)} <b>${v}</b></span>`).join("")}</div>
+  $("#heroViz").innerHTML=`<div class="hv-k">Si las elecciones fueran hoy</div><div class="hv-t">Media de ${avg.n} encuestas</div>${hemicycle(avg.seats,"Media de escaños de las encuestas, de izquierda a derecha",true)}
+    ${heroBlocs(avg.seats)}
     <button class="hv-link" data-go="encuestas">Ver todas las encuestas y pactos</button>`;
 }
 
