@@ -2,11 +2,216 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Se cerró el plazo de coaliciones: la Junta Electoral registró nueve. Frente Amplio y Podemos irán por separado salvo en Canarias y la Comunidad Valenciana, y el PSOE se une al Frente Amplio en una lista única al Senado («Senado de Progreso»). Todas las candidaturas deben presentarse antes del 26 de octubre. La campaña irá del 13 al 27 de noviembre."
+   "text": "Los partidos están en precampaña. El BOE publicó el 28 de octubre las listas presentadas; las definitivas saldrán el 3 de noviembre. Frente Amplio y Podemos van por separado en casi toda España, y PP y Vox se reparten provincias en el Senado. La campaña irá del 13 al 27 de noviembre, el 28 es la jornada de reflexión. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre."
   },
-  "updated": "2026-10-19"
+  "updated": "2026-10-29"
  },
  "items": [
+  {
+   "id": "n87",
+   "date": "2026-10-28",
+   "parties": [
+    "psoe",
+    "sumar",
+    "pp",
+    "vox",
+    "podemos"
+   ],
+   "source": "Infobae",
+   "title": "El BOE publica las listas del 29N",
+   "summary": "El BOE publicó el 28 de octubre las listas presentadas al Congreso y al Senado. Si alguna tiene errores, el partido tiene 48 horas para corregirlos; las listas definitivas saldrán el 3 de noviembre. Por primera vez se presentan, entre otros, Se Acabó La Fiesta (SALF) y Democracia21, que va con Ciudadanos.",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/28/el-boe-publica-las-listas-presentadas-al-congreso-y-senado-para-las-elecciones-del-29n/"
+  },
+  {
+   "id": "n88",
+   "date": "2026-10-28",
+   "parties": [
+    "sumar",
+    "podemos"
+   ],
+   "source": "Infobae",
+   "title": "Colau propone un impuesto a quien acumula viviendas",
+   "summary": "El Frente Amplio propone un impuesto del 10 % al año sobre el valor de cada vivienda: para las empresas desde la primera y para particulares desde la cuarta, si todas juntas valen más de 800.000 €. No se pagaría por pisos alquilados a precio asequible y largo plazo. El Frente Amplio no presenta lista al Congreso en Ceuta, Melilla ni Teruel; Podemos sí va en Ceuta.",
+   "url": "https://www.infobae.com/espana/2026/10/28/elecciones-generales-espana-29-n-en-directo-ultima-hora-de-los-sondeos-la-ley-de-nietos-y-la-precampana/"
+  },
+  {
+   "id": "n81",
+   "date": "2026-10-26",
+   "parties": [
+    "pp",
+    "vox"
+   ],
+   "source": "Infobae",
+   "title": "PP y Vox se reparten provincias en el Senado",
+   "summary": "Para no dividir su voto en el Senado, Vox no se presenta en seis provincias (como Las Palmas, Tenerife, Cádiz, Valencia, Castellón y Baleares), donde el PP incluirá a un independiente propuesto por Vox, y en otras 14 presentará un solo candidato. El PP no se presenta al Senado en Guipúzcoa, Girona ni Tarragona.",
+   "url": "https://www.infobae.com/espana/2026/10/26/elecciones-generales-en-espana-29-n-en-directo-ultima-hora-de-los-sondeos-los-disturbios-en-barcelona-y-la-precampana/"
+  },
+  {
+   "id": "n82",
+   "date": "2026-10-26",
+   "parties": [
+    "psoe",
+    "sumar"
+   ],
+   "source": "Infobae",
+   "title": "Sánchez propone garantizar en la Constitución la subida de las pensiones con el IPC",
+   "summary": "En Gijón, Sánchez anunció que, si gana, reformará la Constitución para garantizar las pensiones y que suban cada año con el IPC (hoy está en una ley, que se puede cambiar con mayoría simple). El Frente Amplio presentó su lista por Madrid, encabezada por Emilio Delgado y Tesh Sidi.",
+   "url": "https://www.infobae.com/espana/2026/10/26/elecciones-generales-en-espana-29-n-en-directo-ultima-hora-de-los-sondeos-los-disturbios-en-barcelona-y-la-precampana/"
+  },
+  {
+   "id": "n83",
+   "date": "2026-10-26",
+   "parties": [
+    "vox"
+   ],
+   "source": "Demócrata",
+   "title": "Vox presenta a sus cabezas de lista en Talavera",
+   "summary": "Abascal encabeza la lista por Madrid, seguido de Montserrat Lluís. Vox incorpora unas 20 caras nuevas y deja fuera a críticos como Javier Ortega Smith. Sus ejes son la «prioridad nacional» para los españoles, menos normas e impuestos y la llamada «remigración».",
+   "url": "https://www.democrata.es/politica/abascal-presenta-en-talavera-a-los-cabezas-de-lista-de-vox-para-las-elecciones-del-29n/"
+  },
+  {
+   "id": "n84",
+   "date": "2026-10-26",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar"
+   ],
+   "source": "Demócrata",
+   "title": "NC Report: PP 32,9 %, PSOE 25,8 % y Vox 19 %",
+   "summary": "La encuesta de NC Report para La Razón (22–24 de octubre) da al PP 141–143 escaños, al PSOE 100–102, a Vox 64–66, al Frente Amplio 8–9 y a Podemos 1. PP y Vox superarían los 200 escaños; la mayoría absoluta está en 176.",
+   "url": "https://www.democrata.es/en/center-of-surveys-and-electoral-polls/general-elections/general-elections-survey-the-pp-loses-five-seats-and-the-psoe-cuts-two-points-but-the-right-surpasses-200/"
+  },
+  {
+   "id": "n85",
+   "date": "2026-10-26",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "Qué!",
+   "title": "Sigma Dos: el PP baja a 128 escaños y PP y Vox suman 196",
+   "summary": "La encuesta de Sigma Dos para El Mundo (3.122 entrevistas del 8 al 22 de octubre) da al PP el 30,6 % y 128 escaños (con UPN), al PSOE el 26,1 % y 107, y a Vox el 19,9 % y 68. Frente Amplio, Compromís y Podemos sumarían juntos el 11 % y 16 escaños. La mayoría absoluta está en 176.",
+   "url": "https://www.que.es/2026/10/26/elecciones-generales-29n-encuestas/"
+  },
+  {
+   "id": "n86",
+   "date": "2026-10-26",
+   "parties": [],
+   "source": "Moncloa.com",
+   "title": "Cierra el plazo para presentar las listas",
+   "summary": "Los partidos tienen hasta la medianoche del 26 de octubre para registrar sus candidaturas al Congreso y al Senado. El BOE las publicará el 28 de octubre. La campaña empieza el 13 de noviembre, el último día para publicar encuestas es el 23 y el 28 es la jornada de reflexión.",
+   "url": "https://www.moncloa.com/2026/10/26/calendario-electoral-29n-candidaturas-3455568"
+  },
+  {
+   "id": "n80",
+   "date": "2026-10-25",
+   "parties": [
+    "sumar",
+    "vox",
+    "pp"
+   ],
+   "source": "Vozpópuli",
+   "title": "Colau dice que el Frente Amplio debe entrar en el Gobierno",
+   "summary": "En Móstoles, Ada Colau acusó al PSOE de limitarse a «gestionar la desigualdad». Ernest Urtasun defendió subir el salario mínimo, frenar los desahucios y alargar los alquileres. Vox renueva unas 20 personas en sus listas y deja fuera a críticos como Javier Ortega Smith. Feijóo dijo en Salamanca que la vivienda es el primer problema y que hay que construir más.",
+   "url": "https://www.vozpopuli.com/espana/elecciones-generales-del-29-n-en-directo-feijoo-y-frente-amplio-protagonizan-los-actos-de-campana-este-domingo.html"
+  },
+  {
+   "id": "n77",
+   "date": "2026-10-24",
+   "parties": [
+    "psoe",
+    "pp"
+   ],
+   "source": "Vozpópuli",
+   "title": "Sánchez promete el aborto en la Constitución; Feijóo, quitar el Ministerio de Igualdad",
+   "summary": "En Granada, Sánchez prometió incluir el derecho al aborto en la Constitución; el PSOE dice que su programa tendrá nueve medidas de vivienda. Feijóo propuso eliminar el Ministerio de Igualdad, que la vivienda tenga una vicepresidencia y revisar en 100 días la deuda y el déficit.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-sanchez-feijoo-y-abascal-protagonizan-los-actos-de-campana-este-sabado.html"
+  },
+  {
+   "id": "n78",
+   "date": "2026-10-24",
+   "parties": [
+    "sumar",
+    "podemos",
+    "erc",
+    "vox"
+   ],
+   "source": "Vozpópuli",
+   "title": "Colau pide jubilación a los 65 y pensiones mínimas iguales al SMI",
+   "summary": "Ada Colau propuso recuperar la jubilación a los 65 años y que ninguna pensión baje del salario mínimo (1.221 € al mes). Irene Montero y Gabriel Rufián hicieron un mitin conjunto en Barcelona. Abascal prometió en Baleares expulsar por la vía rápida a extranjeros que cometan delitos.",
+   "url": "https://www.vozpopuli.com/espana/politica/elecciones-generales-del-29-n-en-directo-sanchez-feijoo-y-abascal-protagonizan-los-actos-de-campana-este-sabado.html"
+  },
+  {
+   "id": "n79",
+   "date": "2026-10-24",
+   "parties": [
+    "pp",
+    "psoe",
+    "sumar",
+    "bng"
+   ],
+   "source": "Infobae",
+   "title": "Feijóo encabeza la lista del PP por Madrid",
+   "summary": "Le siguen Cayetana Álvarez de Toledo y Borja Sémper. En Castilla y León, PSOE y Frente Amplio irán juntos al Senado: el PSOE ocupa los puestos 1 y 3, y el Frente Amplio el 2. Abascal, Feijóo, Colau y Sánchez serán entrevistados en The Wild Project el 13 de noviembre.",
+   "url": "https://www.infobae.com/espana/2026/10/24/elecciones-generales-en-espana-29-n-en-directo-ultima-hora-de-las-candidaturas-los-sondeos-y-actos-de-sanchez-y-feijoo/"
+  },
+  {
+   "id": "n76",
+   "date": "2026-10-23",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "El Confidencial / IMOP",
+   "title": "IMOP: el PP baja al 28,5 % y el PSOE sube al 27,1 %",
+   "summary": "La encuesta de IMOP para El Confidencial da al PP 123 escaños, al PSOE 113, a Vox 72 (20 %), al Frente Amplio 14 (8,9 %) y a Podemos 1. PP y Vox sumarían 195, por encima de la mayoría absoluta (176), pero 12 menos que en la anterior encuesta de esta empresa.",
+   "url": "https://www.elnacional.cat/es/politica/pp-va-baja-psoe-frente-amplio-recortan-distancia-segun-encuesta_1713775_102.html"
+  },
+  {
+   "id": "n74",
+   "date": "2026-10-22",
+   "parties": [
+    "psoe",
+    "pp",
+    "vox",
+    "sumar"
+   ],
+   "source": "Última Hora",
+   "title": "Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre",
+   "summary": "El PSOE aceptó el debate entre Sánchez y Feijóo que proponía el PP para el 16 de noviembre en una televisión privada (Mediaset). El debate a cuatro (con Abascal y Ada Colau) del 26 de noviembre sigue sin cerrar: el PSOE lo quiere en RTVE y el PP en Atresmedia. RTVE propone además un debate entre portavoces el 23 de noviembre.",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/22/2734515/psoe-acepta-debate-cara-cara-entre-sanchez-feijoo-noviembre.html"
+  },
+  {
+   "id": "n75",
+   "date": "2026-10-22",
+   "parties": [
+    "psoe",
+    "pp"
+   ],
+   "source": "Infobae",
+   "title": "La Junta Electoral Central da parte de razón al PP sobre el CIS",
+   "summary": "La Junta Electoral Central concluyó que el CIS no informó a tiempo a los partidos sobre su barómetro de octubre, como exige la ley, y pidió a su presidente, José Félix Tezanos, que respete la ley electoral durante la campaña. No abrió expediente de sanción por considerarlo una falta leve.",
+   "url": "https://www.infobae.com/espana/2026/10/22/elecciones-generales-29-n-en-directo-ultima-hora-de-los-sondeos-propuestas-de-los-partidos-y-actos-de-los-candidatos/"
+  },
+  {
+   "id": "n73",
+   "date": "2026-10-21",
+   "parties": [
+    "pp"
+   ],
+   "source": "Moncloa.com",
+   "title": "El PP presenta su plan de vivienda: tres leyes en cien días",
+   "summary": "Feijóo propone una nueva ley del suelo (si un ayuntamiento no responde a una licencia en 90 días, se da por concedida), una ley contra la okupación con desalojo en 48 horas y una nueva ley de propiedad horizontal. También, rebajas fiscales a propietarios que alarguen el alquiler 3 años sin subir más que el IPC, menos IRPF para menores de 40 años y avales del 100 % para comprar casa.",
+   "url": "https://www.moncloa.com/2026/10/21/plan-vivienda-pp-feijoo-moreno-sevilla-3453023"
+  },
   {
    "id": "n63",
    "date": "2026-10-19",
