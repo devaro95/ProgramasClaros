@@ -2,11 +2,142 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "Los partidos están en precampaña. El BOE publicó el 28 de octubre las listas presentadas; las definitivas saldrán el 3 de noviembre. Frente Amplio y Podemos van por separado en casi toda España, y PP y Vox se reparten provincias en el Senado. La campaña irá del 13 al 27 de noviembre, el 28 es la jornada de reflexión. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre."
+   "text": "La campaña empieza el 13 de noviembre y acaba el 27; el 28 es la jornada de reflexión. La precampaña se paró tras el accidente de tren de Urda (28 de octubre, 69 muertos) y se ha retomado. Las listas definitivas salieron en el BOE el 3 de noviembre. El 11 de noviembre hay huelga general por la vivienda y los salarios. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre. Ningún partido grande ha publicado aún su programa completo."
   },
-  "updated": "2026-10-29"
+  "updated": "2026-11-06"
  },
  "items": [
+  {
+   "id": "n89",
+   "date": "2026-11-06",
+   "parties": [
+    "psoe",
+    "pp",
+    "vox"
+   ],
+   "source": "Infobae",
+   "title": "La precampaña se reactiva tras el luto por Urda",
+   "summary": "Nueve días después del accidente, los partidos retoman sus actos. Sánchez estuvo en Valencia y abrirá la campaña con un acto en Sevilla; Abascal, en Granada; y Feijóo estará este fin de semana en Málaga con Juanma Moreno. La campaña empieza a las 00:00 del 13 de noviembre.",
+   "url": "https://www.infobae.com/espana/2026/11/06/elecciones-generales-29-n-en-directo-ultima-hora-del-reinicio-de-la-campana-el-accidente-de-urda-o-el-caso-koldo/"
+  },
+  {
+   "id": "n90",
+   "date": "2026-11-05",
+   "parties": [
+    "psoe",
+    "pp"
+   ],
+   "source": "Infobae",
+   "title": "Caso Koldo: Koldo dice que el PP le ofreció dinero por declarar contra Sánchez; el PP lo niega",
+   "summary": "La Cadena SER publicó que Koldo García (condenado a 19 años y 8 meses en el caso mascarillas) afirma que el PP le ofreció un millón de euros, a través de Alberto Durán, por declarar contra Sánchez. El PP lo niega. El mismo día la UCO detuvo a seis personas, entre ellas la pareja de Ábalos, que quedaron libres horas después; Sánchez dijo que no tienen «nada que ver» con él.",
+   "url": "https://www.infobae.com/espana/2026/11/06/elecciones-generales-29-n-en-directo-ultima-hora-del-reinicio-de-la-campana-el-accidente-de-urda-o-el-caso-koldo/"
+  },
+  {
+   "id": "n91",
+   "date": "2026-11-03",
+   "parties": [
+    "psoe",
+    "pp",
+    "sumar",
+    "podemos",
+    "erc",
+    "junts"
+   ],
+   "source": "El Salto",
+   "title": "Óscar Puente dimite y no irá en las listas",
+   "summary": "Tras explicar el accidente de Urda en el Congreso, el ministro de Transportes dejó el cargo y renunció a ser número 1 del PSOE por Valladolid el 29N. El vicepresidente Carlos Cuerpo lleva Transportes de forma provisional. PP, Frente Amplio, Podemos y Junts, entre otros, habían pedido su dimisión.",
+   "url": "https://www.elsaltodiario.com/psoe/dimite-oscar-puente-no-ira-listas-proximas-elecciones"
+  },
+  {
+   "id": "n92",
+   "date": "2026-11-03",
+   "parties": [],
+   "source": "Artículo 14",
+   "title": "El BOE publica las candidaturas definitivas",
+   "summary": "El BOE del 3 de noviembre recoge las listas ya proclamadas al Congreso y al Senado de cada provincia. Ahí se puede consultar quién va en cada lista.",
+   "url": "https://www.articulo14.es/politica/quienes-son-los-candidatos-a-las-elecciones-generales-del-29-de-noviembre-de-2026-20261106.html"
+  },
+  {
+   "id": "n93",
+   "date": "2026-11-03",
+   "parties": [
+    "pp"
+   ],
+   "source": "Moncloa.com",
+   "title": "Feijóo pide una mayoría «clara y fuerte» y que se desconvoque la huelga del 11 de noviembre",
+   "summary": "Feijóo pidió un apoyo amplio el 29N para lo que llama «reconstrucción nacional» y que se desconvoque la huelga general del 11 de noviembre, convocada por CCOO, UGT y otros sindicatos por la vivienda y los salarios. La patronal CEOE apoyó esa petición.",
+   "url": "https://www.moncloa.com/2026/11/03/feijoo-reconstruccion-nacional-mandato-29n-3461130/"
+  },
+  {
+   "id": "n94",
+   "date": "2026-11-03",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "Mapa Electoral",
+   "title": "Primeras encuestas tras Urda: PP y Vox siguen por encima de 176",
+   "summary": "Todas las encuestas publicadas entre el 1 y el 3 de noviembre dan ganador al PP, con entre el 28,3 % (More in Common) y el 33 % (NC Report). El PSOE queda entre el 24,6 % y el 27,6 % y Vox entre el 19,1 % y el 20,8 %. Las que dan escaños sitúan a PP y Vox juntos entre 200 y 210; la mayoría absoluta está en 176.",
+   "url": "https://mapaelectoral.es/encuestas/"
+  },
+  {
+   "id": "n95",
+   "date": "2026-11-01",
+   "parties": [
+    "pp",
+    "erc",
+    "junts"
+   ],
+   "source": "Moncloa.com",
+   "title": "Feijóo promete derogar la amnistía",
+   "summary": "En una entrevista en La Vanguardia, Feijóo dijo que, si gobierna, derogará la ley de amnistía y viajará a Cataluña cada tres meses para dar cuenta de cómo avanzan las obras públicas.",
+   "url": "https://www.moncloa.com/2026/11/01/feijoo-derogar-amnistia-cataluna-3459616"
+  },
+  {
+   "id": "n96",
+   "date": "2026-10-31",
+   "parties": [
+    "vox"
+   ],
+   "source": "Demócrata",
+   "title": "Vox promete devolver a su país a todos los inmigrantes en situación irregular",
+   "summary": "Ignacio Garriga (Vox) dijo en Gran Canaria que, si Vox tiene «fuerza suficiente» tras el 29N, todas las personas en situación irregular en España serán devueltas a sus países de origen.",
+   "url": "https://www.democrata.es/politica/vox-se-compromete-a-expulsar-a-todos-los-migrantes-irregulares-si-logra-fuerza-suficiente-tras-el-29n/"
+  },
+  {
+   "id": "n97",
+   "date": "2026-10-30",
+   "parties": [
+    "psoe",
+    "pp",
+    "sumar",
+    "podemos",
+    "junts"
+   ],
+   "source": "Wikipedia",
+   "title": "Piden la dimisión de Puente; Sánchez lo mantiene",
+   "summary": "Ada Colau (Frente Amplio), Ester Muñoz (PP), Irene Montero (Podemos) y Míriam Nogueras (Junts) pidieron la dimisión del ministro de Transportes. Feijóo dijo que las víctimas murieron porque el Gobierno no renovó un sistema de seguridad antiguo. Sánchez respaldó al ministro al decir que el accidente no tenía que ver con su gestión.",
+   "url": "https://es.wikipedia.org/wiki/Accidente_ferroviario_de_Urda"
+  },
+  {
+   "id": "n98",
+   "date": "2026-10-28",
+   "parties": [
+    "psoe",
+    "pp",
+    "vox",
+    "sumar",
+    "podemos",
+    "salf"
+   ],
+   "source": "elDiario.es",
+   "title": "Accidente de tren en Urda: 69 muertos y la precampaña se para",
+   "summary": "Un AVE chocó con un tren de Iryo cerca de Urda (Toledo), en la línea Madrid-Sevilla. Murieron 69 personas y hubo más de 200 heridos. PSOE, PP, Frente Amplio, Podemos, ERC, EH Bildu, PNV y BNG suspendieron sus actos de precampaña. Vox y Se Acabó La Fiesta mantuvieron los suyos.",
+   "url": "https://www.eldiario.es/politica/accidente-urda-rompe-campana-pone-gobierno-nuevo-cuerdas_1_13622861.html"
+  },
   {
    "id": "n87",
    "date": "2026-10-28",
