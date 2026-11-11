@@ -1,0 +1,288 @@
+{
+ "party": "pp",
+ "election": "29N",
+ "published": "2026-11-10",
+ "generated": "2026-11-11",
+ "coalition": null,
+ "source": {
+  "t": "PP — La Reconstrucción Nacional (programa 29N)",
+  "u": "https://www.pp.es/actualidad/articulos/reparar-el-estado-regenerar-la-democracia-reunir-a-la-nacion-y-recuperar-la-ambicion-los-cuatro-pilares-de-la-reconstruccion-nacional-que-feijoo-cumplira-si-o-si/"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Construir un millón de viviendas con una nueva {{suelo|Ley del Suelo}} y licencias de obra resueltas en tres meses.",
+    "p29-pp"
+   ],
+   [
+    "{{iva|IVA}} del 4 % (ahora 10 %) en la primera vivienda de los menores de 40 años, que se podrá pagar a plazos con la hipoteca.",
+    "p29-pp"
+   ],
+   [
+    "«Hucha Hogar Joven»: ahorrar hasta 2.000 € al año para la primera casa con una deducción del 20 %, y un {{aval|aval}} de hasta 40.000 €.",
+    "p29-pp"
+   ],
+   [
+    "Quitar la {{leyvivienda|Ley de Vivienda}} y dar ventajas fiscales a inquilinos y a dueños que renueven tres años subiendo el alquiler menos que el {{ipc|IPC}}.",
+    "p29-pp"
+   ]
+  ],
+  "trabajo": [
+   [
+    "Quien cobre el {{smi|salario mínimo}} no pagará {{irpf|IRPF}}.",
+    "p29-pp"
+   ],
+   [
+    "Los nuevos autónomos no pagarán {{cuotaautonomo|cuota}} el segundo año si ingresan menos del salario mínimo.",
+    "p29-pp"
+   ],
+   [
+    "Un cheque de formación para cada trabajador y menos cotización por desempleo para empresas con plantillas más estables.",
+    "p29-pp"
+   ],
+   [
+    "Un plan contra el absentismo en el que las mutuas podrán dar el alta en algunas bajas.",
+    "p29-pp"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Al menos 4.500 médicos más en {{atprimaria|atención primaria}} y un plan urgente para bajar las {{listas|listas de espera}}.",
+    "p29-pp"
+   ],
+   [
+    "Historial clínico y tarjeta sanitaria que se puedan consultar en toda España.",
+    "p29-pp"
+   ],
+   [
+    "Un Plan Nacional de {{saludmental|Salud Mental}} 2027–2037 con dinero garantizado.",
+    "p29-pp"
+   ],
+   [
+    "Deducción en el {{irpf|IRPF}} por gastos de tratamiento y cuidados de cáncer, ELA u otras enfermedades graves.",
+    "p29-pp"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Subir las pensiones cada año con el {{ipc|IPC}} y rehacer el {{pactotoledo|Pacto de Toledo}}.",
+    "p29-pp"
+   ],
+   [
+    "Una caja única de la Seguridad Social protegida por ley.",
+    "p29-pp"
+   ],
+   [
+    "Deducciones en el {{irpf|IRPF}} para animar a seguir trabajando después de jubilarse ({{jubactiva|jubilación activa}}).",
+    "p29-pp"
+   ],
+   [
+    "El Estado cotizará por quien deje de trabajar o reduzca su jornada para cuidar a un familiar dependiente.",
+    "p29-pp"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Los jóvenes de 18 a 35 años no pagarán {{irpf|IRPF}} el primer año que trabajen; los tres años siguientes pagarán el 25 %, el 50 % y el 75 %.",
+    "p29-pp"
+   ],
+   [
+    "Actualizar con la inflación los mínimos familiares del IRPF y crear una {{deduccion|deducción}} familiar única que se cobra cada mes, aunque no se pague IRPF.",
+    "p29-pp"
+   ],
+   [
+    "{{iva|IVA}} del 0 % en alimentos básicos mientras dure la crisis de precios.",
+    "p29-pp"
+   ],
+   [
+    "Quitar el impuesto a la generación de electricidad.",
+    "p29-pp"
+   ]
+  ],
+  "educacion": [
+   [
+    "Una {{ebau|selectividad}} (PAU) igual en toda España.",
+    "p29-pp"
+   ],
+   [
+    "{{escuela03|Escuela infantil}} gratis de 0 a 3 años, con el Estado pagando la mitad de cada plaza.",
+    "p29-pp"
+   ],
+   [
+    "Que la beca sea un derecho por ley y FP de mucha demanda sin pagar matrícula.",
+    "p29-pp"
+   ],
+   [
+    "Pasar de curso en la ESO solo con las asignaturas aprobadas, con refuerzo antes de repetir, y sin redes sociales para menores de 14 años.",
+    "p29-pp"
+   ]
+  ],
+  "inmigracion": [
+   [
+    "Identificar en un máximo de 7 días a quien cruce la frontera de forma ilegal y {{expulsion|devolverlo}} sin demora, con el nuevo sistema europeo.",
+    "p29-pp"
+   ],
+   [
+    "Cupos anuales de inmigrantes por sectores, solo de países que colaboren en las devoluciones, y centros de retorno en otros países.",
+    "p29-pp"
+   ],
+   [
+    "Para renovar la residencia, aprender español y conocer la Constitución; prohibir el burka y el niqab en espacios públicos.",
+    "p29-pp"
+   ],
+   [
+    "Una nueva ley de nacionalidad, y perder la nacionalidad (si no es de origen) por condena firme por delitos graves.",
+    "p29-pp"
+   ]
+  ],
+  "energia": [
+   [
+    "En los primeros 100 días, tramitar que las {{nuclear|centrales nucleares}} (Almaraz, Ascó, Vandellós, Cofrentes y Trillo) funcionen más años.",
+    "p29-pp"
+   ],
+   [
+    "Revisar el plan de energía y clima: mantener el objetivo de descarbonizar, pero con plazos más lentos.",
+    "p29-pp"
+   ],
+   [
+    "Una tarifa social única que sustituya a los {{bonosocial|bonos}} eléctrico y térmico.",
+    "p29-pp"
+   ],
+   [
+    "Resolver en 18 meses los problemas para conectarse a la red eléctrica.",
+    "p29-pp"
+   ]
+  ],
+  "igualdad": [
+   [
+    "Que las pulseras de alejamiento dependan del Ministerio del Interior y unir en VioGen los servicios de comunidades y ayuntamientos.",
+    "p29-pp"
+   ],
+   [
+    "Una ley integral contra la trata de personas.",
+    "p29-pp"
+   ],
+   [
+    "Revisar la {{leytrans|Ley Trans}} para quitar el cambio de sexo en el registro por simple declaración.",
+    "p29-pp"
+   ]
+  ],
+  "familias": [
+   [
+    "Una {{deduccion|deducción}} familiar única que se cobra cada mes, también para quien no paga IRPF.",
+    "p29-pp"
+   ],
+   [
+    "Que los hijos que aún no han nacido cuenten para pedir ayudas.",
+    "p29-pp"
+   ],
+   [
+    "Ampliar los permisos por nacimiento, y que los autónomos que vuelvan del permiso paguen cuota bonificada al 100 % durante dos años.",
+    "p29-pp"
+   ],
+   [
+    "El Estado pagará la mitad del coste público de la dependencia y las familias podrán deducir el 40 % del cuidado profesional de un mayor dependiente.",
+    "p29-pp"
+   ]
+  ],
+  "justicia": [
+   [
+    "Que los jueces elijan a los 12 vocales jueces del {{cgpj|CGPJ}}.",
+    "p29-pp"
+   ],
+   [
+    "Un fiscal general con un solo mandato de 5 años, que no acabe con el Gobierno que lo propuso.",
+    "p29-pp"
+   ],
+   [
+    "Juicios rápidos para quienes repiten delitos leves como el hurto o la okupación.",
+    "p29-pp"
+   ],
+   [
+    "{{ppr|Prisión permanente revisable}} para violadores y pederastas reincidentes, y penas más duras por {{malversacion|malversación}}.",
+    "p29-pp"
+   ]
+  ],
+  "territorio": [
+   [
+    "Una Conferencia de Presidentes al empezar la legislatura y un fondo transitorio del Estado para la {{financiacion|financiación autonómica}}.",
+    "p29-pp"
+   ],
+   [
+    "No ceder Hacienda, Seguridad Social, Defensa, política exterior ni fronteras a cambio de apoyos en el Congreso.",
+    "p29-pp"
+   ],
+   [
+    "Derecho a estudiar en castellano en todas las etapas y a ser atendido por la Administración en la lengua oficial que elijas.",
+    "p29-pp"
+   ],
+   [
+    "Ayudas directas a los municipios de menos de 250 habitantes.",
+    "p29-pp"
+   ]
+  ],
+  "campo": [
+   [
+    "Un Pacto Nacional del Agua con hasta 40.000 millones hasta 2030 y un plan para renovar presas.",
+    "p29-pp"
+   ],
+   [
+    "Un pacto nacional para el campo, el mar y el monte, con un seguro de ingresos para los agricultores.",
+    "p29-pp"
+   ],
+   [
+    "Defender una {{pac|PAC}} sin recortes.",
+    "p29-pp"
+   ]
+  ],
+  "politica": [
+   [
+    "Si los presupuestos se prorrogan dos años seguidos, se disolverán las Cortes y habrá elecciones.",
+    "p29-pp"
+   ],
+   [
+    "Que nadie entre al {{tc|Tribunal Constitucional}} si ha tenido un cargo político en los 5 años anteriores.",
+    "p29-pp"
+   ],
+   [
+    "Revisar todo el gasto público en los primeros 100 días, con menos ministerios, altos cargos y asesores.",
+    "p29-pp"
+   ],
+   [
+    "No indultar a políticos condenados por corrupción, un registro obligatorio de lobbies y una nueva {{secretos|Ley de Secretos Oficiales}}.",
+    "p29-pp"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "v1": "Que se construya más (un millón de casas con más {{suelo|suelo}}) y ayudar a comprar: {{iva|IVA}} del 4 % y {{aval|aval}} para menores de 40.",
+  "v2": "Quitarla.",
+  "v3": "Tolerancia cero, que el dueño no pague el {{ibi|IBI}} mientras la casa esté okupada e impedir que el okupa se empadrone en ella.",
+  "t4": "Que el nuevo autónomo que ingrese menos del salario mínimo no pague cuota el segundo año.",
+  "s1": "No propone añadir servicios: 4.500 médicos más en {{atprimaria|atención primaria}} y un plan de salud mental.",
+  "s2": "Plan urgente para bajar las listas de espera, sin plazos concretos.",
+  "s3": "Mantener el sistema actual, con historial y tarjeta sanitaria válidos en toda España.",
+  "p1": "Subirlas con el {{ipc|IPC}}.",
+  "p2": "Rehacer el {{pactotoledo|Pacto de Toledo}} y proteger por ley la caja única de la Seguridad Social.",
+  "i1": "Bajar impuestos: sin {{irpf|IRPF}} el primer año para jóvenes, mínimos familiares ajustados a la inflación e {{iva|IVA}} cero en alimentos básicos mientras duren los precios altos.",
+  "e1": "La {{escuela03|escuela infantil}} de 0 a 3 años.",
+  "e2": "Una {{ebau|selectividad}} igual en toda España, más exigencia para pasar de curso y derecho a estudiar en castellano en todas las etapas.",
+  "m1": "Cupos anuales por sectores, {{expulsion|devolver}} en 7 días a quien entre ilegalmente y centros de retorno en otros países.",
+  "m2": "Saber su edad en 72 horas como máximo y una protección individual con retorno, en lugar de repartirlos.",
+  "en1": "Que funcionen más años.",
+  "en2": "Mantener el objetivo de descarbonizar, pero revisar los plazos, que considera imposibles.",
+  "g1": "No propone cambiarla: pulseras de alejamiento a cargo de Interior, VioGen unificado y rendir cuentas del {{pactovg|Pacto de Estado}} cada año.",
+  "g2": "Revisarla para quitar el cambio de sexo en el registro por simple declaración.",
+  "f1": "Una {{deduccion|deducción}} familiar única que se cobra cada mes, y que los hijos aún no nacidos cuenten para las ayudas.",
+  "f2": "Ampliar los permisos por nacimiento, sin decir cuánto.",
+  "j1": "Que los jueces elijan a los 12 vocales jueces del {{cgpj|CGPJ}}.",
+  "j2": "{{ppr|Prisión permanente revisable}} para violadores y pederastas reincidentes, y endurecer la {{malversacion|malversación}} y los desórdenes públicos.",
+  "te1": "Mantener el modelo, con un fondo transitorio para la {{financiacion|financiación}} y sin ceder competencias del Estado a cambio de apoyos.",
+  "c1": "Un Pacto Nacional del Agua con hasta 40.000 millones hasta 2030 y renovar las presas.",
+  "c2": "Un seguro de ingresos para el agricultor y una {{pac|PAC}} sin recortes.",
+  "po1": "Que nadie entre al {{tc|Tribunal Constitucional}} si ha tenido un cargo político en los últimos 5 años.",
+  "po2": "Cambiarla por una ley de «concordia»."
+ },
+ "expl": {}
+}

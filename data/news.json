@@ -2,11 +2,75 @@
  "meta": {
   "highlight": {
    "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "La campaña empieza el 13 de noviembre y acaba el 27; el 28 es la jornada de reflexión. La precampaña se paró tras el accidente de tren de Urda (28 de octubre, 69 muertos) y se ha retomado. Las listas definitivas salieron en el BOE el 3 de noviembre. El 11 de noviembre hay huelga general por la vivienda y los salarios. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre. Ningún partido grande ha publicado aún su programa completo."
+   "text": "La campaña empieza el viernes 13 de noviembre y acaba el 27; el 28 es la jornada de reflexión. El PP presentó su programa el 10 de noviembre y ya lo ves en la web como «Programa 29N»; el resto de partidos aún no ha publicado el suyo completo. El 11 de noviembre hay huelga general por la vivienda y los salarios. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre. Las encuestas se pueden publicar hasta el 23."
   },
-  "updated": "2026-11-06"
+  "updated": "2026-11-11"
  },
  "items": [
+  {
+   "id": "n99",
+   "date": "2026-11-11",
+   "parties": [
+    "pp",
+    "sumar",
+    "psoe"
+   ],
+   "source": "Euronews",
+   "title": "Huelga general por la vivienda y los salarios",
+   "summary": "CCOO, UGT, CGT, CNT y el Sindicato de Inquilinas convocaron un paro de 24 horas. UGT habló de seguimiento «masivo». Para el PP es una huelga «preventiva» contra un posible Gobierno de Feijóo; desde la patronal la llamaron «política». Es la primera huelga general con Sánchez en el Gobierno.",
+   "url": "https://es.euronews.com/2026/11/11/la-huelga-general-arranca-en-espana-en-protesta-por-la-crisis-de-la-vivienda-y-los-bajos-s"
+  },
+  {
+   "id": "n100",
+   "date": "2026-11-10",
+   "parties": [
+    "pp"
+   ],
+   "source": "Partido Popular",
+   "title": "El PP presenta su programa para el 29N",
+   "summary": "Se llama «La Reconstrucción Nacional»: 82 páginas y 249 medidas. Entre ellas: un millón de viviendas, IVA del 4 % en la primera casa para menores de 40, sin IRPF el primer año para jóvenes de 18 a 35, subir las pensiones con el IPC, 4.500 médicos más y cupos anuales de inmigración. Ya puedes verlo en la web, tema a tema, marcado como «Programa 29N».",
+   "url": "https://www.pp.es/actualidad/articulos/reparar-el-estado-regenerar-la-democracia-reunir-a-la-nacion-y-recuperar-la-ambicion-los-cuatro-pilares-de-la-reconstruccion-nacional-que-feijoo-cumplira-si-o-si/"
+  },
+  {
+   "id": "n101",
+   "date": "2026-11-10",
+   "parties": [
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "Artículo 14",
+   "title": "El resto de partidos aún no ha publicado su programa",
+   "summary": "PSOE, Vox, Frente Amplio y Podemos han adelantado propuestas, pero a 10 de noviembre ninguno había publicado su programa completo ni dado una fecha para hacerlo. La campaña empieza el 13.",
+   "url": "https://www.articulo14.es/politica/elecciones-generales-del-29n-cuando-publicaran-psoe-pp-vox-frente-amplio-y-demas-partidos-sus-programas-electorales-20261110.html"
+  },
+  {
+   "id": "n102",
+   "date": "2026-11-09",
+   "parties": [
+    "vox"
+   ],
+   "source": "Ara",
+   "title": "Abascal, entrevistado en «La Revuelta»",
+   "summary": "El candidato de Vox fue a la entrevista de David Broncano en La 1, después de que la productora cancelara las entradas del público. Hubo momentos de tensión sobre Israel, el cambio climático o la violencia de género. A la salida, Abascal dijo que fue «más un debate» que una entrevista.",
+   "url": "https://es.ara.cat/politica/no-has-tenido-huevos-denunciar-genocidio-israel-broncano-abascal-enganchan-revuelta_1_5905690.html"
+  },
+  {
+   "id": "n103",
+   "date": "2026-11-09",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "Demócrata",
+   "title": "Muchas encuestas el fin de semana, con distancias muy distintas",
+   "summary": "Entre el 7 y el 10 de noviembre salieron más de diez encuestas. Casi todas dan ganador al PP, con entre 2 puntos (40dB) y 8 puntos (Data10) sobre el PSOE, y a PP y Vox por encima de 176 escaños. La de SW Demoscopia pone primero al PSOE. La media de 15 empresas: PP 31,5 %, PSOE 26,8 %, Vox 19,1 % y Frente Amplio 6,2 %.",
+   "url": "https://www.democrata.es/en/center-of-surveys-and-electoral-polls/general-elections/outrage-over-the-polls-for-the-general-elections-10-keys-to-the-chaos-of-29n/"
+  },
   {
    "id": "n89",
    "date": "2026-11-06",
