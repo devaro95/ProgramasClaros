@@ -1,12 +1,95 @@
 {
  "meta": {
   "highlight": {
-   "title": "Elecciones generales el 29 de noviembre de 2026",
-   "text": "La campaña empieza el viernes 13 de noviembre y acaba el 27; el 28 es la jornada de reflexión. El PP presentó su programa el 10 de noviembre y ya lo ves en la web como «Programa 29N»; el resto de partidos aún no ha publicado el suyo completo. El 11 de noviembre hay huelga general por la vivienda y los salarios. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre. Las encuestas se pueden publicar hasta el 23."
+   "title": "Arranca la campaña del 29N",
+   "text": "La campaña empezó el 13 de noviembre y acaba el 27; el 28 es la jornada de reflexión. Ya puedes ver como «Programa 29N» los programas del PP, ERC, BNG y Coalición Canaria; PSOE, Vox, Frente Amplio y Podemos aún no han publicado el suyo. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre. Las encuestas se pueden publicar hasta el 23."
   },
-  "updated": "2026-11-11"
+  "updated": "2026-11-13"
  },
  "items": [
+  {
+   "id": "n110",
+   "date": "2026-11-03",
+   "parties": [
+    "bng"
+   ],
+   "source": "BNG",
+   "title": "El BNG publica su programa para el 29N",
+   "summary": "«29N. Xerais 2026», 91 páginas en gallego. Propone topar el alquiler por ley, jornada de 35 horas, salario mínimo al 60 % del sueldo medio y un concierto económico para Galicia. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/03/26_bng_xerais_documentos_programa_electoral.pdf"
+  },
+  {
+   "id": "n109",
+   "date": "2026-11-05",
+   "parties": [
+    "erc"
+   ],
+   "source": "Demócrata",
+   "title": "ERC presenta su programa: referéndum, financiación singular y Rodalies",
+   "summary": "Lema «Defensa't» y 258 propuestas en tres ejes. Entre ellas: negociar un referéndum de autodeterminación, un salario mínimo catalán de 1.460 € y jornada de 37,5 horas. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+  },
+  {
+   "id": "n108",
+   "date": "2026-11-08",
+   "parties": [
+    "vox"
+   ],
+   "source": "Vozpópuli",
+   "title": "Vox elige «Es sentido común» como lema",
+   "summary": "Es el lema con el que Vox concurre a las elecciones del 29 de noviembre.",
+   "url": "https://www.vozpopuli.com/espana/elecciones-generales-del-29-n-en-directo-sanchez-feijoo-pepa-millan-y-ada-colau-protagonizan-los-actos-de-este-domingo.html"
+  },
+  {
+   "id": "n107",
+   "date": "2026-11-09",
+   "parties": [
+    "cc"
+   ],
+   "source": "elDiario.es",
+   "title": "CC y Primero Canarias presentan su programa «Defiende Canarias»",
+   "summary": "Diez causas y 100 medidas: un fondo estatal de 8 años para vivienda pública, limitar la compra de casas por extranjeros no residentes, un plan de empleo para menores de 35 y mantener el POSEI. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.eldiario.es/canariasahora/politica/cc-canarias-presenta-programa-electoral-29n_1_13650673.html"
+  },
+  {
+   "id": "n106",
+   "date": "2026-11-13",
+   "parties": [
+    "cc",
+    "pp",
+    "vox"
+   ],
+   "source": "Libertad Digital",
+   "title": "CC no investiría a Feijóo si Vox entra en el Gobierno",
+   "summary": "Teodoro Sosa, cabeza de lista de Primero Canarias-CC por Las Palmas, lo descarta y remite a la Agenda Canaria para negociar con PP o PSOE.",
+   "url": "https://www.libertaddigital.com/canarias/2026-11-13/teodoro-sosa-rechaza-investir-a-feijoo-si-vox-entra-en-el-gobierno-7490992/"
+  },
+  {
+   "id": "n105",
+   "date": "2026-11-12",
+   "parties": [
+    "pp"
+   ],
+   "source": "Demócrata",
+   "title": "El PP arranca en Badalona con el lema «El cambio necesario»",
+   "summary": "Feijóo eligió Badalona para la pegada de carteles, junto al alcalde Xavier García Albiol, cabeza de lista del PP por Barcelona.",
+   "url": "https://www.democrata.es/politica/ampliacion-feijoo-apuesta-por-el-cambio-necesario-como-lema-de-su-campana-que-se-inicia-el-jueves-12-en-badalona/"
+  },
+  {
+   "id": "n104",
+   "date": "2026-11-13",
+   "parties": [
+    "pp",
+    "psoe",
+    "vox",
+    "sumar",
+    "podemos"
+   ],
+   "source": "Demócrata",
+   "title": "Arranca la campaña electoral",
+   "summary": "La campaña empezó a las 00:00 del viernes 13, tras la pegada de carteles de la noche del jueves. Dura 15 días, hasta el viernes 27. El sábado 28 es jornada de reflexión y el domingo 29 se vota.",
+   "url": "https://www.democrata.es/elecciones-generales-espana/cuando-empieza-campana-electoral-29n-dia/"
+  },
   {
    "id": "n99",
    "date": "2026-11-11",
@@ -41,8 +124,8 @@
     "podemos"
    ],
    "source": "Artículo 14",
-   "title": "El resto de partidos aún no ha publicado su programa",
-   "summary": "PSOE, Vox, Frente Amplio y Podemos han adelantado propuestas, pero a 10 de noviembre ninguno había publicado su programa completo ni dado una fecha para hacerlo. La campaña empieza el 13.",
+   "title": "PSOE, Vox, Frente Amplio y Podemos aún no han publicado su programa",
+   "summary": "Han adelantado propuestas, pero a 10 de noviembre ninguno había publicado su programa completo ni dado fecha. Entre los partidos con diputados, sí lo habían hecho el PP, ERC, el BNG y Coalición Canaria.",
    "url": "https://www.articulo14.es/politica/elecciones-generales-del-29n-cuando-publicaran-psoe-pp-vox-frente-amplio-y-demas-partidos-sus-programas-electorales-20261110.html"
   },
   {

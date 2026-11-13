@@ -1,0 +1,193 @@
+{
+ "party": "erc",
+ "election": "29N",
+ "published": "2026-11-05",
+ "generated": "2026-11-13",
+ "coalition": null,
+ "source": {
+  "t": "ERC — «Defensa't» (programa 29N, resumen de Demócrata)",
+  "u": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-erc-29n-referendum/"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Una ley de alquileres propia para Cataluña.",
+    "p29-erc"
+   ],
+   [
+    "Que el Estado ceda gratis y ya a Cataluña los pisos de la {{sareb|Sareb}} que tiene allí.",
+    "p29-erc"
+   ],
+   [
+    "{{iva|IVA}} del 21 % para los pisos turísticos.",
+    "p29-erc"
+   ],
+   [
+    "Dedicar al menos el 1,5 % del {{pib|PIB}} a vivienda.",
+    "p29-erc"
+   ]
+  ],
+  "trabajo": [
+   [
+    "Un {{smi|salario mínimo}} catalán de 1.460 €, y el estatal hasta el 60 % del {{salariomedio|sueldo medio}}.",
+    "p29-erc"
+   ],
+   [
+    "Jornada máxima de 37,5 horas a la semana sin bajar el sueldo.",
+    "p29-erc"
+   ],
+   [
+    "45 días de {{indemnizacion|indemnización}} por despido improcedente, con un máximo de 42 mensualidades.",
+    "p29-erc"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Dentista completo en la sanidad pública: caries, endodoncias y prótesis.",
+    "p29-erc"
+   ],
+   [
+    "{{saludmental|Salud mental}} y atención psicológica gratis para todos.",
+    "p29-erc"
+   ],
+   [
+    "Que la sanidad pública pague gafas graduadas y lentillas.",
+    "p29-erc"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Subir las pensiones con un {{ipc|IPC}} propio de cada territorio.",
+    "p29-erc"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Hacer permanentes los impuestos extraordinarios a grandes fortunas, banca y eléctricas.",
+    "p29-erc"
+   ],
+   [
+    "Subir del 30 % al 35 % el tipo máximo sobre las ganancias de capital.",
+    "p29-erc"
+   ],
+   [
+    "Que paguen menos quienes ganen menos de 35.000 € al año por su trabajo.",
+    "p29-erc"
+   ]
+  ],
+  "educacion": [
+   [
+    "Dedicar el 6 % del {{pib|PIB}} a educación.",
+    "p29-erc"
+   ],
+   [
+    "{{escuela03|Escuela infantil}} pública y gratis de 0 a 3 años, poco a poco.",
+    "p29-erc"
+   ],
+   [
+    "Blindar la enseñanza en catalán frente a sentencias que fijan un porcentaje de castellano.",
+    "p29-erc"
+   ]
+  ],
+  "inmigracion": [
+   [
+    "Que la Generalitat gestione toda la inmigración y el asilo.",
+    "p29-erc"
+   ]
+  ],
+  "energia": [],
+  "igualdad": [
+   [
+    "Reconocer por ley las identidades no binarias.",
+    "p29-erc"
+   ],
+   [
+    "Que las terapias de conversión sean delito.",
+    "p29-erc"
+   ]
+  ],
+  "familias": [
+   [
+    "Una prestación universal por crianza desde 200 € al mes por familia.",
+    "p29-erc"
+   ],
+   [
+    "Que las familias monoparentales tengan los mismos derechos que las numerosas.",
+    "p29-erc"
+   ],
+   [
+    "Un permiso pagado por duelo gestacional.",
+    "p29-erc"
+   ]
+  ],
+  "justicia": [
+   [
+    "180 plazas más de jueces en Cataluña.",
+    "p29-erc"
+   ],
+   [
+    "Quitar la {{leymordaza|ley mordaza}}.",
+    "p29-erc"
+   ],
+   [
+    "Que dejen de ser delito las ofensas a los sentimientos religiosos y las {{injurias|injurias a la Corona}}.",
+    "p29-erc"
+   ]
+  ],
+  "territorio": [
+   [
+    "Negociar con el Estado un {{autodeterminacion|referéndum de autodeterminación}}, con mediación de la UE y del Consejo de Europa.",
+    "p29-erc"
+   ],
+   [
+    "Aplicar la {{financiacion|financiación}} singular pactada en enero de 2026 (4.700 millones más al año, según ERC) y perdonar más de 17.100 millones de deuda.",
+    "p29-erc"
+   ],
+   [
+    "Que la Agència Tributària de Catalunya recaude poco a poco los impuestos del Estado generados en Cataluña.",
+    "p29-erc"
+   ],
+   [
+    "Traspasar a Cataluña {{rodalies|Rodalies}} y los aeropuertos de Girona, Reus y Sabadell.",
+    "p29-erc"
+   ]
+  ],
+  "campo": [],
+  "politica": [
+   [
+    "Una ley estatal de plurilingüismo y que el catalán, el occitano y la lengua de signos catalana sean oficiales en la UE.",
+    "p29-erc"
+   ],
+   [
+    "Embargo total de armas a Israel.",
+    "p29-erc"
+   ],
+   [
+    "Volver a la posición anterior a 2022 sobre el Sáhara Occidental.",
+    "p29-erc"
+   ],
+   [
+    "Dedicar el 0,7 % a ayuda al desarrollo.",
+    "p29-erc"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "t1": "Bajar a 37,5 horas sin bajar el sueldo.",
+  "t2": "Uno propio de Cataluña de 1.460 €, y el estatal al 60 % del {{salariomedio|sueldo medio}}.",
+  "t3": "Recuperar los 45 días de indemnización por despido.",
+  "s1": "Añadir dentista, gafas y lentillas, y {{saludmental|salud mental}} y psicólogo gratis.",
+  "p1": "Subirlas con un {{ipc|IPC}} propio de cada territorio.",
+  "i1": "Hacer permanentes los impuestos a banca, eléctricas y grandes fortunas, subir el del ahorro y bajarlo a los sueldos de menos de 35.000 €.",
+  "i2": "Hacer permanente el {{grandesfortunas|impuesto a las grandes fortunas}}.",
+  "e1": "La {{escuela03|escuela infantil}} de 0 a 3 años.",
+  "e2": "Proteger los modelos educativos y lingüísticos propios.",
+  "m1": "Que la Generalitat gestione la inmigración y el asilo.",
+  "f1": "Una prestación universal por crianza.",
+  "j2": "Quitar la {{leymordaza|ley mordaza}} y que no sean delito las {{injurias|injurias a la Corona}}.",
+  "te1": "Una {{financiacion|financiación}} singular, que Cataluña recaude sus impuestos y traspasarle Rodalies y aeropuertos.",
+  "te2": "Negociar con el Estado un {{autodeterminacion|referéndum de autodeterminación}}."
+ },
+ "expl": {}
+}

@@ -1,0 +1,257 @@
+{
+ "party": "bng",
+ "election": "29N",
+ "published": "2026-11-03",
+ "generated": "2026-11-13",
+ "coalition": null,
+ "source": {
+  "t": "BNG — 29N. Xerais 2026 (programa electoral)",
+  "u": "https://www.bng.gal/media/bnggaliza/files/2026/11/03/26_bng_xerais_documentos_programa_electoral.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Topar por ley el precio del alquiler y que los contratos sean indefinidos, con renovación automática.",
+    "p29-bng"
+   ],
+   [
+    "Prohibir los desahucios de personas vulnerables y parar cualquier desalojo sin alternativa de vivienda.",
+    "p29-bng"
+   ],
+   [
+    "Dedicar el 3 % de los Presupuestos del Estado a casas públicas de alquiler permanente.",
+    "p29-bng"
+   ],
+   [
+    "Un canon de al menos 10 €/m² a las casas vacías de grandes propietarios desocupadas 5 años o más.",
+    "p29-bng"
+   ]
+  ],
+  "trabajo": [
+   [
+    "{{jornada|Jornada}} de 35 horas sin bajar el sueldo y, más adelante, de 32 horas en cuatro días.",
+    "p29-bng"
+   ],
+   [
+    "{{smi|Salario mínimo}} del 60 % del {{salariomedio|sueldo medio}}.",
+    "p29-bng"
+   ],
+   [
+    "Quitar del todo las {{reformalaboral|reformas laborales}}.",
+    "p29-bng"
+   ],
+   [
+    "45 días de {{indemnizacion|indemnización}} por despido improcedente, con un máximo de 42 mensualidades.",
+    "p29-bng"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Una nueva ley para que la sanidad pública atienda a todos, sin exclusiones.",
+    "p29-bng"
+   ],
+   [
+    "Criterios mínimos y públicos para las {{listas|listas de espera}} de consultas, pruebas y operaciones.",
+    "p29-bng"
+   ],
+   [
+    "Que el Estado pague el 50 % de la dependencia y salde una deuda de más de 3.000 millones.",
+    "p29-bng"
+   ],
+   [
+    "Que Galicia participe en fijar el precio de los medicamentos.",
+    "p29-bng"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Subir las pensiones cada año con el {{ipc|IPC}} real.",
+    "p29-bng"
+   ],
+   [
+    "Quitar las reformas de pensiones de 2011, 2013, 2021 y 2023.",
+    "p29-bng"
+   ],
+   [
+    "Jubilarse sin penalización tras 35 años cotizados.",
+    "p29-bng"
+   ],
+   [
+    "Subir ya las {{nocontributiva|no contributivas}} al 75 % del umbral de pobreza.",
+    "p29-bng"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Blindar el {{grandesfortunas|impuesto a las grandes fortunas}}, con menos exenciones y {{progresivo|más progresivo}}.",
+    "p29-bng"
+   ],
+   [
+    "{{iva|IVA}} del 5 % para siempre en luz, gas, biomasa y leña.",
+    "p29-bng"
+   ],
+   [
+    "Un precio máximo por ley para la gasolina y el diésel.",
+    "p29-bng"
+   ],
+   [
+    "Un recargo en el {{sociedades|Impuesto de Sociedades}} a fondos y socimis que no cumplan la función social de la vivienda.",
+    "p29-bng"
+   ]
+  ],
+  "educacion": [
+   [
+    "Enseñanza obligatoria de 3 a 18 años.",
+    "p29-bng"
+   ],
+   [
+    "Cambiar lo que considera perjudicial de la {{lomloe|LOMLOE}}, la ley de universidades y la ley de {{fp|FP}}.",
+    "p29-bng"
+   ],
+   [
+    "Pagar las prácticas de los estudiantes.",
+    "p29-bng"
+   ],
+   [
+    "Un protocolo estatal contra el acoso y el ciberacoso escolar.",
+    "p29-bng"
+   ]
+  ],
+  "inmigracion": [
+   [
+    "{{regularizacion|Regularizar}} a los inmigrantes para que no estar en situación irregular no sirva para explotarlos.",
+    "p29-bng"
+   ],
+   [
+    "Acabar con las {{devoluciones|devoluciones en caliente}}.",
+    "p29-bng"
+   ],
+   [
+    "Homologar más rápido los títulos de fuera, también a los emigrantes que vuelven.",
+    "p29-bng"
+   ],
+   [
+    "Que saber gallego cuente para la nacionalidad, sin exigir castellano.",
+    "p29-bng"
+   ]
+  ],
+  "energia": [
+   [
+    "Que Galicia decida sobre las instalaciones de energía de más de 50 MW.",
+    "p29-bng"
+   ],
+   [
+    "Limitar la minería a cielo abierto y prohibir el cianuro.",
+    "p29-bng"
+   ],
+   [
+    "Anular la prórroga de Ence en la ría de Pontevedra.",
+    "p29-bng"
+   ],
+   [
+    "Que los centros de datos funcionen al 100 % con {{renovables|renovables}} propias.",
+    "p29-bng"
+   ]
+  ],
+  "igualdad": [
+   [
+    "Una reforma legal que cubra todas las violencias contra las mujeres y dé rango de ley a la violencia vicaria.",
+    "p29-bng"
+   ],
+   [
+    "Que las pulseras de control y los informes forenses de riesgo sean de gestión pública y directa.",
+    "p29-bng"
+   ],
+   [
+    "Reconocer a las personas no binarias y proteger a los menores trans de menos de 12 años.",
+    "p29-bng"
+   ]
+  ],
+  "familias": [],
+  "justicia": [
+   [
+    "Quitar la {{ppr|prisión permanente revisable}} y el delito de {{injurias|injurias a la Corona}}.",
+    "p29-bng"
+   ],
+   [
+    "Traspasar las cárceles (Instituciones Penitenciarias) a Galicia.",
+    "p29-bng"
+   ],
+   [
+    "Prohibir que la inteligencia artificial sustituya decisiones de los jueces.",
+    "p29-bng"
+   ],
+   [
+    "Hacer real el uso del gallego en la justicia.",
+    "p29-bng"
+   ]
+  ],
+  "territorio": [
+   [
+    "Un {{concierto|concierto económico}} para Galicia y traspasarle más competencias.",
+    "p29-bng"
+   ],
+   [
+    "Cambios legales para permitir referendos vinculantes, también de {{autodeterminacion|autodeterminación}}.",
+    "p29-bng"
+   ],
+   [
+    "Que la AP-9 sea gallega, pública y sin peajes.",
+    "p29-bng"
+   ],
+   [
+    "Suprimir la administración periférica del Estado en Galicia.",
+    "p29-bng"
+   ]
+  ],
+  "campo": [
+   [
+    "Rechazar el acuerdo UE-Mercosur y los recortes previstos en la {{pac|PAC}} (22 %) y en el fondo pesquero (67 %).",
+    "p29-bng"
+   ],
+   [
+    "Reconocer en el Código Civil la propiedad comunal del monte (casi 700.000 hectáreas).",
+    "p29-bng"
+   ]
+  ],
+  "politica": [
+   [
+    "Salir de la OTAN y retirar las tropas de sus misiones.",
+    "p29-bng"
+   ],
+   [
+    "Votar desde los 16 años y quitar el mínimo del 5 % en la ley electoral.",
+    "p29-bng"
+   ],
+   [
+    "Quitar la {{secretos|Ley de Secretos Oficiales}} y la de Seguridad Nacional.",
+    "p29-bng"
+   ],
+   [
+    "Reformar la {{memoria|Ley de Memoria}} para que las víctimas del franquismo puedan ir a los tribunales.",
+    "p29-bng"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "v1": "Topar por ley el alquiler y dedicar el 3 % de los Presupuestos a casas públicas de alquiler.",
+  "v2": "Ir más allá: que los alquileres se prorroguen automáticamente sin límite.",
+  "t1": "Bajar a 35 horas sin bajar el sueldo y, más adelante, a 32 en cuatro días.",
+  "t2": "Que sea el 60% del sueldo medio.",
+  "t3": "Quitarla.",
+  "s2": "Criterios mínimos y públicos para las listas de espera, sin cifras.",
+  "p1": "Subirlas con el {{ipc|IPC}}.",
+  "p2": "Quitar las reformas de pensiones de 2011, 2013, 2021 y 2023.",
+  "i2": "Endurecer los impuestos a las grandes fortunas.",
+  "m1": "{{regularizacion|Regularizar}} a quien vive sin papeles y acabar con las {{devoluciones|devoluciones en caliente}}.",
+  "g1": "Ampliarla a todas las violencias contra las mujeres y dar rango de ley a la violencia vicaria.",
+  "g2": "Reconocer a las personas no binarias y proteger a los menores trans de menos de 12 años.",
+  "j2": "Quitar la {{ppr|prisión permanente revisable}} y que no sean delito las {{injurias|injurias a la Corona}}.",
+  "te1": "Un {{concierto|concierto económico}} para Galicia y más competencias.",
+  "te2": "El {{autodeterminacion|derecho de autodeterminación}} también para Galicia.",
+  "po1": "Acabar con la {{secretos|Ley de Secretos Oficiales}}.",
+  "po2": "Reformarla para que las víctimas del franquismo puedan ir a los tribunales."
+ },
+ "expl": {}
+}

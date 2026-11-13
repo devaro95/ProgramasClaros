@@ -1,0 +1,112 @@
+{
+ "party": "cc",
+ "election": "29N",
+ "published": "2026-11-09",
+ "generated": "2026-11-13",
+ "coalition": "Coalición Canaria – Primero Canarias",
+ "source": {
+  "t": "CC – Primero Canarias — «Defiende Canarias» (programa 29N)",
+  "u": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Un fondo del Estado durante 8 años para construir y rehabilitar casas públicas asequibles.",
+    "p29-cc"
+   ],
+   [
+    "Cambiar la ley para limitar la compra de casas por extranjeros que no viven en Canarias.",
+    "p29-cc"
+   ],
+   [
+    "Regular el alquiler vacacional en las zonas con más presión sobre la vivienda.",
+    "p29-cc"
+   ]
+  ],
+  "trabajo": [
+   [
+    "Un plan de empleo de cuatro años para menores de 35.",
+    "p29-cc"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Más dinero del Estado para sanidad, dependencia y {{saludmental|salud mental}} en Canarias.",
+    "p29-cc"
+   ],
+   [
+    "Que el Estado pague el 50 % de la dependencia, con dinero solo para eso.",
+    "p29-cc"
+   ],
+   [
+    "Una compensación del Estado por lo que encarece la sanidad estar en islas y lejos.",
+    "p29-cc"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Que las ayudas que dé Canarias se puedan cobrar junto a una pensión {{nocontributiva|no contributiva}}, sin pagar impuestos ni reducirla.",
+    "p29-cc"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Separar el dinero del régimen fiscal canario (REF) del que paga los servicios públicos básicos.",
+    "p29-cc"
+   ]
+  ],
+  "educacion": [],
+  "inmigracion": [
+   [
+    "Repartir de forma obligatoria a los menores migrantes entre todas las comunidades.",
+    "p29-cc"
+   ],
+   [
+    "Más información y más medios del Estado y de Europa para la llegada de migrantes, para que Canarias no la asuma sola.",
+    "p29-cc"
+   ]
+  ],
+  "energia": [],
+  "igualdad": [],
+  "familias": [],
+  "justicia": [],
+  "territorio": [
+   [
+    "Desarrollar el Estatuto de Autonomía y completar los traspasos pendientes.",
+    "p29-cc"
+   ],
+   [
+    "Que el Estado pague el 100 % del coste real de llevar mercancías entre las islas y la península.",
+    "p29-cc"
+   ],
+   [
+    "Blindar el descuento del 75 % para residentes en avión y barco, y dinero estable para que las guaguas y el tranvía sigan gratis.",
+    "p29-cc"
+   ],
+   [
+    "Que la UE proteja a Canarias como región ultraperiférica en su presupuesto.",
+    "p29-cc"
+   ]
+  ],
+  "campo": [
+   [
+    "Mantener el dinero del POSEI para el sector primario.",
+    "p29-cc"
+   ]
+  ],
+  "politica": [
+   [
+    "Exigir la Agenda Canaria como condición para apoyar al Gobierno que salga del 29N.",
+    "p29-cc"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "v1": "Un fondo del Estado durante 8 años para construir y rehabilitar casas públicas asequibles.",
+  "m2": "Repartirlos de forma equitativa entre todas las comunidades.",
+  "te1": "Más autogobierno para Canarias: completar los traspasos del Estatuto y proteger su régimen fiscal.",
+  "c2": "Mantener el dinero del POSEI para el campo canario."
+ },
+ "expl": {}
+}
