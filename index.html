@@ -785,6 +785,137 @@ span.pn[style]{color:var(--pc)}
 .op-act button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 .op-msg{font:500 14px var(--sans);color:var(--st-no,#b3261e)}
 .op-hidden{padding:14px 16px;background:var(--accent-soft);border-left:3px solid var(--accent);font:400 14.5px/1.5 var(--sans);color:var(--ink-2)}
+
+/* ════════ Rediseño: más aire, tarjetas, menos texto ════════ */
+:root{--card:#fff;--r:14px;--sh:0 1px 2px rgba(29,28,25,.05),0 6px 22px rgba(29,28,25,.06)}
+:root[data-theme="dark"]{--card:#1f1e1a;--sh:0 1px 2px rgba(0,0,0,.4)}
+body{font-size:17px}
+.hero2{max-width:980px;margin:0 auto;padding:clamp(56px,9vw,120px) var(--gutter) clamp(30px,4vw,48px);text-align:center}
+.h2-k{display:flex;justify-content:center;gap:10px;font:600 13px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}
+.h2-k span+span::before{content:"·";margin-right:10px}
+.hero2 h1{font:400 clamp(44px,7.4vw,96px)/1 var(--serif);letter-spacing:-.03em;margin:0}
+.hero2 h1 em{font-style:italic;background:var(--hero-grad);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.05em}
+.h2-lede{font:400 clamp(19px,2vw,23px)/1.45 var(--serif);color:var(--ink-2);margin:22px auto 0;max-width:34ch}
+.h2-cta{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:34px}
+.b2{font:600 16px/1 var(--sans);padding:16px 26px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.b2:hover{background:var(--chip)}
+.b2.primary{background:var(--ink);color:var(--paper)}
+.b2.primary:hover{background:var(--ink-2)}
+.tiles{max-width:1240px;margin:0 auto;padding:0 var(--gutter) clamp(56px,7vw,96px);display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:16px}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:12px;padding:22px 22px 20px;background:var(--card);border-radius:var(--r);box-shadow:var(--sh);min-height:210px;transition:transform .15s ease,box-shadow .15s ease}
+.tile:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(29,28,25,.06),0 14px 34px rgba(29,28,25,.1)}
+.tile:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.tl-k{font:600 12px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tl-n{font:400 17px var(--sans);color:var(--ink-2)}
+.tl-n b{font:400 54px/1 var(--serif);color:var(--ink);margin-right:6px;letter-spacing:-.02em}
+.tl-prog{height:8px;border-radius:99px;background:var(--chip);overflow:hidden}
+.tl-prog span{display:block;height:100%;background:var(--ink);border-radius:99px}
+.tl-chips{display:flex;flex-wrap:wrap;gap:6px}
+.tl-chips i{font:700 12.5px/1 var(--sans);font-style:normal;padding:6px 10px;border-radius:99px;background:var(--c);color:var(--on)}
+.tl-t{font:500 21px/1.25 var(--serif);color:var(--ink)}
+.tl-s{font:400 14px/1.45 var(--sans);color:var(--muted)}
+.tl-go{margin-top:auto;font:600 14.5px var(--sans);color:var(--ink)}
+.tl-bar{position:relative;display:flex;height:16px;border-radius:99px;overflow:hidden;margin-top:6px}
+.tl-bar i{position:absolute;left:50%;top:-3px;bottom:-3px;border-left:2px dashed var(--ink);opacity:.5}
+.tl-nums{display:flex;justify-content:space-between}
+.tl-nums span{display:flex;flex-direction:column;font:500 13px var(--sans);color:var(--muted)}
+.tl-nums span:last-child{text-align:right}
+.tl-nums b{font:400 34px/1 var(--serif);color:var(--ink)}
+@media (max-width:1050px){.tiles{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.tiles{grid-template-columns:1fr}.tile{min-height:0}}
+
+/* Vista Programas */
+#app{border-top:1px solid var(--line)}
+.vh{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 28px;padding:clamp(40px,5vw,64px) 0 22px}
+.vh h2{font:400 clamp(38px,4.6vw,58px)/1 var(--serif);letter-spacing:-.025em}
+.edsw-wrap{margin:0;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.edsw{display:inline-flex;grid-template-columns:none;border:0;background:var(--chip);border-radius:999px;padding:4px;max-width:none;overflow:visible}
+.edsw button{all:unset;cursor:pointer;display:inline-flex;align-items:baseline;gap:8px;padding:11px 22px;border-radius:999px;font:700 16px/1 var(--sans);color:var(--ink-2);flex-direction:row}
+.edsw button+button{border-left:0}
+.edsw button small{font:500 13px var(--sans);color:var(--muted);opacity:1}
+.edsw button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:var(--sh)}
+.edsw button[aria-pressed="true"] small{color:var(--muted);opacity:1}
+.ednote{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:6px;margin:0;max-width:640px;font:400 13.5px var(--sans);color:var(--muted)}
+.en-k{font-weight:600;color:var(--ink-2);margin-right:2px}
+.en-p{padding:3px 9px;border-radius:99px;border:1px solid var(--line);font-size:12.5px}
+#view-partidos .edsw-wrap{align-items:flex-start;margin-bottom:24px}#view-partidos .ednote{justify-content:flex-start}
+@media (max-width:700px){.edsw-wrap{align-items:flex-start;width:100%}.ednote{justify-content:flex-start}}
+.cats{display:flex;grid-template-columns:none;gap:8px;overflow-x:auto;border:0;margin:0 calc(-1*var(--gutter)) 8px;padding:6px var(--gutter) 14px;scrollbar-width:none;scroll-snap-type:x proximity}
+.cats::-webkit-scrollbar{display:none}
+.cats button{display:inline-flex;align-items:center;gap:9px;flex:0 0 auto;padding:11px 18px 11px 14px;border:1.5px solid var(--line);border-radius:999px;background:var(--card);font:500 15px/1 var(--sans);color:var(--ink-2);white-space:nowrap;scroll-snap-align:center}
+.cats button::before{display:none}
+.cats button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.cats button:hover{border-color:var(--ink-2);color:var(--ink)}
+.cats button[aria-current="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper);font-weight:600}
+.filter{background:none;border:0;padding:0;margin:4px 0 8px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.filter .fhead{display:contents}
+.filter .fhead h3{font:600 13px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.filter .fcount{display:none}
+.filter .fpresets{order:9;margin-left:0}
+.filter .flabel{display:none}
+.filter .frow{display:contents}
+.fchip{min-height:34px;padding:5px 13px 5px 10px;font-size:13.5px}
+.th2{display:flex;align-items:center;gap:20px;padding:clamp(34px,4vw,54px) 0 26px}
+.th2-i{flex:0 0 auto;display:grid;place-items:center;width:68px;height:68px;border-radius:20px;background:var(--card);box-shadow:var(--sh)}
+.th2-i svg{width:34px;height:34px;fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.th2 h2{font:400 clamp(36px,4.4vw,56px)/1 var(--serif);letter-spacing:-.025em}
+.th2 p{font:400 18px/1.45 var(--serif);color:var(--muted);margin-top:6px}
+.pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:18px;align-items:start}
+.pc2{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;border-top:6px solid var(--c)}
+.pc2 header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:18px 20px 6px}
+.pc2 h3{font:700 19px/1.2 var(--sans);color:var(--pc,var(--ink));letter-spacing:.01em}
+.pc2 .ptag{margin:0;border-radius:99px;padding:4px 9px;font-size:11px}
+.pc2 .ptag.new{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.pc2 ul.pts{display:block;padding:4px 8px 10px}
+.pc2 ul.pts li{font-size:16.5px;line-height:1.5;padding:12px 30px 12px 12px;border-top:1px solid var(--hair);border-radius:10px}
+.pc2 ul.pts li:first-child{border-top:0}
+.pc2 ul.pts li:hover{background:var(--accent-soft);border-top-color:transparent}
+.pc2 ul.pts li:hover+li{border-top-color:transparent}
+.pc2 .prop .more{top:50%;margin-top:-9px;right:10px}
+.pc2 p.none{padding:8px 20px 20px;color:var(--muted);font-size:15px;font-style:italic}
+sup a{opacity:.55;font-size:10px}
+.dh{padding:clamp(48px,5vw,72px) 0 18px}
+.dh h3{font:400 clamp(28px,3vw,38px)/1.1 var(--serif);letter-spacing:-.015em}
+.dh p{color:var(--muted);margin-top:6px}
+.ejes2{display:grid;gap:12px}
+.eje2{background:var(--card);border-radius:var(--r);box-shadow:var(--sh)}
+.eje2 summary{list-style:none;display:flex;align-items:center;gap:16px;padding:22px 24px;cursor:pointer}
+.eje2 summary::-webkit-details-marker{display:none}
+.eje2 .q{flex:1;font:500 clamp(19px,1.8vw,22px)/1.3 var(--serif);color:var(--ink)}
+.eje2 .who{display:flex;gap:4px}
+.eje2 .who i{width:12px;height:12px;border-radius:50%;background:var(--c)}
+.eje2 .chev{width:12px;height:12px;border-right:2px solid var(--ink-2);border-bottom:2px solid var(--ink-2);transform:rotate(45deg);margin:-6px 4px 0 6px;transition:transform .2s}
+.eje2[open] .chev{transform:rotate(-135deg);margin-top:6px}
+.eje2-b{padding:0 24px 26px;display:grid;gap:18px}
+.eje2 .why{font:400 17px/1.55 var(--serif);color:var(--ink-2);max-width:70ch}
+.pos2{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.pos2 li{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:12px 16px;border-radius:10px;background:var(--paper);border-left:4px solid var(--c);font-size:16px;line-height:1.5}
+.pos2 b{color:var(--pc,var(--ink));font-size:14.5px;letter-spacing:.02em}
+@media (max-width:560px){.pos2 li{grid-template-columns:1fr;gap:2px}}
+.pos-none2{font-size:14px;color:var(--muted)}
+.bx h4{font:600 12.5px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.bx>p{max-width:70ch;line-height:1.55}
+.args2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.args2>div{padding:14px 16px;border-radius:10px;background:var(--paper)}
+.args2 b{display:block;font-size:14px;margin-bottom:4px}
+.args2 p{font-size:15.5px;line-height:1.5;color:var(--ink-2)}
+@media (max-width:700px){.args2{grid-template-columns:1fr}}
+.words2{margin:36px 0 0;padding:18px 22px;border-radius:var(--r);background:var(--chip)}
+.words2 summary{cursor:pointer;font:600 15px var(--sans)}
+.words2 .words{margin-top:14px}
+.ed-empty{border-radius:var(--r);border-left:0;padding:22px 24px}
+.ptag{border-radius:99px}
+
+.topic{margin-top:8px}
+.th2{padding-top:26px}
+.filter{margin:2px 0 0}
+.fchip,.fchip[aria-pressed="true"]{background:var(--card);border:1.5px solid var(--line);color:var(--muted);font-weight:500}
+.fchip::before,.fchip[aria-pressed="true"]::before{content:"";width:10px;height:10px;border-radius:50%;border:1.5px solid var(--c);background:transparent}
+.fchip[aria-pressed="true"]{color:var(--ink);font-weight:600;border-color:var(--chip-strong)}
+.fchip[aria-pressed="true"]::before{background:var(--c)}
+.fchip:not([aria-pressed="true"]){opacity:.7}
+.ednote{display:block;text-align:right}
+@media (max-width:700px){.ednote{text-align:left}}
 </style>
 
 <nav class="topbar" aria-label="Secciones">
@@ -811,22 +942,16 @@ span.pn[style]{color:var(--pc)}
   </div>
 </nav>
 
-<header class="hero" id="inicio">
-  <div class="hero-in">
-    <div class="hero-copy">
-      <div class="kicker"><span>Elecciones generales</span><span>29 de noviembre de 2026</span></div>
-      <h1>Antes de votar,<br><em>entiende</em> lo que votas.</h1>
-      <p class="hero-lede">Lo que promete cada partido, explicado sin palabras raras.</p>
-      <div class="hp" id="heroProg"></div>
-      <div class="cta">
-        <button class="btn-hero primary" data-go="temas" data-set-ed="29n">Comparar programas del 29N</button>
-        <button class="btn-hero" data-go="temas" data-set-ed="prev">Ver los de 2023</button>
-        <button class="btn-hero" data-go="brujula">¿Con quién coincides?</button>
-      </div>
-    </div>
-    <aside class="hero-viz" id="heroViz"></aside>
+<header class="hero2" id="inicio">
+  <p class="h2-k"><span>Elecciones generales</span><span>29 de noviembre</span></p>
+  <h1>Antes de votar, <em>entiende</em><br>lo que votas.</h1>
+  <p class="h2-lede">Los programas de cada partido, en lenguaje claro.</p>
+  <div class="h2-cta">
+    <button class="b2 primary" data-go="temas" data-set-ed="29n">Comparar programas</button>
+    <button class="b2" data-go="brujula">¿Con quién coincido?</button>
   </div>
 </header>
+<section class="tiles" id="tiles" aria-label="Accesos rápidos"></section>
 
 
 
@@ -836,10 +961,9 @@ span.pn[style]{color:var(--pc)}
 
 <main class="wrap" id="app">
   <section id="view-temas">
-    <div class="sec-head"><div><h2>Compara los programas</h2><p>Elige qué programas comparar y un tema.</p></div></div>
-    <div class="edsw-wrap" data-edsw></div>
-    <div class="filter" id="filter"></div>
+    <div class="vh"><h2>Programas</h2><div class="edsw-wrap" data-edsw></div></div>
     <nav class="cats" id="cats" aria-label="Temas"></nav>
+    <div class="filter" id="filter"></div>
     <article class="topic" id="topic"></article>
   </section>
 
@@ -1979,7 +2103,7 @@ function renderFilter(){
   const n=PL.filter(p=>shown.has(p.id)).length,est=PL.filter(p=>p.grp==="est").map(p=>p.id);
   const isAll=n===PL.length,isEst=n===est.length&&est.every(id=>shown.has(id));
   const grp=(g,label)=>!PL.some(p=>p.grp===g)?"":`<div class="frow" role="group" aria-label="${label}"><span class="flabel">${label}</span>`+PL.filter(p=>p.grp===g).map(p=>`<button type="button" class="fchip" data-id="${p.id}" ${pc(p.id)} aria-pressed="${shown.has(p.id)}" title="${shown.has(p.id)?"Quitar":"Añadir"} ${esc(p.full)}">${esc(p.name)}</button>`).join("")+`</div>`;
-  $("#filter").innerHTML=`<div class="fhead"><h3>Partidos que comparas</h3><span class="fcount">${n} de ${PL.length} · toca para añadir o quitar</span>
+  $("#filter").innerHTML=`<div class="fhead"><h3>Partidos</h3><span class="fcount">${n} de ${PL.length}</span>
     <div class="fpresets"><button type="button" data-preset="all" aria-pressed="${isAll}">Todos</button><button type="button" data-preset="est" aria-pressed="${isEst}">Solo estatales</button></div></div>
     ${grp("est","Ámbito estatal")}${grp("aut","Ámbito autonómico")}`;
 }
@@ -2045,26 +2169,30 @@ territorio:'<path d="M9 4L3 7v13l6-3 6 3 6-3V4l-6 3z"/><path d="M9 4v13M15 7v13"
 campo:'<path d="M12 21V9"/><path d="M12 13c-3 0-5-2-5-5 3 0 5 2 5 5zM12 13c3 0 5-2 5-5-3 0-5 2-5 5zM12 9c-2 0-3-2-3-4 2 0 3 2 3 4zM12 9c2 0 3-2 3-4-2 0-3 2-3 4z"/>',
 politica:'<path d="M12 3l9 5H3z"/><path d="M5 10v8M9.7 10v8M14.3 10v8M19 10v8M3 20h18"/>',
 vida:'<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>'};
-function renderCats(){$("#cats").innerHTML=TOPICS.map(t=>`<button data-id="${t.id}" aria-current="${t.id===current}">${esc(t.name)}</button>`).join("")}
+const ico=id=>`<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[id]||""}</svg>`;
+function renderCats(){$("#cats").innerHTML=TOPICS.map(t=>`<button data-id="${t.id}" aria-current="${t.id===current}">${ico(t.id)}<span>${esc(t.name)}</span></button>`).join("");
+  const a=$("#cats [aria-current=\"true\"]");if(a){const c=$("#cats");c.scrollLeft=Math.max(0,a.offsetLeft-c.clientWidth/2+a.offsetWidth/2)}}
 function renderEje(e){
-  return `<section class="eje"><h3>${esc(e.q)}</h3><p class="why">${rich(e.why)}</p>
-   <div class="pos">${visible().filter(p=>e.pos[p.id]!==NO).map(p=>`<div ${pc(p.id)}>${badge(p.id)}<span>${rich(e.pos[p.id])}</span></div>`).join("")}</div>
-   ${(()=>{const none=visible().filter(p=>e.pos[p.id]===NO);return none.length?`<p class="pos-none"><span>Sin propuesta sobre esto en las fuentes revisadas:</span> ${none.map(p=>`<span ${pc(p.id)}>${badge(p.id)}</span>`).join("")}</p>`:""})()}
-   ${ED==="29n"?"":`<div class="block"><h4>Qué cambiaría para ti</h4><p>${rich(e.prac)}</p></div>`}
-   <div class="block"><h4>Los argumentos de cada lado</h4><div class="args">${e.args.map(([w,a])=>`<div><b>${esc(w)}</b><span>${rich(a)}</span></div>`).join("")}</div></div>
-  </section>`;
+  const V=visible(),has=V.filter(p=>e.pos[p.id]&&e.pos[p.id]!==NO),none=V.filter(p=>!has.includes(p));
+  return `<details class="eje2"><summary><span class="q">${esc(e.q)}</span><span class="who" aria-hidden="true">${has.map(p=>`<i ${pc(p.id)}></i>`).join("")}</span><span class="chev" aria-hidden="true"></span></summary>
+   <div class="eje2-b"><p class="why">${rich(e.why)}</p>
+    <ul class="pos2">${has.map(p=>`<li ${pc(p.id)}><b>${esc(p.name)}</b><span>${rich(e.pos[p.id])}</span></li>`).join("")}</ul>
+    ${none.length?`<p class="pos-none2">Sin propuesta sobre esto: ${esc(none.map(p=>p.name).join(", "))}</p>`:""}
+    ${ED==="29n"?"":`<div class="bx"><h4>Qué cambiaría para ti</h4><p>${rich(e.prac)}</p></div>`}
+    <div class="bx"><h4>Argumentos de cada lado</h4><div class="args2">${e.args.map(([w,a])=>`<div><b>${esc(w)}</b><p>${rich(a)}</p></div>`).join("")}</div></div>
+   </div></details>`;
 }
 function renderTopic(){
-  const t=TOPICS.find(x=>x.id===current);
+  const t=TOPICS.find(x=>x.id===current),V=visible();
   const words=new Set();
-  visible().forEach(p=>(t.p[p.id]||[]).forEach(([s])=>termsIn(s,words)));
-  t.ejes.forEach(e=>{termsIn(e.why,words);termsIn(e.prac,words);visible().forEach(p=>termsIn(e.pos[p.id],words));e.args.forEach(a=>termsIn(a[1],words))});
+  V.forEach(p=>(t.p[p.id]||[]).forEach(([s])=>termsIn(s,words)));
+  t.ejes.forEach(e=>{termsIn(e.why,words);V.forEach(p=>termsIn(e.pos[p.id]||"",words))});
   $("#topic").innerHTML=`
-   <div class="topic-head"><div class="eyebrow">Tema ${TOPICS.indexOf(t)+1} de ${TOPICS.length}</div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div>
-   <h3 class="sec-title">Qué propone cada partido</h3>
-   ${visible().length?"":`<p class="ed-empty">${PROG_LOADED?"Ningún partido de tu selección ha publicado aún su programa para el 29N.":"Cargando los programas del 29N…"}</p>`}<div class="ptable-rows" aria-label="Propuestas por partido">${visible().map(p=>`<section class="party" ${pc(p.id)}><h3>${badge(p.id)}${progTag(p.id)}<span class="pname">${esc(p.full===p.name?"":p.full)}</span></h3>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
-   ${visible().length?`<h3 class="sec-title">Las diferencias, explicadas</h3>${t.ejes.map(renderEje).join("")}`:""}
-   <div class="block"><h4>Todas las palabras de este tema</h4><div class="words">${[...words].sort((a,b)=>GLOSS[a].t.localeCompare(GLOSS[b].t,"es")).map(k=>`<button type="button" class="term" data-term="${k}">${esc(GLOSS[k].t)}</button>`).join("")}</div></div>`;
+   <div class="th2"><span class="th2-i">${ico(t.id)}</span><div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div></div>
+   ${V.length?"":`<p class="ed-empty">${PROG_LOADED?"Ningún partido de tu selección ha publicado aún su programa para el 29N.":"Cargando los programas del 29N…"}</p>`}
+   <div class="pcards">${V.map(p=>`<section class="pc2" ${pc(p.id)}><header><h3>${esc(p.name)}</h3>${ED==="prev"&&(P(p.id).prog||"Programa 2023")!=="Programa 2023"?progTag(p.id):""}</header>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
+   ${V.length?`<div class="dh"><h3>¿En qué se diferencian?</h3><p>Toca una pregunta para ver qué dice cada uno.</p></div><div class="ejes2">${t.ejes.map(renderEje).join("")}</div>`:""}
+   ${words.size?`<details class="words2"><summary>Palabras de este tema explicadas · ${words.size}</summary><div class="words">${[...words].sort((a,b)=>GLOSS[a].t.localeCompare(GLOSS[b].t,"es")).map(k=>`<button type="button" class="term" data-term="${k}">${esc(GLOSS[k].t)}</button>`).join("")}</div></details>`:""}`;
 }
 $("#cats").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;current=b.dataset.id;renderCats();renderTopic();try{history.replaceState(null,"","/temas/"+current)}catch(_){}$("#topic").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})});
 
@@ -2411,18 +2539,28 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b
 function renderHero(){
   const now=new Date(),el=new Date(2026,10,29),days=Math.ceil((el-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/864e5);
   $("#countPill").innerHTML=days>1?`<span class="long">29N · </span>faltan ${days} días`:days===1?"29N · es mañana":days===0?"Hoy se vota":"Elecciones del 29N celebradas";
-  const st=[[days>0?days:0,days>0?"días para votar":"días para votar"],[PARTIES.length,"partidos comparados"],[TOPICS.length,"temas"],[Object.keys(GLOSS).length,"palabras explicadas"]];
-
-  const avg=avgPoll(POLLS_DATA);
-  if(!avg.seats){$("#heroViz").hidden=true;return}
-  $("#heroViz").innerHTML=`<div class="hv-k">Si las elecciones fueran hoy</div><div class="hv-t">Media de ${avg.n} encuestas</div>
-    ${heroBlocs(avg.seats)}
-    <button class="hv-link" data-go="encuestas">Ver todas las encuestas y pactos</button>`;
+  renderTiles();
 }
-
+function renderTiles(){
+  const ok=PARTIES.filter(p=>PROG[p.id]),avg=avgPoll(POLLS_DATA);
+  let poll="";
+  if(avg.seats){const s=seatsWithOthers(avg.seats),sum=ks=>ks.reduce((t,k)=>t+(s[k]||0),0),L=sum(IDEO_L),R=sum(IDEO_R),M=TOTAL_SEATS-L-R;
+    const w=v=>(v/TOTAL_SEATS*100).toFixed(1)+"%";
+    poll=`<div class="tl-bar"><span style="width:${w(L)};background:var(--t-psoe)"></span><span style="width:${w(M)};background:var(--chip-strong)"></span><span style="width:${w(R)};background:var(--t-pp)"></span><i></i></div>
+      <div class="tl-nums"><span><b>${L}</b>izquierda</span><span><b>${R}</b>derecha</span></div>`}
+  const last=(news||[]).slice().sort((a,b)=>(b.date||"").localeCompare(a.date||""))[0];
+  $("#tiles").innerHTML=`
+   <button class="tile t-big" data-go="temas" data-set-ed="29n"><span class="tl-k">Programas del 29N</span>
+     <span class="tl-n"><b>${PROG_LOADED?ok.length:"…"}</b> de ${PARTIES.length} publicados</span>
+     <span class="tl-prog"><span style="width:${ok.length/PARTIES.length*100}%"></span></span>
+     <span class="tl-chips">${ok.map(p=>`<i ${pc(p.id)}>${esc(p.name)}</i>`).join("")}</span><span class="tl-go">Comparar →</span></button>
+   <button class="tile" data-go="encuestas"><span class="tl-k">Si se votara hoy</span>${poll}<span class="tl-s">Media de ${avg.n} encuestas</span><span class="tl-go">Encuestas →</span></button>
+   <button class="tile" data-go="brujula"><span class="tl-k">Brújula</span><span class="tl-t">¿Con qué partido coincides más?</span><span class="tl-s">${EJES.length} preguntas, sin ver de quién es cada respuesta</span><span class="tl-go">Empezar →</span></button>
+   <button class="tile" data-go="noticias"><span class="tl-k">Última noticia</span><span class="tl-t">${last?esc(last.title):"—"}</span><span class="tl-s">${last?esc(last.source||""):""}</span><span class="tl-go">Noticias →</span></button>`;
+}
 /* ---------- Programas del 29N (los publica /api/cron/programs en data/programs-29n/<id>.json) ---------- */
 const PROG={};
-function progTag(id){return ED==="29n"&&PROG[id]?`<span class="ptag new" title="Programa para las elecciones del 29 de noviembre de 2026">Programa 29N</span>`:`<span class="ptag" title="Aún no ha publicado el programa del 29N: se muestra su última propuesta escrita">${esc(P(id).prog||"Programa 2023")}</span>`}
+function progTag(id){return ED==="29n"&&PROG[id]?`<span class="ptag new" title="Programa para las elecciones del 29 de noviembre de 2026">29N</span>`:`<span class="ptag" title="Aún no ha publicado el programa del 29N: se muestra su última propuesta escrita">${esc(P(id).prog||"Programa 2023")}</span>`}
 let PROG_LOADED=false,ED=store.get("pc-ed","29n");if(ED!=="29n"&&ED!=="prev")ED="29n";
 const BASE={p:{},pos:{},expl:{...EXPL}};
 TOPICS.forEach(t=>{BASE.p[t.id]={...t.p};t.ejes.forEach(e=>{BASE.pos[e.id]={...e.pos}})});
@@ -2439,14 +2577,14 @@ function applyProgram(o){SOURCES["p29-"+o.party]=o.source;SKEYS=Object.keys(SOUR
 function renderEd(){
   const ok=PARTIES.filter(p=>PROG[p.id]),miss=PARTIES.filter(p=>!PROG[p.id]);
   const note=ED==="29n"
-    ?(PROG_LOADED?`Solo aparecen los ${ok.length} partidos que ya han publicado su programa. <b>Aún no lo han hecho:</b> ${esc(miss.map(p=>p.name).join(", "))}. <button type="button" data-set-ed="prev">Ver sus programas anteriores</button>`:"Cargando los programas del 29N…")
-    :`Programas de las generales del 23 de julio de 2023. Si un partido no tiene, mostramos su última propuesta escrita (lo indica su etiqueta).`;
+    ?(PROG_LOADED&&miss.length?`<span class="en-k">Aún sin programa:</span> ${esc(miss.map(p=>p.name).join(", "))}`:"")
+    :`<span class="en-k">Generales del 23J de 2023</span> <span class="en-t">o la última propuesta escrita de cada partido</span>`;
   document.querySelectorAll("[data-edsw]").forEach(el=>el.innerHTML=`<div class="edsw" role="group" aria-label="Qué programas comparas">
-     <button type="button" data-set-ed="29n" aria-pressed="${ED==="29n"}"><b>Programas del 29N</b><small>2026 · ${PROG_LOADED?`${ok.length} de ${PARTIES.length} publicados`:"cargando…"}</small></button>
-     <button type="button" data-set-ed="prev" aria-pressed="${ED==="prev"}"><b>Programas de 2023</b><small>23J · los ${PARTIES.length} partidos</small></button>
-   </div><p class="ednote">${names(note)}</p>`);
+     <button type="button" data-set-ed="29n" aria-pressed="${ED==="29n"}">29N <small>${PROG_LOADED?`${ok.length}/${PARTIES.length}`:"…"}</small></button>
+     <button type="button" data-set-ed="prev" aria-pressed="${ED==="prev"}">2023 <small>${PARTIES.length}/${PARTIES.length}</small></button>
+   </div><p class="ednote">${note}</p>`);
 }
-function renderHeroProg(){
+function renderHeroProg(){renderTiles();return;
   const ok=PARTIES.filter(p=>PROG[p.id]);
   $("#heroProg").innerHTML=`<div class="hp-k"><span>Programas publicados para el 29N</span><b>${PROG_LOADED?`${ok.length} de ${PARTIES.length}`:"…"}</b></div>
     <div class="hp-list">${PARTIES.map(p=>`<span class="${PROG[p.id]?"ok":""}" ${pc(p.id)} title="${esc(p.full)}: ${PROG[p.id]?"publicado":"aún no publicado"}">${esc(p.name)}</span>`).join("")}</div>
