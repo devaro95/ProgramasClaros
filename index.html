@@ -1011,6 +1011,32 @@ sup a{opacity:.55;font-size:10px}
 .ccpick button i{line-height:1.2}
 #view-encuestas .vhead,#view-encuestas .vrow{grid-template-columns:110px minmax(0,1fr) 60px 70px;gap:14px}
 #view-encuestas .vrow b,#view-encuestas .vrow span:nth-child(n+3){text-align:right}
+
+.cc-all-pill::before{background:var(--ink)!important}
+.cc-dest{font:400 clamp(26px,2.8vw,34px)/1.1 var(--serif);letter-spacing:-.015em;margin:34px 0 0}
+.ccall{margin-top:44px;padding:clamp(22px,3vw,36px);background:var(--card);border-radius:var(--r);box-shadow:var(--sh)}
+.ccall h4{font:400 clamp(26px,2.8vw,34px)/1.1 var(--serif);letter-spacing:-.015em;display:flex;align-items:baseline;gap:12px}
+.ccall h4 small{font:600 14px var(--sans);color:var(--muted)}
+.cca-h p{margin:8px 0 0;color:var(--muted);font-size:15px;max-width:70ch}
+.cca-f{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:20px 0 10px}
+.cca-f button{display:inline-flex;align-items:baseline;gap:6px;padding:9px 15px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);font:600 14px/1 var(--sans);color:var(--ink-2);cursor:pointer}
+.cca-f button small{font-weight:500;color:var(--muted)}
+.cca-f button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.cca-f button[aria-pressed="true"] small{color:var(--paper);opacity:.7}
+.cca-f input{margin-left:auto;min-width:240px;flex:0 1 320px;padding:10px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--paper);font:400 15px var(--sans);color:var(--ink)}
+.cca-y{border-top:1px solid var(--hair)}
+.cca-y summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:10px;padding:16px 0;font:600 20px var(--sans)}
+.cca-y summary::-webkit-details-marker{display:none}
+.cca-y summary::after{content:"";margin-left:auto;width:9px;height:9px;border-right:2px solid var(--ink-2);border-bottom:2px solid var(--ink-2);transform:rotate(45deg);transition:transform .2s}
+.cca-y[open] summary::after{transform:rotate(-135deg)}
+.cca-y summary small{font:500 14px var(--sans);color:var(--muted)}
+.cca-y ol{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:6px}
+.cca-y li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:16px;padding:12px 14px;border-radius:10px;background:var(--paper)}
+.cca-y time{font:600 12px/1.6 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.cca-y li p{font-size:15.5px;line-height:1.5;color:var(--ink)}
+.cca-y li a{font-size:13px;color:var(--muted);text-underline-offset:3px}
+.cca-t{font:600 11px/1 var(--sans);font-style:normal;padding:4px 8px;border-radius:99px;background:var(--chip);color:var(--ink-2);vertical-align:2px;margin-left:4px;white-space:nowrap}
+@media (max-width:640px){.cca-y li{grid-template-columns:1fr;gap:4px}.cca-f input{margin-left:0;flex:1 1 100%}}
 </style>
 
 <nav class="topbar" aria-label="Secciones">
@@ -2458,19 +2484,42 @@ const CC_G=[["si","Aprobado","✓","st-si"],["tr","En trámite","…","st-parte"
 function renderCcaa(){
   const items=CCAA.items||[];const c=items.find(x=>x.id===ccSel)||items[0];if(!c)return;
   const sortD=a=>[...(a||[])].sort((x,y)=>(y.d||"").localeCompare(x.d||""));
-  $("#ccaa").innerHTML=`<div class="sec-head"><div><h2>Comunidades autónomas</h2><p>Quién gobierna cada comunidad y ciudad autónoma, y lo más importante que se ha aprobado, está en trámite o no ha salido adelante en su parlamento desde 2023. No es la lista completa de leyes: recogemos los presupuestos y las normas con más efecto en la vida diaria, cada una con su fuente.</p>${CCAA.updated?`<p class="nupd" style="font:400 14px/1.5 var(--sans);color:var(--muted)">Actualizado el ${esc(fmtDate(CCAA.updated))}.</p>`:""}</div></div>
+  $("#ccaa").innerHTML=`<div class="sec-head"><div><h2>Comunidades autónomas</h2><p>Quién gobierna cada comunidad, lo más destacado de su parlamento explicado y, al final, todas las leyes que ha aprobado desde 2023 según el BOE.</p>${CCAA.updated?`<p class="nupd" style="font:400 14px/1.5 var(--sans);color:var(--muted)">Actualizado el ${esc(fmtDate(CCAA.updated))}.</p>`:""}</div></div>
    <nav class="ccpick" aria-label="Comunidades">${items.map(x=>`<button type="button" data-cc="${x.id}" aria-current="${x.id===c.id}"><b>${esc(x.name)}</b><span>${x.gov.map(([k,n])=>`<i style="--pc:${ccCol(k)}">${esc(n)}</i>`).join("")}</span></button>`).join("")}</nav>
    <section class="cchead" aria-live="polite"><div><h3>${esc(c.name)}</h3><p class="ccform">${esc(c.form)}</p></div>
      <dl class="ccdl"><dt>Preside</dt><dd>${esc(c.pres)} <span style="color:var(--muted)">· desde ${esc(c.since)}</span></dd>
        <dt>Gobierna</dt><dd>${c.gov.map(([k,n])=>`<span class="pn" style="--pc:${ccCol(k)}">${esc(n)}</span>`).join("")}</dd>
        <dt>Elecciones</dt><dd>${esc(c.elec)}</dd><dt>Próximas</dt><dd>${esc(c.next)}</dd>
        ${c.govsrc&&c.govsrc.length?`<dd class="ccsrc">${ccSrc(c.govsrc).replace(/^<p class="csrc">|<\/p>$/g,"")}</dd>`:""}</dl></section>
-   <div class="ccsum">${CC_G.map(([k,l,,cl])=>`<span class="${cl}"><b>${(c[k]||[]).length}</b> ${l.toLowerCase()}</span>`).join("")}</div>
+   <div class="ccsum">${CC_G.map(([k,l,,cl])=>`<span class="${cl}"><b>${(c[k]||[]).length}</b> ${l.toLowerCase()}</span>`).join("")}<span class="cc-all-pill"><b>${((LEYES&&LEYES.items||{})[c.id]||[]).length}</b> leyes en el BOE</span></div><h3 class="cc-dest">Lo más destacado, explicado</h3>
    ${CC_G.filter(([k])=>k!=="tr"||(c.tr||[]).length).map(([k,l,ic,cl])=>`<section class="ccgroup ${cl}"><h4><span aria-hidden="true">${ic}</span>${l}<small>${(c[k]||[]).length}</small></h4>
-     ${(c[k]||[]).length?sortD(c[k]).map(x=>`<article class="ccitem"><time>${esc(ccDate(x.d))}</time><p>${names(esc(x.t))}</p>${ccSrc(x.src)}</article>`).join(""):`<p class="ccnone">${k==="no"?"No hemos encontrado votaciones importantes perdidas por el Gobierno con una fuente fiable.":"Nada destacado por ahora."}</p>`}</section>`).join("")}`;
+     ${(c[k]||[]).length?sortD(c[k]).map(x=>`<article class="ccitem"><time>${esc(ccDate(x.d))}</time><p>${names(esc(x.t))}</p>${ccSrc(x.src)}</article>`).join(""):`<p class="ccnone">${k==="no"?"No hemos encontrado votaciones importantes perdidas por el Gobierno con una fuente fiable.":"Nada destacado por ahora."}</p>`}</section>`).join("")}
+   ${ccAll(c)}`;
 }
 $("#ccaa").addEventListener("click",e=>{const b=e.target.closest("[data-cc]");if(!b)return;ccSel=b.dataset.cc;renderCcaa();try{history.replaceState(null,"","/comunidades/"+ccSel)}catch(_){}
   const h=$("#ccaa .cchead");if(h&&h.getBoundingClientRect().top>innerHeight*.6)h.scrollIntoView({block:"start",behavior:"smooth"})});
+let LEYES=null,ccF="all",ccQ="";
+const CC_K={ley:"Ley",dl:"Decreto ley",tr:"Texto refundido"};
+const ccLab=x=>{const t=x.t||"";return `${CC_K[x.k]||"Ley"} ${t.charAt(0).toLowerCase()+t.slice(1)}`};
+function ccAll(c){
+  if(!LEYES)return `<section class="ccall"><h4>Todas las leyes aprobadas</h4><p class="ccnone">Cargando…</p></section>`;
+  if(c.id==="ceu"||c.id==="mel")return `<section class="ccall"><h4>Todas las leyes aprobadas</h4><p class="ccnone">${esc(c.name)} no tiene parlamento con poder para hacer leyes: su Asamblea aprueba reglamentos, que no aparecen aquí.</p></section>`;
+  const all=(LEYES.items||{})[c.id]||[];
+  const q=ccQ.trim().toLowerCase();
+  const L=all.filter(x=>(ccF==="all"||(ccF==="dl"?x.k==="dl":ccF==="ley"?x.k!=="dl":x.g))&&(!q||(x.t+" "+x.n).toLowerCase().includes(q)));
+  const years=[...new Set(L.map(x=>x.d.slice(0,4)))].sort().reverse();
+  const n=k=>all.filter(x=>k==="all"||(k==="dl"?x.k==="dl":k==="ley"?x.k!=="dl":x.g)).length;
+  const F=[["all","Todo"],["ley","Leyes"],["dl","Decretos ley"],["eco","Presupuestos e impuestos"]];
+  return `<section class="ccall"><div class="cca-h"><h4>Todas las leyes aprobadas <small>${all.length}</small></h4>
+     <p>Leyes, decretos ley y textos refundidos publicados en el BOE desde enero de 2023. El BOE los publica unas semanas después que el boletín de la comunidad.</p></div>
+    <div class="cca-f">${F.map(([k,l])=>`<button type="button" data-ccf="${k}" aria-pressed="${ccF===k}">${l} <small>${n(k)}</small></button>`).join("")}
+      <input type="search" id="ccq" placeholder="Buscar: vivienda, impuestos…" value="${esc(ccQ)}" aria-label="Buscar entre las leyes"></div>
+    ${years.length?years.map((y,i)=>{const Y=L.filter(x=>x.d.startsWith(y));return `<details class="cca-y" ${i===0||q?"open":""}><summary>${y} <small>${Y.length}</small></summary><ol>${Y.map(x=>`<li><time>${esc(ccDate(x.d.slice(0,7)))}</time><div><p>${esc(ccLab(x))}${x.g==="pres"?' <i class="cca-t">Presupuestos</i>':x.g==="fis"?' <i class="cca-t">Impuestos</i>':""}</p><a href="https://www.boe.es/diario_boe/txt.php?id=${x.b}" target="_blank" rel="noopener">${esc(x.n)} · BOE ↗</a></div></li>`).join("")}</ol></details>`}).join(""):`<p class="ccnone">No hay leyes que coincidan.</p>`}
+  </section>`;
+}
+$("#ccaa").addEventListener("click",e=>{const b=e.target.closest("[data-ccf]");if(!b)return;ccF=b.dataset.ccf;renderCcaa()});
+$("#ccaa").addEventListener("input",e=>{if(e.target.id!=="ccq")return;ccQ=e.target.value;const pos=e.target.selectionStart;renderCcaa();const i=$("#ccq");if(i){i.focus();try{i.setSelectionRange(pos,pos)}catch(_){}}});
+fetch("/data/ccaa-leyes.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(d=>{LEYES=d||{items:{}};renderCcaa()}).catch(()=>{LEYES={items:{}};renderCcaa()});
 fetch("/data/ccaa.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&Array.isArray(d.items)&&d.items.length){CCAA=d;renderCcaa()}}).catch(()=>{});
 
 /* ---------- Pestañas ---------- */

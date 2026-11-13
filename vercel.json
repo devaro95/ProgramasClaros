@@ -15,6 +15,10 @@
     {
       "path": "/api/cron/ccaa",
       "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/cron/boe",
+      "schedule": "30 7 * * *"
     }
   ],
   "functions": {
