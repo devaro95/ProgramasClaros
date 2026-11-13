@@ -948,6 +948,13 @@ sup a{opacity:.55;font-size:10px}
 .tc-none{margin-top:22px}
 #view-partidos .edsw-wrap{align-items:flex-end;margin-bottom:0}#view-partidos .ednote{text-align:right}
 @media (max-width:700px){#view-partidos .edsw-wrap{align-items:flex-start}#view-partidos .ednote{text-align:left}}
+
+.pc2.locked{background:repeating-linear-gradient(135deg,var(--chip) 0 10px,transparent 10px 20px),var(--paper);box-shadow:none;border:1.5px dashed var(--chip-strong);border-top:6px solid var(--chip-strong)}
+.tcards .pc2.locked{border-top:1.5px dashed var(--chip-strong)}
+.pc2.locked h3{color:var(--muted)!important}
+.lk{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:26px 20px 30px;min-height:120px;text-align:center}
+.lk svg{width:34px;height:34px;padding:12px;box-sizing:content-box;border-radius:50%;background:var(--card);fill:none;stroke:var(--muted);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;box-shadow:var(--sh)}
+.lk span{font:600 14px var(--sans);color:var(--muted);letter-spacing:.01em}
 </style>
 
 <nav class="topbar" aria-label="Secciones">
@@ -2201,6 +2208,7 @@ campo:'<path d="M12 21V9"/><path d="M12 13c-3 0-5-2-5-5 3 0 5 2 5 5zM12 13c3 0 5
 politica:'<path d="M12 3l9 5H3z"/><path d="M5 10v8M9.7 10v8M14.3 10v8M19 10v8M3 20h18"/>',
 vida:'<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>'};
 const SHORT={igualdad:"Igualdad",territorio:"Comunidades",campo:"Campo y agua",politica:"Limpieza política",trabajo:"Trabajo",familias:"Familias",justicia:"Justicia"};
+const LOCKED=`<div class="lk"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span>Sin propuesta sobre este tema</span></div>`;
 const ico=id=>`<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[id]||""}</svg>`;
 function renderCats(){$("#cats").innerHTML=TOPICS.map(t=>`<button data-id="${t.id}" aria-current="${t.id===current}">${ico(t.id)}<span>${esc(SHORT[t.id]||t.name)}</span></button>`).join("");
   const a=$("#cats [aria-current=\"true\"]");if(a){const c=$("#cats");c.scrollLeft=Math.max(0,a.offsetLeft-c.clientWidth/2+a.offsetWidth/2)}}
@@ -2222,7 +2230,7 @@ function renderTopic(){
   $("#topic").innerHTML=`
    <div class="th2"><div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div></div>
    ${V.length?"":`<p class="ed-empty">${PROG_LOADED?"Ningún partido de tu selección ha publicado aún su programa para el 29N.":"Cargando los programas del 29N…"}</p>`}
-   <div class="pcards">${V.map(p=>`<section class="pc2" ${pc(p.id)}><header><h3>${esc(p.name)}</h3>${ED==="prev"&&(P(p.id).prog||"Programa 2023")!=="Programa 2023"?progTag(p.id):""}</header>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
+   <div class="pcards">${V.map(p=>`<section class="pc2${(t.p[p.id]||[]).length?"":" locked"}" ${pc(p.id)}><header><h3>${esc(p.name)}</h3>${ED==="prev"&&(P(p.id).prog||"Programa 2023")!=="Programa 2023"?progTag(p.id):""}</header>${(t.p[p.id]||[]).length?pts(t.p[p.id],t.id,p.id):LOCKED}</section>`).join("")}</div>
    ${V.length?`<div class="dh"><h3>¿En qué se diferencian?</h3><p>Toca una pregunta para ver qué dice cada uno.</p></div><div class="ejes2">${t.ejes.map(renderEje).join("")}</div>`:""}
    ${words.size?`<details class="words2"><summary>Palabras de este tema explicadas · ${words.size}</summary><div class="words">${[...words].sort((a,b)=>GLOSS[a].t.localeCompare(GLOSS[b].t,"es")).map(k=>`<button type="button" class="term" data-term="${k}">${esc(GLOSS[k].t)}</button>`).join("")}</div></details>`:""}`;
 }
@@ -2248,8 +2256,7 @@ function renderParty(){
   const src=ED==="29n"?`Programa 29N · publicado el ${fmt(o.published)}`:(P(p.id).prog||"Programa 2023");
   const link=ED==="29n"&&o.source&&o.source.u?` · <a href="${o.source.u}" target="_blank" rel="noopener">ver fuente ↗</a>`:"";
   $("#pview").innerHTML=head(`<p class="ph-s">${esc(src)}${link}</p><p class="ph-n"><b>${n}</b> propuestas en <b>${full.length}</b> temas</p>`)+
-   `<div class="pcards tcards">${full.map(t=>`<section class="pc2" ${pc(p.id)}><header><h3>${esc(t.name)}</h3></header>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
-   ${empty.length?`<p class="pos-none2 tc-none">Sin propuestas sobre: ${esc(empty.map(t=>t.name).join(", "))}</p>`:""}`;
+   `<div class="pcards tcards">${TOPICS.map(t=>(t.p[p.id]||[]).length?`<section class="pc2" ${pc(p.id)}><header><h3>${esc(t.name)}</h3></header>${pts(t.p[p.id],t.id,p.id)}</section>`:`<section class="pc2 locked" ${pc(p.id)}><header><h3>${esc(t.name)}</h3></header>${LOCKED}</section>`).join("")}</div>`;
 }
 $("#ppick").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;party=b.dataset.id;renderParty()});
 
