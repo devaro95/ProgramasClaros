@@ -958,6 +958,59 @@ sup a{opacity:.55;font-size:10px}
 
 .lk svg{stroke-width:2.2}
 .promise{margin-top:clamp(72px,9vw,128px)}
+
+/* ════════ Comunidades y Encuestas (rediseño) ════════ */
+#view-comunidades .sec-head,#view-encuestas .bru-intro{border-bottom:0;margin-bottom:8px;padding:clamp(40px,5vw,64px) 0 18px}
+#view-comunidades .sec-head h2,#view-encuestas .bru-intro h2{font-size:clamp(38px,4.6vw,58px)}
+#view-comunidades .sec-head p:not(.nupd),#view-encuestas .bru-intro p{font:400 17px/1.5 var(--sans);color:var(--muted);max-width:70ch}
+/* Comunidades */
+.ccpick{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:0 0 26px}
+.ccpick button{padding:14px 16px;border:1.5px solid transparent;border-radius:12px;background:var(--card);box-shadow:var(--sh);gap:8px;transition:transform .12s ease}
+.ccpick button:hover{transform:translateY(-1px)}
+.ccpick button:hover b{text-decoration:none}
+.ccpick button[aria-current="true"]{background:var(--ink);border-color:var(--ink)}
+.ccpick button[aria-current="true"]::before{display:none}
+.ccpick button[aria-current="true"] b{color:var(--paper)}
+.ccpick button span{gap:4px}
+.ccpick button i{padding:4px 8px 3px;border-radius:99px;background:var(--chip);font-size:10.5px;letter-spacing:.04em}
+.ccpick button[aria-current="true"] i{background:var(--paper)}
+.cchead{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);border-bottom:0;padding:clamp(24px,3vw,38px);margin-bottom:14px}
+.ccsum{gap:8px;padding:6px 0 4px}
+.ccsum span{padding:9px 14px;border-radius:99px;background:var(--card);box-shadow:var(--sh)}
+.ccgroup{margin-top:18px;padding:22px clamp(18px,2.4vw,30px) 10px;background:var(--card);border-radius:var(--r);box-shadow:var(--sh);border-top:5px solid var(--s)}
+.ccgroup h4{border-bottom:0;padding-bottom:4px}
+.ccgroup h4 span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--s);color:#fff;font-size:13px;align-self:center}
+.ccitem{grid-template-columns:120px minmax(0,1fr);padding:16px 0;border-bottom:1px solid var(--hair)}
+.ccitem:last-child{border-bottom:0}
+.ccitem time{padding-top:2px}
+.ccitem .csrc{font-size:13.5px;color:var(--muted)}
+.ccitem .csrc a{color:var(--muted)}
+.ccnone{border-bottom:0}
+@media (max-width:640px){.ccitem{grid-template-columns:1fr}.ccitem .csrc{grid-column:1}.cchead{grid-template-columns:1fr}}
+/* Encuestas */
+#view-encuestas .pcard{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:clamp(24px,3vw,40px);border:0;margin:0 0 22px}
+#view-encuestas .pcard:first-of-type,#view-encuestas .pcard+.pcard{border-top:0;margin-top:0}
+#view-encuestas .bru-intro+.pcard{margin-top:0}
+#view-encuestas .vbars{border-top:0}
+#view-encuestas .vhead{border-bottom:1px solid var(--hair)}
+#view-encuestas .vrow{border-bottom:0;padding:7px 0}
+#view-encuestas .vrow .track{height:10px;border-radius:99px;overflow:hidden;background:var(--chip)}
+#view-encuestas .vrow .fill{border-radius:99px}
+#view-encuestas .vrow .pn::before{width:10px;height:10px;border-radius:50%}
+#view-encuestas .mnote{padding:14px 18px;border-radius:10px;background:var(--paper);max-width:none}
+#view-encuestas .pnote{border-left:0;padding:12px 16px;border-radius:10px;background:var(--paper);max-width:none}
+#view-encuestas .blocs{border-top:0;padding-top:12px;gap:10px}
+#view-encuestas .bloc{padding:16px 18px;border:0;border-radius:12px;background:var(--paper)}
+#view-encuestas .btrack{height:14px;border-radius:99px;overflow:hidden;background:var(--chip)}
+#view-encuestas .incl{border-top:0;padding:14px 18px;border-radius:12px;background:var(--paper)}
+#view-encuestas .psel select{border-radius:999px;padding:11px 40px 11px 18px;border:1.5px solid var(--line);background-color:var(--card)}
+#view-encuestas details.ptable{padding:22px clamp(18px,2.4vw,30px)}
+
+.ccpick button{align-content:start}
+.ccpick button span{align-items:flex-start}
+.ccpick button i{line-height:1.2}
+#view-encuestas .vhead,#view-encuestas .vrow{grid-template-columns:110px minmax(0,1fr) 60px 70px;gap:14px}
+#view-encuestas .vrow b,#view-encuestas .vrow span:nth-child(n+3){text-align:right}
 </style>
 
 <nav class="topbar" aria-label="Secciones">
@@ -2234,7 +2287,7 @@ function renderTopic(){
   $("#topic").innerHTML=`
    <div class="th2"><div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div></div>
    ${V.length?"":`<p class="ed-empty">${PROG_LOADED?"Ningún partido de tu selección ha publicado aún su programa para el 29N.":"Cargando los programas del 29N…"}</p>`}
-   <div class="pcards">${(ED==="29n"&&PROG_LOADED?PARTIES:V).map(p=>{const has=(t.p[p.id]||[]).length,noProg=ED==="29n"&&!PROG[p.id];
+   <div class="pcards">${(ED==="29n"&&PROG_LOADED?PARTIES:V).slice().sort((a,b)=>((t.p[b.id]||[]).length?1:0)-((t.p[a.id]||[]).length?1:0)).map(p=>{const has=(t.p[p.id]||[]).length,noProg=ED==="29n"&&!PROG[p.id];
      return `<section class="pc2${has?"":" locked"}" ${pc(p.id)}><header><h3>${esc(p.name)}</h3>${ED==="prev"&&(P(p.id).prog||"Programa 2023")!=="Programa 2023"?progTag(p.id):""}</header>${has?pts(t.p[p.id],t.id,p.id):noProg?lockBox("Aún sin programa para el 29N"):LOCKED}</section>`}).join("")}</div>
    ${V.length?`<div class="dh"><h3>¿En qué se diferencian?</h3><p>Toca una pregunta para ver qué dice cada uno.</p></div><div class="ejes2">${t.ejes.map(renderEje).join("")}</div>`:""}
    ${words.size?`<details class="words2"><summary>Palabras de este tema explicadas · ${words.size}</summary><div class="words">${[...words].sort((a,b)=>GLOSS[a].t.localeCompare(GLOSS[b].t,"es")).map(k=>`<button type="button" class="term" data-term="${k}">${esc(GLOSS[k].t)}</button>`).join("")}</div></details>`:""}`;
