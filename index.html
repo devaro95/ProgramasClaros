@@ -916,6 +916,15 @@ sup a{opacity:.55;font-size:10px}
 .fchip:not([aria-pressed="true"]){opacity:.7}
 .ednote{display:block;text-align:right}
 @media (max-width:700px){.ednote{text-align:left}}
+
+.pcards{align-items:stretch}
+.pc2{display:flex;flex-direction:column}
+.cats{flex-wrap:wrap;overflow:visible;margin:0 0 8px;padding:6px 0 14px}
+.cats{gap:6px}
+.cats button{padding:10px 14px 10px 11px;font-size:14.5px;gap:7px}
+.cats button svg{width:17px;height:17px}
+@media (max-width:1150px){.cats button{padding:8px 11px 8px 9px;font-size:13px;gap:6px}}
+.th2{padding-top:30px}
 </style>
 
 <nav class="topbar" aria-label="Secciones">
@@ -2169,8 +2178,9 @@ territorio:'<path d="M9 4L3 7v13l6-3 6 3 6-3V4l-6 3z"/><path d="M9 4v13M15 7v13"
 campo:'<path d="M12 21V9"/><path d="M12 13c-3 0-5-2-5-5 3 0 5 2 5 5zM12 13c3 0 5-2 5-5-3 0-5 2-5 5zM12 9c-2 0-3-2-3-4 2 0 3 2 3 4zM12 9c2 0 3-2 3-4-2 0-3 2-3 4z"/>',
 politica:'<path d="M12 3l9 5H3z"/><path d="M5 10v8M9.7 10v8M14.3 10v8M19 10v8M3 20h18"/>',
 vida:'<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>'};
+const SHORT={igualdad:"Igualdad",territorio:"Comunidades",campo:"Campo y agua",politica:"Limpieza política",trabajo:"Trabajo",familias:"Familias",justicia:"Justicia"};
 const ico=id=>`<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[id]||""}</svg>`;
-function renderCats(){$("#cats").innerHTML=TOPICS.map(t=>`<button data-id="${t.id}" aria-current="${t.id===current}">${ico(t.id)}<span>${esc(t.name)}</span></button>`).join("");
+function renderCats(){$("#cats").innerHTML=TOPICS.map(t=>`<button data-id="${t.id}" aria-current="${t.id===current}">${ico(t.id)}<span>${esc(SHORT[t.id]||t.name)}</span></button>`).join("");
   const a=$("#cats [aria-current=\"true\"]");if(a){const c=$("#cats");c.scrollLeft=Math.max(0,a.offsetLeft-c.clientWidth/2+a.offsetWidth/2)}}
 function renderEje(e){
   const V=visible(),has=V.filter(p=>e.pos[p.id]&&e.pos[p.id]!==NO),none=V.filter(p=>!has.includes(p));
@@ -2188,7 +2198,7 @@ function renderTopic(){
   V.forEach(p=>(t.p[p.id]||[]).forEach(([s])=>termsIn(s,words)));
   t.ejes.forEach(e=>{termsIn(e.why,words);V.forEach(p=>termsIn(e.pos[p.id]||"",words))});
   $("#topic").innerHTML=`
-   <div class="th2"><span class="th2-i">${ico(t.id)}</span><div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div></div>
+   <div class="th2"><div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div></div>
    ${V.length?"":`<p class="ed-empty">${PROG_LOADED?"Ningún partido de tu selección ha publicado aún su programa para el 29N.":"Cargando los programas del 29N…"}</p>`}
    <div class="pcards">${V.map(p=>`<section class="pc2" ${pc(p.id)}><header><h3>${esc(p.name)}</h3>${ED==="prev"&&(P(p.id).prog||"Programa 2023")!=="Programa 2023"?progTag(p.id):""}</header>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
    ${V.length?`<div class="dh"><h3>¿En qué se diferencian?</h3><p>Toca una pregunta para ver qué dice cada uno.</p></div><div class="ejes2">${t.ejes.map(renderEje).join("")}</div>`:""}
@@ -2218,7 +2228,7 @@ function hash(s){let h=2166136261;for(const c of s){h^=c.charCodeAt(0);h=Math.im
 function order(e){const ids=PARTIES.map(p=>p.id).sort((a,b)=>hash(e.id+a)-hash(e.id+b));const seen=new Map();ids.forEach(id=>{const t=e.pos[id];if(!seen.has(t))seen.set(t,[]);seen.get(t).push(id)});
   return [...seen.values()].filter(g=>e.pos[g[0]]!==NO)}
 const optText=t=>t===NO?"No propone nada sobre esto.":plain(t);
-let answers=store.get("pc-brujula",{});let reveal=false;const draft={};
+let answers=store.get("pc-brujula-26",{});let reveal=false;const draft={};
 Object.keys(answers).forEach(k=>{if(!Array.isArray(answers[k]))answers[k]=[answers[k]]});
 const LETTERS="ABCDEFGHIJK";
 function quizScore(){
@@ -2288,13 +2298,13 @@ function renderBru(){
       <div class="opts">${groups.map((g,j)=>`<button type="button" class="opt" data-e="${e.id}" data-p="${g[0]}" aria-pressed="${d.includes(g[0])}"><span class="l">${LETTERS[j]}</span><span>${esc(optText(e.pos[g[0]]))}</span></button>`).join("")}</div>
       <div class="qact"><button type="button" class="btn primary" data-confirm="${e.id}" ${d.length?"":"disabled"}>${d.length>1?`Confirmar ${d.length} respuestas`:"Confirmar"}</button><button type="button" class="btn" data-none="${e.id}">Ninguna me convence</button></div></section>`}).join("");
   $("#bru").innerHTML=`<div class="bru-intro"><h2>Tu brújula política</h2>
-    <p>Usa los <b>programas de 2023</b> (o la última propuesta escrita), porque son los únicos que tienen todos los partidos. Para cada pregunta verás las posturas de los partidos <b>sin su nombre y en orden aleatorio</b>. Marca todas las que te convenzan y confirma. Cuando respondas las ${total} preguntas verás con qué partido encajas más.</p>
+    <p>Usa la <b>última postura escrita</b> de cada partido: su programa del 29N si ya lo ha publicado y, si no, el de 2023. Para cada pregunta verás las posturas de los partidos <b>sin su nombre y en orden aleatorio</b>. Marca todas las que te convenzan y confirma. Cuando respondas las ${total} preguntas verás con qué partido encajas más.</p>
     <p style="color:var(--muted);font-size:14px">Tus respuestas se guardan solo en este navegador.</p></div>
     ${complete?res:""}${qhtml}${complete?"":res}`;
 }
 function focusQ(id){const el=$("#bq-"+id);if(el)el.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}
 function afterAnswer(id){
-  delete draft[id];store.set("pc-brujula",answers);renderBru();
+  delete draft[id];store.set("pc-brujula-26",answers);renderBru();
   const next=EJES.find(x=>!answers[x.id]);
   if(next)focusQ(next.id);else{const r=$("#bres");if(r)r.scrollIntoView({block:"start"})}}
 $("#bru").addEventListener("click",e=>{
@@ -2303,9 +2313,9 @@ $("#bru").addEventListener("click",e=>{
     const sec=$("#bq-"+id);o.setAttribute("aria-pressed",i===-1);const btn=sec.querySelector("[data-confirm]");btn.disabled=!d.length;btn.textContent=d.length>1?`Confirmar ${d.length} respuestas`:"Confirmar";return}
   const c=e.target.closest("[data-confirm]");if(c){const id=c.dataset.confirm;if(draft[id]&&draft[id].length){answers[id]=[...draft[id]];afterAnswer(id)}return}
   const n=e.target.closest("[data-none]");if(n){answers[n.dataset.none]=["none"];afterAnswer(n.dataset.none);return}
-  const ed=e.target.closest("[data-edit]");if(ed){const id=ed.dataset.edit;const prev=answers[id];draft[id]=prev&&prev[0]!=="none"?[...prev]:[];delete answers[id];store.set("pc-brujula",answers);const y=scrollY;renderBru();scrollTo(0,y);focusQ(id);return}
+  const ed=e.target.closest("[data-edit]");if(ed){const id=ed.dataset.edit;const prev=answers[id];draft[id]=prev&&prev[0]!=="none"?[...prev]:[];delete answers[id];store.set("pc-brujula-26",answers);const y=scrollY;renderBru();scrollTo(0,y);focusQ(id);return}
   if(e.target.id==="brev"){reveal=!reveal;const y=scrollY;renderBru();scrollTo(0,y)}
-  if(e.target.id==="breset"){answers={};reveal=false;Object.keys(draft).forEach(k=>delete draft[k]);store.set("pc-brujula",answers);renderBru();scrollTo(0,$("#bru").offsetTop)}
+  if(e.target.id==="breset"){answers={};reveal=false;Object.keys(draft).forEach(k=>delete draft[k]);store.set("pc-brujula-26",answers);renderBru();scrollTo(0,$("#bru").offsetTop)}
 });
 
 /* ---------- Noticias (db: colección "noticias", doc "meta/noticias") ---------- */
@@ -2573,6 +2583,7 @@ function applyEdition(){
     t.ejes.forEach(e=>{e.pos[p.id]=n29?((o&&o.pos&&o.pos[e.id])||NO):BASE.pos[e.id][p.id]})}));
   if(n29)PARTIES.forEach(p=>{const o=PROG[p.id];if(o)Object.entries(o.expl||{}).forEach(([k,v])=>{const[t,i]=k.split("|");EXPL[`${t}|${p.id}|${i}`]=v})});
 }
+function refreshBru(){EJES.forEach(e=>PARTIES.forEach(p=>{const o=PROG[p.id],v=o&&o.pos&&o.pos[e.id];e.pos[p.id]=v||BASE.pos[e.id][p.id]}))}
 function applyProgram(o){SOURCES["p29-"+o.party]=o.source;SKEYS=Object.keys(SOURCES);PROG[o.party]=o}
 function renderEd(){
   const ok=PARTIES.filter(p=>PROG[p.id]),miss=PARTIES.filter(p=>!PROG[p.id]);
@@ -2580,8 +2591,8 @@ function renderEd(){
     ?(PROG_LOADED&&miss.length?`<span class="en-k">Aún sin programa:</span> ${esc(miss.map(p=>p.name).join(", "))}`:"")
     :`<span class="en-k">Generales del 23J de 2023</span> <span class="en-t">o la última propuesta escrita de cada partido</span>`;
   document.querySelectorAll("[data-edsw]").forEach(el=>el.innerHTML=`<div class="edsw" role="group" aria-label="Qué programas comparas">
-     <button type="button" data-set-ed="29n" aria-pressed="${ED==="29n"}">29N <small>${PROG_LOADED?`${ok.length}/${PARTIES.length}`:"…"}</small></button>
-     <button type="button" data-set-ed="prev" aria-pressed="${ED==="prev"}">2023 <small>${PARTIES.length}/${PARTIES.length}</small></button>
+     <button type="button" data-set-ed="29n" aria-pressed="${ED==="29n"}">Programa 29N <small>${PROG_LOADED?`${ok.length}/${PARTIES.length}`:"…"}</small></button>
+     <button type="button" data-set-ed="prev" aria-pressed="${ED==="prev"}">Programa año 2023 <small>${PARTIES.length}/${PARTIES.length}</small></button>
    </div><p class="ednote">${note}</p>`);
 }
 function renderHeroProg(){renderTiles();return;
@@ -2593,7 +2604,7 @@ function renderHeroProg(){renderTiles();return;
 function setEd(v){if(v!==ED){ED=v;store.set("pc-ed",v);applyEdition()}renderEd();renderFilter();renderTopic();renderParty();renderSources()}
 document.addEventListener("click",e=>{const b=e.target.closest("[data-set-ed]");if(b)setEd(b.dataset.setEd)});
 Promise.all(PARTIES.map(p=>fetch(`/data/programs-29n/${p.id}.json`,{cache:"no-cache"}).then(r=>r.ok?r.json():null).catch(()=>null))).then(list=>{
-  list.filter(o=>o&&o.election==="29N"&&o.party&&o.p).forEach(applyProgram);PROG_LOADED=true;applyEdition();
+  list.filter(o=>o&&o.election==="29N"&&o.party&&o.p).forEach(applyProgram);PROG_LOADED=true;applyEdition();refreshBru();renderBru();
   renderEd();renderHeroProg();renderFilter();renderSources();renderTopic();renderParty()});
 
 /* ---------- Votaciones del Congreso (data/votaciones.json, datos abiertos del Congreso) ---------- */
