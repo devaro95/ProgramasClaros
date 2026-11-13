@@ -97,6 +97,43 @@ b,strong{font-weight:600}
 }
 @media (max-width:380px){.count-pill .long{display:none}.top-actions{gap:10px}}
 
+/* ———————————————— Portada (rediseño) ———————————————— */
+.tab-more{display:inline-flex;align-items:center;gap:4px}
+.more-menu{position:absolute;right:var(--gutter);top:calc(100% + 1px);z-index:20;background:var(--paper);border:1px solid var(--rule);box-shadow:0 12px 30px rgba(0,0,0,.12);display:flex;flex-direction:column;min-width:290px}
+.topbar-in{position:relative}
+.more-menu button{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:2px;padding:12px 16px;border-bottom:1px solid var(--hair)}
+.more-menu button:last-child{border-bottom:0}
+.more-menu button:hover,.more-menu button:focus-visible{background:var(--accent-soft)}
+.more-menu b{font:600 14.5px var(--sans);color:var(--ink)}
+.more-menu span{font:400 13px var(--sans);color:var(--muted)}
+.hp{margin-top:clamp(22px,2.4vw,32px);padding-top:14px;border-top:1px solid var(--line)}
+.hp-k{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:600 12px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.hp-k b{color:var(--ink)}
+.hp-list{display:flex;flex-wrap:wrap;gap:6px}
+.hp-list span{font:600 12.5px/1 var(--sans);padding:7px 9px 6px;border-radius:2px;border:1px solid var(--line);color:var(--muted)}
+.hp-list span.ok{background:var(--c);color:var(--on);border-color:var(--c)}
+.hp-list span.ok::before{content:"✓ "}
+.hp-note{margin:10px 0 0;font:400 13.5px/1.45 var(--sans);color:var(--muted)}
+.hero .cta{margin:26px 0 0}
+.hero-viz .hv-k{font:600 12px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.hero-viz .hb{border-top:0;padding-top:4px}
+.edsw-wrap{margin:0 0 22px}
+.edsw{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);border-radius:2px;overflow:hidden;max-width:760px}
+.edsw button{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:3px;padding:14px 18px;background:var(--paper)}
+.edsw button+button{border-left:1px solid var(--rule)}
+.edsw button b{font:600 16px var(--sans);color:var(--ink)}
+.edsw button small{font:400 13px var(--sans);color:var(--muted)}
+.edsw button[aria-pressed="true"]{background:var(--ink)}
+.edsw button[aria-pressed="true"] b{color:var(--paper)}
+.edsw button[aria-pressed="true"] small{color:var(--paper);opacity:.75}
+.edsw button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
+.ednote{margin:10px 0 0;max-width:760px;font:400 14px/1.5 var(--sans);color:var(--ink-2)}
+.ednote b{font-weight:600}
+.ednote button{font:inherit;background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.ed-empty{padding:18px 20px;background:var(--accent-soft);border-left:3px solid var(--accent);font:400 15px/1.5 var(--sans);color:var(--ink-2)}
+.ed-empty button{font:inherit;background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.promise{border-top:1px solid var(--rule)}
+@media (max-width:640px){.edsw button{padding:12px 12px}.edsw button b{font-size:14.5px}.more-menu{left:0;right:0;min-width:0}}
 /* ———————————————— Portada ———————————————— */
 .hero{border-bottom:1px solid var(--rule)}
 .hero-in{max-width:1480px;margin-inline:auto;padding:clamp(28px,4.5vw,64px) var(--gutter) clamp(36px,5vw,70px);display:grid;grid-template-columns:minmax(0,6.3fr) minmax(0,5.7fr);column-gap:clamp(28px,4vw,72px);align-items:stretch}
@@ -754,15 +791,18 @@ span.pn[style]{color:var(--pc)}
   <div class="topbar-in">
     <a class="logo" href="/" id="logo">Programas <b>Claros</b></a>
     <div class="tabs" role="tablist">
-      <button id="tab-temas" role="tab" aria-selected="true" data-v="temas">Temas</button>
+      <button id="tab-temas" role="tab" aria-selected="true" data-v="temas">Programas</button>
       <button id="tab-partidos" role="tab" aria-selected="false" data-v="partidos">Partidos</button>
-      <button id="tab-brujula" role="tab" aria-selected="false" data-v="brujula">Tu brújula política</button>
-      <button id="tab-cumple" role="tab" aria-selected="false" data-v="cumple">¿Ha cumplido?</button>
-      <button id="tab-comunidades" role="tab" aria-selected="false" data-v="comunidades">Comunidades</button>
-      <button id="tab-congreso" role="tab" aria-selected="false" data-v="congreso">Votaciones</button>
+      <button id="tab-brujula" role="tab" aria-selected="false" data-v="brujula">Brújula</button>
       <button id="tab-encuestas" role="tab" aria-selected="false" data-v="encuestas">Encuestas</button>
-      <button id="tab-opina" role="tab" aria-selected="false" data-v="opina">Tu opinión</button>
       <button id="tab-noticias" role="tab" aria-selected="false" data-v="noticias">Noticias</button>
+      <button id="tab-mas" class="tab-more" aria-selected="false" aria-expanded="false" aria-controls="moreMenu" data-more="1"><span id="moreLabel">Más</span> <span aria-hidden="true">▾</span></button>
+    </div>
+    <div class="more-menu" id="moreMenu" hidden>
+      <button data-go="cumple"><b>¿Ha cumplido el Gobierno?</b><span>Sus promesas de 2023 y qué ha hecho</span></button>
+      <button data-go="comunidades"><b>Comunidades</b><span>Quién gobierna y qué se ha aprobado</span></button>
+      <button data-go="congreso"><b>Votaciones del Congreso</b><span>Qué votó cada partido</span></button>
+      <button data-go="opina"><b>Tu opinión</b><span>Vota y responde preguntas anónimas</span></button>
     </div>
     <div class="top-actions">
     <span class="count-pill" id="countPill"></span>
@@ -776,66 +816,28 @@ span.pn[style]{color:var(--pc)}
     <div class="hero-copy">
       <div class="kicker"><span>Elecciones generales</span><span>29 de noviembre de 2026</span></div>
       <h1>Antes de votar,<br><em>entiende</em> lo que votas.</h1>
-      <p class="hero-lede">Lo que promete cada partido, explicado sin palabras raras. Compara tema a tema, descubre con quién coincides y mira qué dicen las encuestas.</p>
-      <p class="hero-note" role="note"><span><span id="heroProg"><b>Los programas para el 29N aún no están publicados.</b> Mientras tanto, mostramos los de las generales de 2023 (o la última propuesta escrita de cada partido).</span> <button type="button" id="progInfoBtn">Más detalles</button></span></p>
+      <p class="hero-lede">Lo que promete cada partido, explicado sin palabras raras.</p>
+      <div class="hp" id="heroProg"></div>
       <div class="cta">
-        <button class="btn-hero primary" data-go="temas">Compara por temas</button>
-        <button class="btn-hero" data-go="brujula">Descubre con quién coincides</button>
+        <button class="btn-hero primary" data-go="temas" data-set-ed="29n">Comparar programas del 29N</button>
+        <button class="btn-hero" data-go="temas" data-set-ed="prev">Ver los de 2023</button>
+        <button class="btn-hero" data-go="brujula">¿Con quién coincides?</button>
       </div>
-      <dl class="stats" id="heroStats"></dl>
     </div>
-    <div class="hero-viz" id="heroViz"></div>
+    <aside class="hero-viz" id="heroViz"></aside>
   </div>
 </header>
 
-<section class="vote" id="votar" aria-labelledby="vote-h">
-  <div class="vote-in">
-    <div class="vote-head">
-      <p class="vote-k"><span class="vote-dot" aria-hidden="true"></span>Votación de los lectores · anónima</p>
-      <h2 id="vote-h">Si las elecciones fueran hoy, ¿a quién votarías?</h2>
-      <p class="vote-lede">Puedes cambiar tu voto cuando quieras hasta el 29 de noviembre. No guardamos ningún dato personal.</p>
-      <p class="vote-total" id="voteTotal" aria-live="polite"></p>
-    </div>
-    <div class="vote-body" id="vote" aria-live="polite"></div>
-  </div>
-  <p class="vote-note">No es una encuesta: solo refleja lo que vota quien entra en esta página, no lo que piensa toda la población. Del 24 al 29 de noviembre no se muestran resultados, como pide la ley electoral para las encuestas.</p>
-</section>
 
-<section class="features" aria-label="Qué hay en esta web">
-  <div class="features-in">
-    <p class="idx-label">En esta guía</p>
-    <button class="feat lead" data-go="temas"><b>15 temas, cara a cara</b><span>Vivienda, sueldos, sanidad… lo que propone cada partido y en qué se diferencian.</span><em>Comparar</em></button>
-    <div class="feat-list">
-      <button class="feat" data-go="partidos"><b>Partido a partido</b><span>Todo lo que propone cada partido, tema por tema.</span></button>
-      <button class="feat" data-go="brujula"><b>Tu brújula política</b><span>Responde 34 preguntas eligiendo propuestas sin ver de quién son, y te decimos qué partido encaja más contigo.</span></button>
-      <button class="feat" data-go="cumple"><b>¿Ha cumplido el Gobierno?</b><span>Las promesas de su programa de 2023 y qué se ha hecho con ellas.</span></button>
-      <button class="feat" data-go="comunidades"><b>Comunidades autónomas</b><span>Quién gobierna cada una y qué se ha aprobado o no desde 2023.</span></button>
-      <button class="feat" data-go="encuestas"><b>Encuestas</b><span>Intención de voto y escaños según cada empresa, y la media de todas.</span></button>
-      <button class="feat" data-go="opina"><b>Tu opinión</b><span>Preguntas rápidas y anónimas: responde y mira qué contestan los demás lectores.</span></button>
-      <button class="feat" data-go="noticias"><b>Últimas noticias</b><span>Lo más reciente de cada partido, con enlace al medio original.</span></button>
-    </div>
-  </div>
-</section>
 
-<section class="promise" aria-labelledby="criterio">
-  <div class="promise-in">
-    <div class="promise-head">
-      <p class="eyebrow">Neutral por diseño</p>
-      <h2 id="criterio">Nuestro criterio</h2>
-    </div>
-    <ul>
-      <li><b>Solo lo escrito</b><span>Resumimos los programas; no opinamos.</span></li>
-      <li><b>Mismo trato</b><span>Mismo espacio y diseño para todos los partidos.</span></li>
-      <li><b>Dos lados</b><span>Cada diferencia trae los argumentos de cada postura.</span></li>
-      <li><b>Con fuentes</b><span>Cada dato enlaza a su origen.</span></li>
-    </ul>
-    <details class="fineprint" id="progInfo"><summary>Qué programas estás viendo</summary><p>Mientras los partidos publican sus programas para el 29N, aquí ves la última propuesta escrita de cada partido que se presenta y tiene opciones de entrar en el Congreso. Para la mayoría es su programa de las generales del 23 de julio de 2023. Podemos fue dentro de Sumar en 2023, así que usamos su programa de las europeas de 2024. Sumar se presenta el 29N como Frente Amplio (IU, Movimiento Sumar, Más Madrid y Comuns), con Ada Colau de cabeza de lista; mostramos el programa de Sumar de 2023. SALF no tiene programa escrito: recogemos las propuestas que presentó en octubre de 2025. De Coalición Canaria no hemos localizado su programa de 2023: usamos las propuestas que publica en su web y las que anunció para el 23J. Cada partido lleva una etiqueta con el origen de sus propuestas. Aliança Catalana no se presenta a estas elecciones. Si un partido no propone nada sobre un tema, lo decimos. Las explicaciones de cada ley describen cómo estaba en 2023. Las palabras subrayadas se pueden tocar para ver qué significan.</p><p id="progNow" hidden></p></details>
-  </div>
-</section>
+
+
+
 
 <main class="wrap" id="app">
   <section id="view-temas">
-    <div class="sec-head"><div><h2>Compara por temas</h2><p>Elige un tema y mira, partido por partido, qué propone y en qué se diferencian.</p></div></div>
+    <div class="sec-head"><div><h2>Compara los programas</h2><p>Elige qué programas comparar y un tema.</p></div></div>
+    <div class="edsw-wrap" data-edsw></div>
     <div class="filter" id="filter"></div>
     <nav class="cats" id="cats" aria-label="Temas"></nav>
     <article class="topic" id="topic"></article>
@@ -843,6 +845,7 @@ span.pn[style]{color:var(--pc)}
 
   <section id="view-partidos" hidden>
     <div class="sec-head"><div><h2>Partido a partido</h2><p>Todo lo que propone cada partido, tema por tema. Toca cualquier propuesta para verla explicada.</p></div></div>
+    <div class="edsw-wrap" data-edsw></div>
     <div class="pview"><div class="ppick" id="ppick"></div><div id="pview"></div></div>
   </section>
 
@@ -863,6 +866,18 @@ span.pn[style]{color:var(--pc)}
   </section>
 
   <section id="view-opina" hidden>
+<section class="vote" id="votar" aria-labelledby="vote-h">
+  <div class="vote-in">
+    <div class="vote-head">
+      <p class="vote-k"><span class="vote-dot" aria-hidden="true"></span>Votación de los lectores · anónima</p>
+      <h2 id="vote-h">Si las elecciones fueran hoy, ¿a quién votarías?</h2>
+      <p class="vote-lede">Puedes cambiar tu voto cuando quieras hasta el 29 de noviembre. No guardamos ningún dato personal.</p>
+      <p class="vote-total" id="voteTotal" aria-live="polite"></p>
+    </div>
+    <div class="vote-body" id="vote" aria-live="polite"></div>
+  </div>
+  <p class="vote-note">No es una encuesta: solo refleja lo que vota quien entra en esta página, no lo que piensa toda la población. Del 24 al 29 de noviembre no se muestran resultados, como pide la ley electoral para las encuestas.</p>
+</section>
     <div class="bru" id="opina"></div>
   </section>
 
@@ -874,6 +889,21 @@ span.pn[style]{color:var(--pc)}
     <div class="bru" id="bru"></div>
   </section>
 
+<section class="promise" aria-labelledby="criterio">
+  <div class="promise-in">
+    <div class="promise-head">
+      <p class="eyebrow">Neutral por diseño</p>
+      <h2 id="criterio">Nuestro criterio</h2>
+    </div>
+    <ul>
+      <li><b>Solo lo escrito</b><span>Resumimos los programas; no opinamos.</span></li>
+      <li><b>Mismo trato</b><span>Mismo espacio y diseño para todos los partidos.</span></li>
+      <li><b>Dos lados</b><span>Cada diferencia trae los argumentos de cada postura.</span></li>
+      <li><b>Con fuentes</b><span>Cada dato enlaza a su origen.</span></li>
+    </ul>
+    <details class="fineprint" id="progInfo"><summary>Qué programas estás viendo</summary><p>Puedes comparar dos grupos de programas, siempre por separado: los del 29N (solo los partidos que ya lo han publicado) y los anteriores. En los anteriores, para la mayoría es su programa de las generales del 23 de julio de 2023. Podemos fue dentro de Sumar en 2023, así que usamos su programa de las europeas de 2024. Sumar se presenta el 29N como Frente Amplio (IU, Movimiento Sumar, Más Madrid y Comuns), con Ada Colau de cabeza de lista; mostramos el programa de Sumar de 2023. SALF no tiene programa escrito: recogemos las propuestas que presentó en octubre de 2025. De Coalición Canaria no hemos localizado su programa de 2023: usamos las propuestas que publica en su web y las que anunció para el 23J. Cada partido lleva una etiqueta con el origen de sus propuestas. Aliança Catalana no se presenta a estas elecciones. Si un partido no propone nada sobre un tema, lo decimos. Las explicaciones de cada ley describen cómo estaba en 2023. Las palabras subrayadas se pueden tocar para ver qué significan.</p><p id="progNow" hidden></p></details>
+  </div>
+</section>
   <footer>
     <h3>Fuentes</h3>
     <ol id="sources"></ol>
@@ -1942,18 +1972,20 @@ renderSources();
 /* ---------- Filtro de partidos (por tema y brújula) ---------- */
 let shown=new Set(store.get("pc-shown",PARTIES.map(p=>p.id)).filter(id=>PARTIES.some(p=>p.id===id)));
 if(!shown.size)PARTIES.forEach(p=>shown.add(p.id));
-const visible=()=>PARTIES.filter(p=>shown.has(p.id));
+const pool=()=>ED==="29n"?PARTIES.filter(p=>PROG[p.id]):PARTIES;
+const visible=()=>pool().filter(p=>shown.has(p.id));
 function renderFilter(){
-  const est=PARTIES.filter(p=>p.grp==="est").map(p=>p.id);
-  const isAll=shown.size===PARTIES.length,isEst=shown.size===est.length&&est.every(id=>shown.has(id));
-  const grp=(g,label)=>`<div class="frow" role="group" aria-label="${label}"><span class="flabel">${label}</span>`+PARTIES.filter(p=>p.grp===g).map(p=>`<button type="button" class="fchip" data-id="${p.id}" ${pc(p.id)} aria-pressed="${shown.has(p.id)}" title="${shown.has(p.id)?"Quitar":"Añadir"} ${esc(p.full)}">${esc(p.name)}</button>`).join("")+`</div>`;
-  $("#filter").innerHTML=`<div class="fhead"><h3>Partidos que comparas</h3><span class="fcount">${shown.size} de ${PARTIES.length} · toca para añadir o quitar</span>
+  const PL=pool();if(!PL.length||(ED==="29n"&&PL.length<=6)){$("#filter").innerHTML="";$("#filter").hidden=true;return}$("#filter").hidden=false;
+  const n=PL.filter(p=>shown.has(p.id)).length,est=PL.filter(p=>p.grp==="est").map(p=>p.id);
+  const isAll=n===PL.length,isEst=n===est.length&&est.every(id=>shown.has(id));
+  const grp=(g,label)=>!PL.some(p=>p.grp===g)?"":`<div class="frow" role="group" aria-label="${label}"><span class="flabel">${label}</span>`+PL.filter(p=>p.grp===g).map(p=>`<button type="button" class="fchip" data-id="${p.id}" ${pc(p.id)} aria-pressed="${shown.has(p.id)}" title="${shown.has(p.id)?"Quitar":"Añadir"} ${esc(p.full)}">${esc(p.name)}</button>`).join("")+`</div>`;
+  $("#filter").innerHTML=`<div class="fhead"><h3>Partidos que comparas</h3><span class="fcount">${n} de ${PL.length} · toca para añadir o quitar</span>
     <div class="fpresets"><button type="button" data-preset="all" aria-pressed="${isAll}">Todos</button><button type="button" data-preset="est" aria-pressed="${isEst}">Solo estatales</button></div></div>
     ${grp("est","Ámbito estatal")}${grp("aut","Ámbito autonómico")}`;
 }
 $("#filter").addEventListener("click",e=>{
   const b=e.target.closest(".fchip");
-  if(b){const id=b.dataset.id;if(shown.has(id)){if(shown.size>1)shown.delete(id)}else shown.add(id)}
+  if(b){const id=b.dataset.id;if(shown.has(id)){if(visible().length>1)shown.delete(id)}else shown.add(id)}
   else if(e.target.dataset.preset){shown=new Set((e.target.dataset.preset==="est"?PARTIES.filter(p=>p.grp==="est"):PARTIES).map(p=>p.id))}
   else return;
   store.set("pc-shown",[...shown]);renderFilter();renderTopic();
@@ -2018,7 +2050,7 @@ function renderEje(e){
   return `<section class="eje"><h3>${esc(e.q)}</h3><p class="why">${rich(e.why)}</p>
    <div class="pos">${visible().filter(p=>e.pos[p.id]!==NO).map(p=>`<div ${pc(p.id)}>${badge(p.id)}<span>${rich(e.pos[p.id])}</span></div>`).join("")}</div>
    ${(()=>{const none=visible().filter(p=>e.pos[p.id]===NO);return none.length?`<p class="pos-none"><span>Sin propuesta sobre esto en las fuentes revisadas:</span> ${none.map(p=>`<span ${pc(p.id)}>${badge(p.id)}</span>`).join("")}</p>`:""})()}
-   <div class="block"><h4>Qué cambiaría para ti</h4><p>${rich(e.prac)}</p></div>
+   ${ED==="29n"?"":`<div class="block"><h4>Qué cambiaría para ti</h4><p>${rich(e.prac)}</p></div>`}
    <div class="block"><h4>Los argumentos de cada lado</h4><div class="args">${e.args.map(([w,a])=>`<div><b>${esc(w)}</b><span>${rich(a)}</span></div>`).join("")}</div></div>
   </section>`;
 }
@@ -2030,9 +2062,8 @@ function renderTopic(){
   $("#topic").innerHTML=`
    <div class="topic-head"><div class="eyebrow">Tema ${TOPICS.indexOf(t)+1} de ${TOPICS.length}</div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div>
    <h3 class="sec-title">Qué propone cada partido</h3>
-   <div class="ptable-rows" aria-label="Propuestas por partido">${visible().map(p=>`<section class="party" ${pc(p.id)}><h3>${badge(p.id)}${progTag(p.id)}<span class="pname">${esc(p.full===p.name?"":p.full)}</span></h3>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
-   <h3 class="sec-title">Las diferencias, explicadas</h3>
-   ${t.ejes.map(renderEje).join("")}
+   ${visible().length?"":`<p class="ed-empty">${PROG_LOADED?"Ningún partido de tu selección ha publicado aún su programa para el 29N.":"Cargando los programas del 29N…"}</p>`}<div class="ptable-rows" aria-label="Propuestas por partido">${visible().map(p=>`<section class="party" ${pc(p.id)}><h3>${badge(p.id)}${progTag(p.id)}<span class="pname">${esc(p.full===p.name?"":p.full)}</span></h3>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
+   ${visible().length?`<h3 class="sec-title">Las diferencias, explicadas</h3>${t.ejes.map(renderEje).join("")}`:""}
    <div class="block"><h4>Todas las palabras de este tema</h4><div class="words">${[...words].sort((a,b)=>GLOSS[a].t.localeCompare(GLOSS[b].t,"es")).map(k=>`<button type="button" class="term" data-term="${k}">${esc(GLOSS[k].t)}</button>`).join("")}</div></div>`;
 }
 $("#cats").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;current=b.dataset.id;renderCats();renderTopic();try{history.replaceState(null,"","/temas/"+current)}catch(_){}$("#topic").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})});
@@ -2048,12 +2079,13 @@ let party=PARTIES[0].id;
 function renderParty(){
   $("#ppick").innerHTML=PARTIES.map(p=>`<button data-id="${p.id}" ${pc(p.id)} aria-current="${p.id===party}">${esc(p.name)}</button>`).join("");
   const p=P(party);
+  if(ED==="29n"&&!PROG[p.id]){$("#pview").innerHTML=`<div class="phead" ${pc(p.id)}><div class="phead-k">${badge(p.id)}</div><h2>${esc(p.full)}</h2></div><p class="ed-empty">${PROG_LOADED?`${esc(p.name)} aún no ha publicado su programa para el 29N. <button type="button" data-set-ed="prev" class="linkish">Ver su programa anterior</button>`:"Cargando los programas del 29N…"}</p>`;return}
   $("#pview").innerHTML=`<div class="phead" ${pc(p.id)}><div class="phead-k">${badge(p.id)}${progTag(p.id)}</div><h2>${esc(p.full)}</h2></div>`+TOPICS.map(t=>`<div class="prow" ${pc(p.id)}><h4>${esc(t.name)}</h4><div>${pts(t.p[p.id],t.id,p.id)}</div></div>`).join("");
 }
 $("#ppick").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;party=b.dataset.id;renderParty()});
 
 /* ---------- Brújula ---------- */
-const EJES=TOPICS.flatMap(t=>t.ejes.map(e=>({...e,topic:t.name})));
+const EJES=TOPICS.flatMap(t=>t.ejes.map(e=>({...e,pos:{...e.pos},topic:t.name})));
 function hash(s){let h=2166136261;for(const c of s){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0}
 function order(e){const ids=PARTIES.map(p=>p.id).sort((a,b)=>hash(e.id+a)-hash(e.id+b));const seen=new Map();ids.forEach(id=>{const t=e.pos[id];if(!seen.has(t))seen.set(t,[]);seen.get(t).push(id)});
   return [...seen.values()].filter(g=>e.pos[g[0]]!==NO)}
@@ -2128,7 +2160,7 @@ function renderBru(){
       <div class="opts">${groups.map((g,j)=>`<button type="button" class="opt" data-e="${e.id}" data-p="${g[0]}" aria-pressed="${d.includes(g[0])}"><span class="l">${LETTERS[j]}</span><span>${esc(optText(e.pos[g[0]]))}</span></button>`).join("")}</div>
       <div class="qact"><button type="button" class="btn primary" data-confirm="${e.id}" ${d.length?"":"disabled"}>${d.length>1?`Confirmar ${d.length} respuestas`:"Confirmar"}</button><button type="button" class="btn" data-none="${e.id}">Ninguna me convence</button></div></section>`}).join("");
   $("#bru").innerHTML=`<div class="bru-intro"><h2>Tu brújula política</h2>
-    <p>Para cada pregunta verás las posturas de los partidos <b>sin su nombre y en orden aleatorio</b>. Marca todas las que te convenzan y confirma. Cuando respondas las ${total} preguntas verás con qué partido encajas más.</p>
+    <p>Usa los <b>programas de 2023</b> (o la última propuesta escrita), porque son los únicos que tienen todos los partidos. Para cada pregunta verás las posturas de los partidos <b>sin su nombre y en orden aleatorio</b>. Marca todas las que te convenzan y confirma. Cuando respondas las ${total} preguntas verás con qué partido encajas más.</p>
     <p style="color:var(--muted);font-size:14px">Tus respuestas se guardan solo en este navegador.</p></div>
     ${complete?res:""}${qhtml}${complete?"":res}`;
 }
@@ -2366,36 +2398,65 @@ function renderCumple(){
 $("#cumple").addEventListener("click",e=>{const b=e.target.closest("[data-cf]");if(!b)return;cumpleF=(b.dataset.cf===cumpleF?"all":b.dataset.cf);renderCumple()});
 
 const VIEWS=["temas","partidos","brujula","cumple","comunidades","congreso","encuestas","opina","noticias"];
-function setTab(v){if(v==="congreso"&&cv.state==="idle")renderCongreso();document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===v));VIEWS.forEach(x=>$("#view-"+x).hidden=x!==v);const a=document.querySelector(".tabs [aria-selected=\"true\"]"),T=a&&a.parentElement;if(T&&T.scrollWidth>T.clientWidth)T.scrollLeft=Math.max(0,a.offsetLeft-T.clientWidth/2+a.offsetWidth/2)}
-function go(v){setTab(v);try{history.replaceState(null,"","/"+v)}catch(_){}const app=$("#app");if(app.getBoundingClientRect().top>80||scrollY<app.offsetTop-80)app.scrollIntoView({block:"start"})}
-document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)go(b.dataset.v)});
+function setTab(v){if(v==="congreso"&&cv.state==="idle")renderCongreso();document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.more?String(v in MORE):String(b.dataset.v===v)));$("#moreLabel").textContent=MORE[v]||"Más";VIEWS.forEach(x=>$("#view-"+x).hidden=x!==v);const a=document.querySelector(".tabs [aria-selected=\"true\"]"),T=a&&a.parentElement;if(T&&T.scrollWidth>T.clientWidth)T.scrollLeft=Math.max(0,a.offsetLeft-T.clientWidth/2+a.offsetWidth/2)}
+const MORE={cumple:"¿Ha cumplido?",comunidades:"Comunidades",congreso:"Votaciones",opina:"Tu opinión"};
+function closeMore(){$("#moreMenu").hidden=true;$("#tab-mas").setAttribute("aria-expanded","false")}
+$("#tab-mas").addEventListener("click",e=>{e.stopPropagation();const m=$("#moreMenu");m.hidden=!m.hidden;$("#tab-mas").setAttribute("aria-expanded",String(!m.hidden))});
+document.addEventListener("click",e=>{if(!e.target.closest("#moreMenu"))closeMore()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMore()});
+function go(v){closeMore();setTab(v);try{history.replaceState(null,"","/"+v)}catch(_){}const app=$("#app");if(app.getBoundingClientRect().top>80||scrollY<app.offsetTop-80)app.scrollIntoView({block:"start"})}
+document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b&&b.dataset.v)go(b.dataset.v)});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b){e.preventDefault();go(b.dataset.go)}});
 /* ---------- Portada ---------- */
 function renderHero(){
   const now=new Date(),el=new Date(2026,10,29),days=Math.ceil((el-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/864e5);
   $("#countPill").innerHTML=days>1?`<span class="long">29N · </span>faltan ${days} días`:days===1?"29N · es mañana":days===0?"Hoy se vota":"Elecciones del 29N celebradas";
   const st=[[days>0?days:0,days>0?"días para votar":"días para votar"],[PARTIES.length,"partidos comparados"],[TOPICS.length,"temas"],[Object.keys(GLOSS).length,"palabras explicadas"]];
-  $("#heroStats").innerHTML=st.map(([n,l])=>`<div><dt>${l}</dt><dd>${n}</dd></div>`).join("");
+
   const avg=avgPoll(POLLS_DATA);
   if(!avg.seats){$("#heroViz").hidden=true;return}
-  $("#heroViz").innerHTML=`<div class="hv-k">Si las elecciones fueran hoy</div><div class="hv-t">Media de ${avg.n} encuestas</div>${hemicycle(avg.seats,"Media de escaños de las encuestas, de izquierda a derecha",true)}
+  $("#heroViz").innerHTML=`<div class="hv-k">Si las elecciones fueran hoy</div><div class="hv-t">Media de ${avg.n} encuestas</div>
     ${heroBlocs(avg.seats)}
     <button class="hv-link" data-go="encuestas">Ver todas las encuestas y pactos</button>`;
 }
 
 /* ---------- Programas del 29N (los publica /api/cron/programs en data/programs-29n/<id>.json) ---------- */
 const PROG={};
-function progTag(id){return PROG[id]?`<span class="ptag new" title="Programa para las elecciones del 29 de noviembre de 2026">Programa 29N</span>`:`<span class="ptag" title="Aún no ha publicado el programa del 29N: se muestra su última propuesta escrita">${esc(P(id).prog||"Programa 2023")}</span>`}
-function applyProgram(o){const id=o.party;SOURCES["p29-"+id]=o.source;SKEYS=Object.keys(SOURCES);
-  TOPICS.forEach(t=>{t.p[id]=(o.p&&o.p[t.id])||[];t.ejes.forEach(e=>{e.pos[id]=(o.pos&&o.pos[e.id])||NO})});
-  Object.keys(EXPL).forEach(k=>{if(k.split("|")[1]===id)delete EXPL[k]});
-  Object.entries(o.expl||{}).forEach(([k,v])=>{const[t,i]=k.split("|");EXPL[`${t}|${id}|${i}`]=v});
-  PROG[id]=o}
-function renderProgNote(){const ok=PARTIES.filter(p=>PROG[p.id]).map(p=>p.name),el=$("#progNow");if(!ok.length){el.hidden=true;return}
-  el.hidden=false;el.innerHTML=names(esc(`Ya han publicado su programa para el 29N: ${ok.join(", ")}. Lo verás marcado como «Programa 29N»; del resto se muestra todavía su última propuesta escrita.`));const h=$("#heroProg");if(h)h.innerHTML=`<b>${ok.length===1?`Ya ha publicado su programa para el 29N: ${esc(ok[0])}.`:`Ya han publicado su programa para el 29N: ${esc(ok.join(", "))}.`}</b> Del resto mostramos todavía su programa de 2023 (o su última propuesta escrita).`}
+function progTag(id){return ED==="29n"&&PROG[id]?`<span class="ptag new" title="Programa para las elecciones del 29 de noviembre de 2026">Programa 29N</span>`:`<span class="ptag" title="Aún no ha publicado el programa del 29N: se muestra su última propuesta escrita">${esc(P(id).prog||"Programa 2023")}</span>`}
+let PROG_LOADED=false,ED=store.get("pc-ed","29n");if(ED!=="29n"&&ED!=="prev")ED="29n";
+const BASE={p:{},pos:{},expl:{...EXPL}};
+TOPICS.forEach(t=>{BASE.p[t.id]={...t.p};t.ejes.forEach(e=>{BASE.pos[e.id]={...e.pos}})});
+function applyEdition(){
+  const n29=ED==="29n";
+  Object.keys(EXPL).forEach(k=>delete EXPL[k]);
+  if(!n29)Object.assign(EXPL,BASE.expl);
+  TOPICS.forEach(t=>PARTIES.forEach(p=>{const o=PROG[p.id];
+    t.p[p.id]=n29?((o&&o.p&&o.p[t.id])||[]):(BASE.p[t.id][p.id]||[]);
+    t.ejes.forEach(e=>{e.pos[p.id]=n29?((o&&o.pos&&o.pos[e.id])||NO):BASE.pos[e.id][p.id]})}));
+  if(n29)PARTIES.forEach(p=>{const o=PROG[p.id];if(o)Object.entries(o.expl||{}).forEach(([k,v])=>{const[t,i]=k.split("|");EXPL[`${t}|${p.id}|${i}`]=v})});
+}
+function applyProgram(o){SOURCES["p29-"+o.party]=o.source;SKEYS=Object.keys(SOURCES);PROG[o.party]=o}
+function renderEd(){
+  const ok=PARTIES.filter(p=>PROG[p.id]),miss=PARTIES.filter(p=>!PROG[p.id]);
+  const note=ED==="29n"
+    ?(PROG_LOADED?`Solo aparecen los ${ok.length} partidos que ya han publicado su programa. <b>Aún no lo han hecho:</b> ${esc(miss.map(p=>p.name).join(", "))}. <button type="button" data-set-ed="prev">Ver sus programas anteriores</button>`:"Cargando los programas del 29N…")
+    :`Programas de las generales del 23 de julio de 2023. Si un partido no tiene, mostramos su última propuesta escrita (lo indica su etiqueta).`;
+  document.querySelectorAll("[data-edsw]").forEach(el=>el.innerHTML=`<div class="edsw" role="group" aria-label="Qué programas comparas">
+     <button type="button" data-set-ed="29n" aria-pressed="${ED==="29n"}"><b>Programas del 29N</b><small>2026 · ${PROG_LOADED?`${ok.length} de ${PARTIES.length} publicados`:"cargando…"}</small></button>
+     <button type="button" data-set-ed="prev" aria-pressed="${ED==="prev"}"><b>Programas de 2023</b><small>23J · los ${PARTIES.length} partidos</small></button>
+   </div><p class="ednote">${names(note)}</p>`);
+}
+function renderHeroProg(){
+  const ok=PARTIES.filter(p=>PROG[p.id]);
+  $("#heroProg").innerHTML=`<div class="hp-k"><span>Programas publicados para el 29N</span><b>${PROG_LOADED?`${ok.length} de ${PARTIES.length}`:"…"}</b></div>
+    <div class="hp-list">${PARTIES.map(p=>`<span class="${PROG[p.id]?"ok":""}" ${pc(p.id)} title="${esc(p.full)}: ${PROG[p.id]?"publicado":"aún no publicado"}">${esc(p.name)}</span>`).join("")}</div>
+    <p class="hp-note">Los programas del 29N y los de 2023 se comparan por separado, nunca mezclados.</p>`;
+}
+function setEd(v){if(v!==ED){ED=v;store.set("pc-ed",v);applyEdition()}renderEd();renderFilter();renderTopic();renderParty();renderSources()}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-set-ed]");if(b)setEd(b.dataset.setEd)});
 Promise.all(PARTIES.map(p=>fetch(`/data/programs-29n/${p.id}.json`,{cache:"no-cache"}).then(r=>r.ok?r.json():null).catch(()=>null))).then(list=>{
-  const ok=list.filter(o=>o&&o.election==="29N"&&o.party&&o.p);if(!ok.length)return;
-  ok.forEach(applyProgram);renderSources();renderTopic();renderParty();renderBru();renderProgNote()});
+  list.filter(o=>o&&o.election==="29N"&&o.party&&o.p).forEach(applyProgram);PROG_LOADED=true;applyEdition();
+  renderEd();renderHeroProg();renderFilter();renderSources();renderTopic();renderParty()});
 
 /* ---------- Votaciones del Congreso (data/votaciones.json, datos abiertos del Congreso) ---------- */
 const VCATS={leyes:"Leyes",decretos:"Decretos ley",mociones:"Mociones",pnl:"Proposiciones no de ley",tratados:"Tratados internacionales",otros:"Otros"};
@@ -2602,10 +2663,10 @@ if(seg[0]==="comunidades"&&CCAA.items.some(c=>c.id===seg[1]))ccSel=seg[1];
 if(v0)setTab(v0);
 if(h&&(VIEWS.includes(h)||t0===h))try{history.replaceState(null,"",t0?"/temas/"+t0:"/"+v0)}catch(_){}
 $("#logo").addEventListener("click",e=>{e.preventDefault();try{history.replaceState(null,"","/")}catch(_){}scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
-renderFilter();renderCats();renderTopic();renderParty();renderBru();renderNews();renderPolls();renderCumple();renderCcaa();renderHero();
+applyEdition();renderEd();renderHeroProg();renderFilter();renderCats();renderTopic();renderParty();renderBru();renderNews();renderPolls();renderCumple();renderCcaa();renderHero();
 
 </script>
 
-<script>document.getElementById("progInfoBtn").addEventListener("click",()=>{const d=document.getElementById("progInfo");d.open=true;d.scrollIntoView({behavior:"smooth",block:"center"})});</script>
+
 </body>
 </html>
