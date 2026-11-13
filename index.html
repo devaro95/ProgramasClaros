@@ -2248,7 +2248,7 @@ function renderParty(){
   const src=ED==="29n"?`Programa 29N · publicado el ${fmt(o.published)}`:(P(p.id).prog||"Programa 2023");
   const link=ED==="29n"&&o.source&&o.source.u?` · <a href="${o.source.u}" target="_blank" rel="noopener">ver fuente ↗</a>`:"";
   $("#pview").innerHTML=head(`<p class="ph-s">${esc(src)}${link}</p><p class="ph-n"><b>${n}</b> propuestas en <b>${full.length}</b> temas</p>`)+
-   `<div class="pcards tcards">${full.map(t=>`<section class="pc2" ${pc(p.id)}><header><h3><span class="tc-i">${ico(t.id)}</span>${esc(t.name)}</h3></header>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
+   `<div class="pcards tcards">${full.map(t=>`<section class="pc2" ${pc(p.id)}><header><h3>${esc(t.name)}</h3></header>${pts(t.p[p.id],t.id,p.id)}</section>`).join("")}</div>
    ${empty.length?`<p class="pos-none2 tc-none">Sin propuestas sobre: ${esc(empty.map(t=>t.name).join(", "))}</p>`:""}`;
 }
 $("#ppick").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;party=b.dataset.id;renderParty()});
