@@ -2615,8 +2615,8 @@ function seatLegend(seats,votes){
 const BLOCS=[
  {id:"der",name:"Bloque de derecha",parties:["pp","vox","upn"],desc:"PP, Vox y UPN: los partidos que suelen sumarse en este bloque y que ya gobiernan juntos en varias comunidades."},
  {id:"izq",name:"Bloque de izquierda",parties:["psoe","sumar","podemos"],desc:"PSOE, Sumar y Podemos: los partidos que formaron el Gobierno de coalición o lo apoyaron desde dentro de Sumar en 2023."},
- {id:"fei23",name:"Apoyos de Feijóo en 2023",parties:["pp","vox","upn","cc"],desc:"Los partidos que votaron sí a la investidura de Feijóo en septiembre de 2023 (no salió adelante: sumó 172)."},
- {id:"san23",name:"Apoyos de Sánchez en 2023",parties:["psoe","sumar","podemos","erc","junts","bildu","pnv","bng","cc"],desc:"Los partidos que votaron sí a la investidura de Sánchez en noviembre de 2023 (salió adelante con 179). Junts ha votado después contra el Gobierno en varias leyes, como los decretos de vivienda de octubre de 2026."}
+ {id:"fei23",name:"Los que apoyaron a Feijóo en 2023",parties:["pp","vox","upn","cc"],desc:"PP, Vox, UPN y CC votaron sí a su investidura en septiembre de 2023. Entonces sumaron 172 escaños y no bastó. La cifra de arriba es lo que sumarían hoy según esta encuesta."},
+ {id:"san23",name:"Los que apoyaron a Sánchez en 2023",parties:["psoe","sumar","podemos","erc","junts","bildu","pnv","bng","cc"],desc:"Estos partidos votaron sí a su investidura en noviembre de 2023. Entonces sumaron 179 escaños y salió adelante. La cifra de arriba es lo que sumarían hoy según esta encuesta. Junts ha votado después contra el Gobierno en varias leyes, como los decretos de vivienda de octubre de 2026."}
 ];
 function blocs(seats){
   if(!seats)return "";
@@ -2630,7 +2630,7 @@ function blocs(seats){
       <div class="btrack" role="img" aria-label="${esc(b.name)}: ${tot} escaños">${parts.map(([k,v])=>`<span class="bseg" style="--c:${P(k).c};width:${(v/TOTAL_SEATS*100).toFixed(2)}%" title="${esc(P(k).name)}: ${v}"></span>`).join("")}<i class="bmaj" style="left:${(MAJ/TOTAL_SEATS*100).toFixed(2)}%"></i></div>
       <p class="bparts">${parts.map(([k,v])=>`<span class="pn" style="--pc:var(--t-${k})">${esc(P(k).name)}</span> ${v}`).join(" + ")}${missing.length?` <span class="muted">· sin datos de ${missing.map(k=>esc(P(k).name)).join(", ")}</span>`:""}</p>
       <p class="bdesc">${names(esc(b.desc))}</p></div>`}).join("");
-  return `<div class="blocs"><h4>¿Y si se unen?</h4><p class="pmeta">Escaños que sumarían los grupos de partidos que suelen ir juntos. La línea marca los ${MAJ} escaños de la mayoría absoluta. Son sumas de escaños, no pactos anunciados.${s.otros?` Esta estimación tiene ${s.otros} escaños sin detallar, que podrían cambiar las sumas.`:""}</p>${rows}</div>`;
+  return `<div class="blocs"><h4>¿Y si se unen?</h4><p class="pmeta">Escaños que sumarían hoy, según esta encuesta, los grupos de partidos que suelen ir juntos. La línea marca los ${MAJ} escaños de la mayoría absoluta. Son sumas de escaños, no pactos anunciados.${s.otros?` Esta estimación tiene ${s.otros} escaños sin detallar, que podrían cambiar las sumas.`:""}</p>${rows}</div>`;
 }
 
 // Portada: izquierda | resto | derecha, con la línea de mayoría absoluta medida desde cada extremo
