@@ -1,12 +1,45 @@
 {
  "meta": {
   "highlight": {
-   "title": "Arranca la campaña del 29N",
-   "text": "La campaña empezó el 13 de noviembre y acaba el 27; el 28 es la jornada de reflexión. Ya puedes ver como «Programa 29N» los programas del PP, ERC, BNG y Coalición Canaria; PSOE, Vox, Frente Amplio y Podemos aún no han publicado el suyo. Sánchez y Feijóo tendrán un cara a cara el 16 de noviembre. Las encuestas se pueden publicar hasta el 23."
+   "title": "Ya hay 7 programas del 29N",
+   "text": "PP, PSOE, Vox, ERC, BNG, PNV y Coalición Canaria ya han publicado su programa y puedes compararlos como «Programa 29N». Frente Amplio, Podemos, Junts, EH Bildu, UPN y SALF aún no lo han hecho. La campaña acaba el 27 de noviembre."
   },
-  "updated": "2026-11-13"
+  "updated": "2026-11-15"
  },
  "items": [
+  {
+   "id": "n113",
+   "date": "2026-11-09",
+   "parties": [
+    "pnv"
+   ],
+   "source": "Infobae",
+   "title": "El PNV presenta su programa: 30 propuestas y 5 compromisos",
+   "summary": "Pide el derecho a decidir, el reconocimiento nacional de Euskadi y un nuevo estatus político, además de alargar el paro a 36 meses y un salario mínimo vasco. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/09/pnv-reivindica-en-su-programa-electoral-el-derecho-a-decidir-el-reconocimiento-nacional-y-nuevo-estatus-politico/"
+  },
+  {
+   "id": "n112",
+   "date": "2026-11-12",
+   "parties": [
+    "vox"
+   ],
+   "source": "Rankia",
+   "title": "Vox publica su programa «Es sentido común»",
+   "summary": "115 medidas en 13 bloques: quitar la Ley de Vivienda, desalojar casas okupadas en menos de 24 horas, bajar el IRPF según los hijos, mantener las nucleares y prioridad para los españoles en ayudas y vivienda pública. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.rankia.com/blog/opiniones/7550647-programas-electorales-29-n-que-propone-cada-partido-economia"
+  },
+  {
+   "id": "n111",
+   "date": "2026-11-15",
+   "parties": [
+    "psoe"
+   ],
+   "source": "EFE / Infobae",
+   "title": "El PSOE presenta su programa: 500 medidas",
+   "summary": "Sánchez lo presentó en Alcorcón. Incluye blindar en la Constitución las pensiones y el aborto, un permiso pagado de 4 semanas para cuidar a hijos menores de 8 años, una ayuda de 200 € para el dentista y más impuestos a fondos y grandes propietarios. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/15/dia-3-sanchez-presenta-el-programa-del-psoe-y-pide-el-voto-de-la-gente-moderada/"
+  },
   {
    "id": "n110",
    "date": "2026-11-03",

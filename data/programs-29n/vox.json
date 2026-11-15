@@ -1,0 +1,140 @@
+{
+ "party": "vox",
+ "election": "29N",
+ "published": "2026-11-12",
+ "generated": "2026-11-13",
+ "coalition": null,
+ "source": {
+  "t": "Vox — «Es sentido común» (programa 29N)",
+  "u": "https://votasentidocomun.es/general/files/programa-elecct-vox.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Quitar la {{leyvivienda|Ley de Vivienda}} y animar el alquiler de larga duración.",
+    "p29-vox"
+   ],
+   [
+    "Más dinero público para vivienda protegida y reformar la ley del {{suelo|suelo}}.",
+    "p29-vox"
+   ],
+   [
+    "Desalojar las casas {{okupacion|okupadas}} en menos de 24 horas y endurecer el Código Penal.",
+    "p29-vox"
+   ],
+   [
+    "{{iva|IVA}} del 0 % al comprar la primera casa nueva y sin impuesto de transmisiones en la de segunda mano.",
+    "p29-vox"
+   ],
+   [
+    "Más impuestos a los compradores de fuera de la UE y a los fondos que especulen.",
+    "p29-vox"
+   ],
+   [
+    "Que los españoles tengan preferencia en la vivienda pública y las ayudas al alquiler.",
+    "p29-vox"
+   ]
+  ],
+  "trabajo": [],
+  "sanidad": [
+   [
+    "Un plan nacional contra las {{listas|listas de espera}}, también con la privada cuando reduzca las esperas.",
+    "p29-vox"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Ligar el futuro de las pensiones a la productividad y a la natalidad.",
+    "p29-vox"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Bajar el {{irpf|IRPF}}, más cuantos más hijos se tengan, y bajar el {{iva|IVA}} de productos básicos y el {{sociedades|Impuesto de Sociedades}}.",
+    "p29-vox"
+   ],
+   [
+    "Cuota cero para los autónomos que ganen menos del {{smi|salario mínimo}}.",
+    "p29-vox"
+   ],
+   [
+    "Impuestos mínimos en las zonas que se están quedando sin gente.",
+    "p29-vox"
+   ],
+   [
+    "Un impuesto al dinero que los inmigrantes envían a sus países.",
+    "p29-vox"
+   ]
+  ],
+  "educacion": [
+   [
+    "Libertad para elegir colegio, también los concertados.",
+    "p29-vox"
+   ],
+   [
+    "Asegurar que se pueda estudiar en español en toda España, con un mismo temario e inspección.",
+    "p29-vox"
+   ]
+  ],
+  "inmigracion": [
+   [
+    "Prohibir las {{regularizacion|regularizaciones}} masivas y quitar el arraigo.",
+    "p29-vox"
+   ],
+   [
+    "{{expulsion|Expulsar}} a quien esté en situación irregular y a los extranjeros que cometan delitos graves.",
+    "p29-vox"
+   ],
+   [
+    "Que los españoles tengan preferencia en guarderías, becas, ayudas y servicios sociales.",
+    "p29-vox"
+   ]
+  ],
+  "energia": [
+   [
+    "Mantener las {{nuclear|centrales nucleares}} quitando el calendario de cierre y estudiar nuevas.",
+    "p29-vox"
+   ],
+   [
+    "Bajar los impuestos de la luz.",
+    "p29-vox"
+   ],
+   [
+    "Revertir normas del Pacto Verde Europeo y de la Agenda 2030.",
+    "p29-vox"
+   ]
+  ],
+  "igualdad": [],
+  "familias": [
+   [
+    "Un plan de natalidad y que el Estado pague la cotización de quien deja de trabajar para cuidar a sus hijos.",
+    "p29-vox"
+   ]
+  ],
+  "justicia": [
+   [
+    "Que los jueces elijan directamente a los 12 vocales jueces del {{cgpj|CGPJ}}.",
+    "p29-vox"
+   ]
+  ],
+  "territorio": [],
+  "campo": [],
+  "politica": [
+   [
+    "Derogar tres normas por cada nueva y que, si la Administración no responde, la respuesta sea sí.",
+    "p29-vox"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "v2": "Quitarla.",
+  "v3": "Desalojar en menos de 24 horas y endurecer el Código Penal.",
+  "i1": "Bajar el IRPF (más con hijos), el IVA de lo básico y Sociedades.",
+  "m1": "Prohibir las regularizaciones, quitar el arraigo y {{expulsion|expulsar}} a quien esté en situación irregular.",
+  "en1": "Sí, quitar el calendario de cierre y estudiar nuevas.",
+  "j1": "Que los jueces elijan directamente a los vocales jueces.",
+  "e2": "Libertad de elegir colegio y poder estudiar en español en toda España."
+ },
+ "expl": {}
+}

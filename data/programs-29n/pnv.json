@@ -1,0 +1,139 @@
+{
+ "party": "pnv",
+ "election": "29N",
+ "published": "2026-11-09",
+ "generated": "2026-11-13",
+ "coalition": null,
+ "source": {
+  "t": "EAJ-PNV — «Defendemos Euskadi» (programa 29N)",
+  "u": "https://www.eaj-pnv.eus/es/programa-elecciones-generales-2026/"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Más casas asequibles: construir y rehabilitar, sacar las vacías y dar seguridad a inquilinos y pequeños propietarios.",
+    "p29-pnv"
+   ],
+   [
+    "Evitar los contratos de temporada que se usan para esquivar los derechos de quien alquila su casa.",
+    "p29-pnv"
+   ],
+   [
+    "Ayudar a los jóvenes a acceder a su primera vivienda, de alquiler o en propiedad.",
+    "p29-pnv"
+   ]
+  ],
+  "trabajo": [
+   [
+    "Un {{smipropio|salario mínimo propio}} de Euskadi, por encima del estatal.",
+    "p29-pnv"
+   ],
+   [
+    "Alargar el paro de 24 a 36 meses como máximo.",
+    "p29-pnv"
+   ],
+   [
+    "Menos trámites y más financiación para pymes y autónomos.",
+    "p29-pnv"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Formar más especialistas según lo que necesite Osakidetza.",
+    "p29-pnv"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Subir las pensiones cada año con el {{ipc|IPC}}.",
+    "p29-pnv"
+   ],
+   [
+    "Jubilarse antes sin penalización con más de 40 años cotizados.",
+    "p29-pnv"
+   ],
+   [
+    "Subir las pensiones mínimas y {{nocontributiva|no contributivas}} y reducir la diferencia entre hombres y mujeres.",
+    "p29-pnv"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Revisar el {{iva|IVA}} de algunos alimentos y bienes básicos.",
+    "p29-pnv"
+   ],
+   [
+    "Más capacidad de las haciendas vascas sobre el IVA y los impuestos especiales, actualizando el {{concierto|Concierto Económico}}.",
+    "p29-pnv"
+   ]
+  ],
+  "educacion": [],
+  "inmigracion": [
+   [
+    "Más competencias de Euskadi en acogida, residencia, trabajo e integración de inmigrantes.",
+    "p29-pnv"
+   ]
+  ],
+  "energia": [
+   [
+    "Invertir en redes eléctricas y bajar el coste de la energía, sobre todo con {{renovables|renovables}}.",
+    "p29-pnv"
+   ]
+  ],
+  "igualdad": [
+   [
+    "Más recursos para las víctimas de violencia machista y más juzgados especializados.",
+    "p29-pnv"
+   ]
+  ],
+  "familias": [
+   [
+    "Más protección económica para quienes cuidan a familiares.",
+    "p29-pnv"
+   ]
+  ],
+  "justicia": [
+   [
+    "Reformas para responder rápido a la multirreincidencia.",
+    "p29-pnv"
+   ],
+   [
+    "Reformar la {{leymordaza|ley mordaza}} y revisar los delitos que limitan la libertad de expresión.",
+    "p29-pnv"
+   ]
+  ],
+  "territorio": [
+   [
+    "Cumplir el Estatuto de Gernika con calendario para los traspasos pendientes.",
+    "p29-pnv"
+   ],
+   [
+    "Reconocimiento nacional de Euskadi, el derecho a decidir y un nuevo estatus político.",
+    "p29-pnv"
+   ],
+   [
+    "Plazos que se puedan comprobar para la Y vasca y el Corredor Atlántico.",
+    "p29-pnv"
+   ]
+  ],
+  "campo": [
+   [
+    "Precios que cubran los costes de producción y facilitar el relevo en el campo y la pesca.",
+    "p29-pnv"
+   ]
+  ],
+  "politica": [
+   [
+    "Reformar la {{secretos|ley de secretos oficiales}} y más transparencia.",
+    "p29-pnv"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "t2": "Uno propio de Euskadi, por encima del estatal.",
+  "p1": "Subirlas con el {{ipc|IPC}}.",
+  "te1": "Cumplir el Estatuto, un nuevo estatus político y reforzar el {{concierto|Concierto}}."
+ },
+ "expl": {}
+}

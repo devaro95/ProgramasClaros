@@ -1,0 +1,101 @@
+{
+ "party": "psoe",
+ "election": "29N",
+ "published": "2026-11-15",
+ "generated": "2026-11-13",
+ "coalition": null,
+ "source": {
+  "t": "PSOE — programa 29N (500 medidas, presentado en Alcorcón; resumen de EFE)",
+  "u": "https://www.infobae.com/espana/agencias/2026/11/15/dia-3-sanchez-presenta-el-programa-del-psoe-y-pide-el-voto-de-la-gente-moderada/"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Nuevos impuestos a fondos y grandes propietarios que tengan casas vacías, las dediquen a pisos turísticos o pidan precios inasequibles.",
+    "p29-psoe"
+   ],
+   [
+    "Que en 2030 haya más vivienda pública.",
+    "p29-psoe"
+   ]
+  ],
+  "trabajo": [
+   [
+    "Bajar el paro hasta el 8 % en 2030.",
+    "p29-psoe"
+   ],
+   [
+    "Reducir la brecha salarial entre hombres y mujeres al 5 %.",
+    "p29-psoe"
+   ],
+   [
+    "Seguir con la {{cuotaautonomo|cuota de autónomos}} según lo que ganan de verdad y mejorar sus ayudas por cierre y por cuidados.",
+    "p29-psoe"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Una ayuda directa de 200 € para tratamientos de dentista.",
+    "p29-psoe"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Cambiar la Constitución para que las pensiones suban siempre con el {{ipc|IPC}}.",
+    "p29-psoe"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Más impuestos a las {{grandesfortunas|grandes fortunas}}, a los fondos y a los grandes propietarios de viviendas.",
+    "p29-psoe"
+   ]
+  ],
+  "educacion": [
+   [
+    "Que en 2030 el 80 % de la población tenga estudios por encima de la ESO.",
+    "p29-psoe"
+   ]
+  ],
+  "inmigracion": [],
+  "energia": [
+   [
+    "Que en 2030 el 80 % de la luz salga de {{renovables|renovables}}.",
+    "p29-psoe"
+   ]
+  ],
+  "igualdad": [],
+  "familias": [
+   [
+    "Un {{permiso|permiso}} de 4 semanas pagado al 100 % por la Seguridad Social para cuidar a hijos de menos de 8 años.",
+    "p29-psoe"
+   ],
+   [
+    "Una «unión de amistad» en el Código Civil para que amigos que conviven tengan derechos, como permisos para cuidarse.",
+    "p29-psoe"
+   ]
+  ],
+  "justicia": [],
+  "territorio": [
+   [
+    "Invertir 19.000 millones en cinco años en conservar y mantener la red de tren.",
+    "p29-psoe"
+   ]
+  ],
+  "campo": [],
+  "politica": [],
+  "vida": [
+   [
+    "Meter en la Constitución el derecho al {{aborto|aborto}}.",
+    "p29-psoe"
+   ]
+  ]
+ },
+ "pos": {
+  "p1": "Subirlas con el {{ipc|IPC}} y blindarlo en la Constitución.",
+  "s1": "Una ayuda de 200 € para el dentista.",
+  "f2": "Un permiso de 4 semanas pagado al 100 % para cuidar a hijos de menos de 8 años.",
+  "a1": "Meter el derecho al aborto en la Constitución."
+ },
+ "expl": {}
+}
