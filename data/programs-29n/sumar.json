@@ -1,0 +1,142 @@
+{
+ "party": "sumar",
+ "election": "29N",
+ "published": "2026-11-16",
+ "generated": "2026-11-13",
+ "coalition": "Frente Amplio",
+ "source": {
+  "t": "Frente Amplio — «Un programa como una casa» (programa 29N)",
+  "u": "https://www.democrata.es/uploads/s1/35/42/91/4/programafrenteamplio.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Dedicar el 1 % del {{pib|PIB}} cada año a crear 1,5 millones de casas públicas en 12 años.",
+    "p29-sumar"
+   ],
+   [
+    "Limitar los alquileres en las zonas tensionadas y un decreto urgente para bajarlos.",
+    "p29-sumar"
+   ],
+   [
+    "Prohibir que empresas y fondos compren casas para especular, y expropiar por fases a quien tenga muchas (primero más de 1.000 pisos).",
+    "p29-sumar"
+   ],
+   [
+    "Que no haya desahucios de familias vulnerables sin otra casa.",
+    "p29-sumar"
+   ]
+  ],
+  "trabajo": [
+   [
+    "{{jornada|Jornada}} de 32 horas sin bajar el sueldo, empezando ya por 37,5.",
+    "p29-sumar"
+   ],
+   [
+    "{{smi|Salario mínimo}} del 60 % del {{salariomedio|sueldo medio}}.",
+    "p29-sumar"
+   ],
+   [
+    "Un plan de empleo garantizado para bajar el paro al 7 %.",
+    "p29-sumar"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Subir el dinero de la sanidad pública hasta el 8 % del {{pib|PIB}}.",
+    "p29-sumar"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Volver a la jubilación a los 65 años, revirtiendo la reforma de 2011.",
+    "p29-sumar"
+   ],
+   [
+    "Jubilación a los 60 en construcción, limpieza, ayuda a domicilio, camareras de piso y pesca.",
+    "p29-sumar"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Un impuesto a quienes tengan más de 1 millón de euros, para recaudar más de 10.000 millones.",
+    "p29-sumar"
+   ],
+   [
+    "Que nadie pueda heredar más de 10 millones de euros.",
+    "p29-sumar"
+   ],
+   [
+    "Un tipo mínimo real del 20 % en el {{sociedades|Impuesto de Sociedades}}.",
+    "p29-sumar"
+   ],
+   [
+    "Bajar el {{irpf|IRPF}} a quien menos gana y el {{iva|IVA}} de lo básico y la energía.",
+    "p29-sumar"
+   ]
+  ],
+  "educacion": [
+   [
+    "Subir el dinero de la educación pública hasta el 7 % del {{pib|PIB}}.",
+    "p29-sumar"
+   ],
+   [
+    "Comedor escolar gratis para todos en Infantil y Primaria.",
+    "p29-sumar"
+   ]
+  ],
+  "inmigracion": [],
+  "energia": [
+   [
+    "Recuperar el control público de las redes eléctricas y crear una comercializadora pública y una banca pública.",
+    "p29-sumar"
+   ]
+  ],
+  "igualdad": [],
+  "familias": [
+   [
+    "200 € al mes por cada menor de 18 años, desde que nace y para todos, cobrados con el {{irpf|IRPF}}.",
+    "p29-sumar"
+   ],
+   [
+    "{{permiso|Permiso}} de nacimiento de 20 semanas.",
+    "p29-sumar"
+   ],
+   [
+    "{{permiso|Permiso}} pagado para cuidar a la «familia elegida», como amigos o vecinos cercanos.",
+    "p29-sumar"
+   ]
+  ],
+  "justicia": [],
+  "territorio": [
+   [
+    "Un nuevo sistema de {{financiacion|financiación}} con un 2,3 % del {{pib|PIB}} más cada año.",
+    "p29-sumar"
+   ],
+   [
+    "Que una comunidad que baje el {{patrimonio|Impuesto de Patrimonio}} reciba menos dinero del Estado.",
+    "p29-sumar"
+   ],
+   [
+    "Reconocer que España es {{plurinacional|plurinacional}} y un referéndum para resolver la cuestión territorial.",
+    "p29-sumar"
+   ],
+   [
+    "Unir Renfe y Adif en una sola empresa y revertir la liberalización de la alta velocidad.",
+    "p29-sumar"
+   ]
+  ],
+  "campo": [],
+  "politica": [],
+  "vida": []
+ },
+ "pos": {
+  "t1": "Bajar a 32 horas sin bajar el sueldo, empezando ya por 37,5.",
+  "t2": "Que sea el 60% del sueldo medio.",
+  "v1": "Que el Estado ponga 1,5 millones de casas públicas en 12 años.",
+  "i2": "Un impuesto a patrimonios de más de 1 millón y un tope de 10 millones por herencia.",
+  "f1": "200 € al mes por cada menor, para todas las familias.",
+  "te2": "Un referéndum para resolver la cuestión territorial."
+ },
+ "expl": {}
+}

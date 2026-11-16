@@ -1,12 +1,23 @@
 {
  "meta": {
   "highlight": {
-   "title": "Ya hay 7 programas del 29N",
-   "text": "PP, PSOE, Vox, ERC, BNG, PNV y Coalición Canaria ya han publicado su programa y puedes compararlos como «Programa 29N». Frente Amplio, Podemos, Junts, EH Bildu, UPN y SALF aún no lo han hecho. La campaña acaba el 27 de noviembre."
+   "title": "Ya hay 8 programas del 29N",
+   "text": "PP, PSOE, Vox, Frente Amplio, ERC, BNG, PNV y Coalición Canaria ya han publicado su programa y puedes compararlos como «Programa 29N». Podemos, Junts, EH Bildu, UPN y SALF aún no lo han hecho. La campaña acaba el 27 de noviembre."
   },
-  "updated": "2026-11-15"
+  "updated": "2026-11-17"
  },
  "items": [
+  {
+   "id": "n114",
+   "date": "2026-11-16",
+   "parties": [
+    "sumar"
+   ],
+   "source": "Demócrata",
+   "title": "Frente Amplio presenta su programa: más de 1.000 medidas",
+   "summary": "1,5 millones de casas públicas en 12 años, jornada de 32 horas, jubilación a los 65, 200 € al mes por cada menor, un impuesto a patrimonios de más de 1 millón y un referéndum para la cuestión territorial. Ya puedes verlo en la web como «Programa 29N».",
+   "url": "https://www.democrata.es/elecciones-generales-espana/programa-electoral-frente-amplio-29n/"
+  },
   {
    "id": "n113",
    "date": "2026-11-09",
