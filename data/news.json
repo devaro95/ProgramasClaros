@@ -1,12 +1,68 @@
 {
  "meta": {
   "highlight": {
-   "title": "Ya hay 8 programas del 29N",
-   "text": "PP, PSOE, Vox, Frente Amplio, ERC, BNG, PNV y Coalición Canaria ya han publicado su programa y puedes compararlos como «Programa 29N». Podemos, Junts, EH Bildu, UPN y SALF aún no lo han hecho. La campaña acaba el 27 de noviembre."
+   "title": "Ya hay 12 programas del 29N",
+   "text": "PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu, PNV, Podemos, BNG, Coalición Canaria y SALF ya tienen su programa en «Programa 29N». UPN no tiene uno propio: va con el PP. La campaña acaba el 27 de noviembre."
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-21"
  },
  "items": [
+  {
+   "id": "n119",
+   "date": "2026-11-19",
+   "parties": [
+    "psoe",
+    "pp"
+   ],
+   "source": "Euronews",
+   "title": "Sánchez y Feijóo, cara a cara en el único debate a dos de la campaña",
+   "summary": "Vivienda, economía y corrupción centraron el debate. Vox, Frente Amplio y Podemos criticaron quedarse fuera del formato.",
+   "url": "https://es.euronews.com/2026/11/19/debate-del-29n-sanchez-reivindica-al-psoe-como-el-partido-mas-limpio-de-la-democracia-en-u"
+  },
+  {
+   "id": "n118",
+   "date": "2026-11-18",
+   "parties": [
+    "junts"
+   ],
+   "source": "EFE / Infobae",
+   "title": "Junts propone desalojos exprés y frenar hasta 2028 la compra de pisos por la banca",
+   "summary": "Echar a los okupas en 48 horas, pasar a la Generalitat las casas de la Sareb y un referéndum de autodeterminación. Ya puedes verlo como «Programa 29N» (resumen de prensa: el PDF no estaba accesible).",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/18/junts-propone-desocupaciones-expres-y-una-moratoria-hasta-2028-a-que-la-banca-compre-pisos/"
+  },
+  {
+   "id": "n117",
+   "date": "2026-11-17",
+   "parties": [
+    "podemos"
+   ],
+   "source": "Podemos",
+   "title": "Podemos presenta su programa «Así de básico: Paz, casa y trabajo»",
+   "summary": "Bajar por ley un 40 % los alquileres, salario mínimo de 1.800 €, jornada de 30 horas, jubilación a los 63, salir de la OTAN y una empresa pública de energía. Ya puedes verlo como «Programa 29N».",
+   "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf"
+  },
+  {
+   "id": "n116",
+   "date": "2026-11-16",
+   "parties": [
+    "bildu"
+   ],
+   "source": "EH Bildu",
+   "title": "EH Bildu presenta su programa «Posible Egin»",
+   "summary": "Jornada de 32 horas, prórroga automática de los alquileres, pensiones mínimas de 1.220 €, salario mínimo propio y derecho a decidir para Euskal Herria. Ya puedes verlo como «Programa 29N».",
+   "url": "https://posibleegin.ehbildu.eus/wp-content/uploads/2026/11/PROGRAMA-CAS.pdf"
+  },
+  {
+   "id": "n115",
+   "date": "2026-11-10",
+   "parties": [
+    "salf"
+   ],
+   "source": "Canal 4 Diario",
+   "title": "SALF presenta su «Contrato electoral»: 119 medidas",
+   "summary": "Quitar la cuota de autónomos y el IBI, no pagar IRPF hasta 35.000 €, primera casa un 35 % más barata, esperas máximas en sanidad y quitar sucesiones y patrimonio. Ya puedes verlo como «Programa 29N».",
+   "url": "https://canal4diario.com/29n/2026/11/13/salf-propone-eliminar-la-cuota-de-autonomos-suprimir-el-ibi-y-rebajar-el-irpf-hasta-los-35-000-euros/"
+  },
   {
    "id": "n114",
    "date": "2026-11-16",

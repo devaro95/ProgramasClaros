@@ -1,0 +1,206 @@
+{
+ "party": "podemos",
+ "election": "29N",
+ "published": "2026-11-17",
+ "generated": "2026-11-13",
+ "coalition": "Podemos",
+ "source": {
+  "t": "Podemos — «Así de básico: Paz, casa y trabajo» (programa 29N)",
+  "u": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Bajar por ley un 40 % los alquileres, también en los contratos ya firmados.",
+    "p29-podemos"
+   ],
+   [
+    "Contratos de alquiler indefinidos para la casa en la que vives.",
+    "p29-podemos"
+   ],
+   [
+    "Prohibir comprar casas que no sean para vivir en ellas.",
+    "p29-podemos"
+   ],
+   [
+    "Expropiar el uso de las casas de grandes propietarios, fondos y bancos a partir de la undécima.",
+    "p29-podemos"
+   ],
+   [
+    "Pasar a vivienda pública las casas vacías de la {{sareb|Sareb}} y crear una inmobiliaria pública de alquiler.",
+    "p29-podemos"
+   ],
+   [
+    "Acabar con los pisos turísticos mientras dure la emergencia de vivienda.",
+    "p29-podemos"
+   ],
+   [
+    "Ningún desahucio de personas vulnerables sin otra casa digna.",
+    "p29-podemos"
+   ]
+  ],
+  "trabajo": [
+   [
+    "{{smi|Salario mínimo}} de 1.800 € al mes en esta legislatura, y nunca por debajo del 75 % del sueldo mediano.",
+    "p29-podemos"
+   ],
+   [
+    "{{jornada|Jornada}} de 30 horas sin bajar el sueldo, empezando por 35.",
+    "p29-podemos"
+   ],
+   [
+    "Despido ilegal: 45 días por año y que el trabajador elija entre {{indemnizacion|indemnización}} o volver.",
+    "p29-podemos"
+   ],
+   [
+    "Que los autónomos coticen según lo que ganan, y nada si tienen pérdidas.",
+    "p29-podemos"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Gastar en sanidad pública 2.900 € por persona y año, cerca del 8 % del {{pib|PIB}}.",
+    "p29-podemos"
+   ],
+   [
+    "Dentista, vista, oído, fisioterapia y psicología pagados al 100 % por la pública.",
+    "p29-podemos"
+   ],
+   [
+    "Plazos máximos de espera fijados por ley y cita con el médico de familia en dos días.",
+    "p29-podemos"
+   ],
+   [
+    "Derogar la ley de 1997 que abrió la sanidad a la gestión privada.",
+    "p29-podemos"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Jubilación ordinaria a los 63 años.",
+    "p29-podemos"
+   ],
+   [
+    "Sin recorte por jubilarse antes a quien tenga 40 años cotizados.",
+    "p29-podemos"
+   ],
+   [
+    "Pensión mínima igual al {{smi|salario mínimo}}, y la {{nocontributiva|no contributiva}} al 80 %.",
+    "p29-podemos"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Un {{grandesfortunas|impuesto a las grandes fortunas}} estatal y para siempre.",
+    "p29-podemos"
+   ],
+   [
+    "Un mínimo real del 19 % en el {{sociedades|Impuesto de Sociedades}}.",
+    "p29-podemos"
+   ],
+   [
+    "Un impuesto permanente de al menos el 50 % a los beneficios extra de la banca.",
+    "p29-podemos"
+   ],
+   [
+    "Que quien gane menos que el {{smi|salario mínimo}} no pague {{irpf|IRPF}}, y más impuesto a partir de 60.000 €.",
+    "p29-podemos"
+   ]
+  ],
+  "educacion": [
+   [
+    "Gastar el 7 % del {{pib|PIB}} en educación, con dinero estatal solo para la pública.",
+    "p29-podemos"
+   ],
+   [
+    "No firmar más {{concierto|conciertos}} con colegios privados.",
+    "p29-podemos"
+   ],
+   [
+    "Plazas públicas gratis de {{escuela03|0 a 3 años}} y universidad pública gratis.",
+    "p29-podemos"
+   ]
+  ],
+  "inmigracion": [
+   [
+    "Cambiar la ley de extranjería y acabar con las {{devoluciones|devoluciones en caliente}}.",
+    "p29-podemos"
+   ],
+   [
+    "Cerrar todos los centros de internamiento de extranjeros.",
+    "p29-podemos"
+   ],
+   [
+    "Una vía permanente de {{regularizacion|regularización}} por arraigo.",
+    "p29-podemos"
+   ]
+  ],
+  "energia": [
+   [
+    "Una empresa pública de energía que compre más de la mitad de Repsol.",
+    "p29-podemos"
+   ],
+   [
+    "Que la factura de luz y gas no pueda subir más de un 5 %.",
+    "p29-podemos"
+   ],
+   [
+    "Cerrar las {{nuclear|nucleares}} según el calendario, empezando por Almaraz.",
+    "p29-podemos"
+   ]
+  ],
+  "igualdad": [
+   [
+    "Meter el {{aborto|aborto}} en la Constitución como derecho fundamental.",
+    "p29-podemos"
+   ],
+   [
+    "Un fondo de 1.000 millones contra la violencia machista.",
+    "p29-podemos"
+   ]
+  ],
+  "familias": [
+   [
+    "{{permiso|Permiso}} de nacimiento de 26 semanas por progenitor (el doble si la madre está sola).",
+    "p29-podemos"
+   ],
+   [
+    "Una ayuda por hijo hasta los 21 años del 15 % del {{smi|salario mínimo}}.",
+    "p29-podemos"
+   ]
+  ],
+  "justicia": [],
+  "territorio": [
+   [
+    "Una nueva Constitución republicana que reconozca la {{plurinacional|plurinacionalidad}}, con referéndum entre monarquía y república.",
+    "p29-podemos"
+   ]
+  ],
+  "campo": [],
+  "politica": [
+   [
+    "Salir de la OTAN y cerrar las bases de Rota y Morón.",
+    "p29-podemos"
+   ],
+   [
+    "Congelar el gasto militar y rechazar llegar al 5 % del {{pib|PIB}}.",
+    "p29-podemos"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "v1": "El Estado: bajar un 40 % los alquileres por ley y crear una inmobiliaria pública.",
+  "t1": "Bajar a 30 horas sin bajar el sueldo, empezando por 35.",
+  "t2": "1.800 € al mes y nunca por debajo del 75 % del sueldo mediano.",
+  "s1": "Dentista, vista, oído, fisioterapia y psicología.",
+  "s2": "Sí, plazos máximos fijados por ley.",
+  "i1": "Subir a los que más tienen y a la banca; nada de IRPF para quien gane menos que el salario mínimo.",
+  "i2": "Un impuesto a las grandes fortunas estatal y permanente.",
+  "m1": "Vías legales de entrada y regularización permanente por arraigo.",
+  "en1": "Cerrarlas según el calendario, empezando por Almaraz.",
+  "f2": "26 semanas de permiso por progenitor.",
+  "a1": "Meterlo en la Constitución como derecho fundamental."
+ },
+ "expl": {}
+}

@@ -1,0 +1,97 @@
+{
+ "party": "salf",
+ "election": "29N",
+ "published": "2026-11-10",
+ "generated": "2026-11-13",
+ "coalition": "Se Acabó La Fiesta",
+ "source": {
+  "t": "SALF — «Contrato electoral» (programa 29N)",
+  "u": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Que la primera casa cueste un 35 % menos.",
+    "p29-salf"
+   ],
+   [
+    "Aval público del 20 % de la entrada para menores de 40 años.",
+    "p29-salf"
+   ],
+   [
+    "Un seguro público contra el impago del alquiler.",
+    "p29-salf"
+   ],
+   [
+    "Quitar el IBI y echar más rápido a los okupas.",
+    "p29-salf"
+   ]
+  ],
+  "trabajo": [
+   [
+    "Quitar la {{cuotaautonomo|cuota de autónomos}}.",
+    "p29-salf"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Esperas máximas: 60 días para operarse, 30 para el especialista y 7 para pruebas urgentes.",
+    "p29-salf"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Que suban cada año con el {{ipc|IPC}}.",
+    "p29-salf"
+   ]
+  ],
+  "impuestos": [
+   [
+    "No pagar {{irpf|IRPF}} hasta 35.000 € al año en 2030.",
+    "p29-salf"
+   ],
+   [
+    "Quitar los impuestos de sucesiones, donaciones y {{patrimonio|patrimonio}}.",
+    "p29-salf"
+   ]
+  ],
+  "educacion": [
+   [
+    "Enseñar en español y elegir libremente colegio.",
+    "p29-salf"
+   ]
+  ],
+  "inmigracion": [],
+  "energia": [],
+  "igualdad": [],
+  "familias": [],
+  "justicia": [],
+  "territorio": [],
+  "campo": [],
+  "politica": [
+   [
+    "Que los corruptos devuelvan el triple de lo robado.",
+    "p29-salf"
+   ],
+   [
+    "Un Gobierno de solo 10 ministerios.",
+    "p29-salf"
+   ],
+   [
+    "Un referéndum para renegociar la relación con la UE.",
+    "p29-salf"
+   ]
+  ],
+  "vida": []
+ },
+ "pos": {
+  "v3": "Desalojar más rápido.",
+  "t4": "Quitar la cuota de autónomos.",
+  "s2": "Sí: 60 días para operarse y 30 para el especialista.",
+  "p1": "Con el IPC.",
+  "i1": "Bajar: nada de IRPF hasta 35.000 €.",
+  "i2": "Quitar sucesiones, donaciones y patrimonio.",
+  "e2": "Enseñar en español y libre elección de colegio."
+ },
+ "expl": {}
+}

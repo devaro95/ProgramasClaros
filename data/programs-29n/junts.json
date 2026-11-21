@@ -1,0 +1,66 @@
+{
+ "party": "junts",
+ "election": "29N",
+ "published": "2026-11-18",
+ "generated": "2026-11-13",
+ "coalition": "Junts",
+ "source": {
+  "t": "Junts — programa 29N (resumen de EFE)",
+  "u": "https://www.infobae.com/espana/agencias/2026/11/18/junts-propone-desocupaciones-expres-y-una-moratoria-hasta-2028-a-que-la-banca-compre-pisos/"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Prohibir hasta 2028 que bancos y fondos compren casas.",
+    "p29-junts"
+   ],
+   [
+    "Echar a los okupas en 48 horas con un juicio inmediato, y que la policía pueda desalojar en el momento.",
+    "p29-junts"
+   ],
+   [
+    "Pasar a la Generalitat las casas y el suelo de la {{sareb|Sareb}} y de Casa 47.",
+    "p29-junts"
+   ],
+   [
+    "Bajar impuestos a quien alquila, compra o pone su piso en alquiler, y que el Estado pague en 2 meses al pequeño propietario.",
+    "p29-junts"
+   ]
+  ],
+  "trabajo": [],
+  "sanidad": [],
+  "pensiones": [],
+  "impuestos": [
+   [
+    "Quitar el impuesto de sucesiones.",
+    "p29-junts"
+   ]
+  ],
+  "educacion": [],
+  "inmigracion": [],
+  "energia": [],
+  "igualdad": [
+   [
+    "Prohibir el burka y el nicab.",
+    "p29-junts"
+   ]
+  ],
+  "familias": [],
+  "justicia": [],
+  "territorio": [
+   [
+    "Un referéndum de {{autodeterminacion|autodeterminación}} con «la misma elección» que el 1-O.",
+    "p29-junts"
+   ]
+  ],
+  "campo": [],
+  "politica": [],
+  "vida": []
+ },
+ "pos": {
+  "v3": "Desalojar en 48 horas con juicio inmediato.",
+  "i2": "Quitar el impuesto de sucesiones.",
+  "te2": "Un referéndum de autodeterminación con la misma pregunta que el 1-O."
+ },
+ "expl": {}
+}

@@ -1,0 +1,163 @@
+{
+ "party": "bildu",
+ "election": "29N",
+ "published": "2026-11-16",
+ "generated": "2026-11-13",
+ "coalition": "EH Bildu",
+ "source": {
+  "t": "EH Bildu — «Posible Egin. Garantía y derechos» (programa 29N)",
+  "u": "https://posibleegin.ehbildu.eus/wp-content/uploads/2026/11/PROGRAMA-CAS.pdf"
+ },
+ "p": {
+  "vivienda": [
+   [
+    "Prórroga automática de los contratos de alquiler y subidas de como mucho un 2 %.",
+    "p29-bildu"
+   ],
+   [
+    "Ningún desahucio de personas vulnerables.",
+    "p29-bildu"
+   ],
+   [
+    "{{iva|IVA}} del 21 % a los alquileres turísticos de corta estancia y quitar las ventajas de las SOCIMI.",
+    "p29-bildu"
+   ]
+  ],
+  "trabajo": [
+   [
+    "{{jornada|Jornada}} de 32 horas o semana de 4 días sin bajar el sueldo.",
+    "p29-bildu"
+   ],
+   [
+    "Un {{smipropio|salario mínimo propio}} para Euskal Herria.",
+    "p29-bildu"
+   ],
+   [
+    "Volver a 45 días de {{indemnizacion|indemnización}} por despido.",
+    "p29-bildu"
+   ]
+  ],
+  "sanidad": [
+   [
+    "Dentista y gafas en la sanidad pública.",
+    "p29-bildu"
+   ],
+   [
+    "Derogar la ley 15/97 que abrió la sanidad a la gestión privada.",
+    "p29-bildu"
+   ]
+  ],
+  "pensiones": [
+   [
+    "Pensiones mínimas de al menos 1.220 €.",
+    "p29-bildu"
+   ],
+   [
+    "Subir un 15 % las de viudedad y las {{nocontributiva|no contributivas}}.",
+    "p29-bildu"
+   ],
+   [
+    "Que suban cada año con el {{ipc|IPC}}, y sin recorte para quien tenga 40 años cotizados.",
+    "p29-bildu"
+   ]
+  ],
+  "impuestos": [
+   [
+    "Un impuesto permanente a las energéticas y otro a las grandes cadenas de alimentación.",
+    "p29-bildu"
+   ],
+   [
+    "Quitar el artículo 135 de la Constitución, que obliga a pagar primero la deuda.",
+    "p29-bildu"
+   ]
+  ],
+  "educacion": [
+   [
+    "Dedicar el 6 % del {{pib|PIB}} a educación.",
+    "p29-bildu"
+   ]
+  ],
+  "inmigracion": [
+   [
+    "Una {{regularizacion|regularización}} de las personas sin papeles.",
+    "p29-bildu"
+   ],
+   [
+    "Cerrar los centros de internamiento y acabar con las {{devoluciones|devoluciones en caliente}}.",
+    "p29-bildu"
+   ]
+  ],
+  "energia": [
+   [
+    "Mantener el calendario de cierre de las {{nuclear|nucleares}}.",
+    "p29-bildu"
+   ]
+  ],
+  "igualdad": [
+   [
+    "Proteger el derecho al {{aborto|aborto}}.",
+    "p29-bildu"
+   ],
+   [
+    "Prohibir las terapias de conversión.",
+    "p29-bildu"
+   ]
+  ],
+  "familias": [
+   [
+    "Mismo {{permiso|permiso}} para las familias con un solo progenitor que para las de dos.",
+    "p29-bildu"
+   ]
+  ],
+  "justicia": [
+   [
+    "Derogar la {{leymordaza|ley mordaza}} y la ley de {{secretos|secretos oficiales}}.",
+    "p29-bildu"
+   ],
+   [
+    "Que criticar a la Corona deje de ser delito.",
+    "p29-bildu"
+   ]
+  ],
+  "territorio": [
+   [
+    "Reconocer Euskal Herria como nación y su derecho a decidir.",
+    "p29-bildu"
+   ],
+   [
+    "Pasar ya al Gobierno vasco y navarro las competencias pendientes.",
+    "p29-bildu"
+   ]
+  ],
+  "campo": [
+   [
+    "Que cada territorio gestione la {{pac|PAC}}.",
+    "p29-bildu"
+   ]
+  ],
+  "politica": [
+   [
+    "Salir de la OTAN.",
+    "p29-bildu"
+   ]
+  ],
+  "vida": [
+   [
+    "Ampliar la ley de {{eutanasia|eutanasia}} al sufrimiento físico y psicológico.",
+    "p29-bildu"
+   ]
+  ]
+ },
+ "pos": {
+  "v2": "Mantenerla e ir más allá: prórroga automática y subidas de como mucho un 2 %.",
+  "t1": "32 horas o 4 días sin bajar el sueldo.",
+  "t2": "Un salario mínimo propio para Euskal Herria.",
+  "p1": "Con el IPC, y mínimas de al menos 1.220 €.",
+  "m1": "Regularizar y cerrar los centros de internamiento.",
+  "en1": "No: mantener el calendario de cierre.",
+  "j2": "No: derogar la ley mordaza.",
+  "te1": "Más para las comunidades: Euskal Herria como nación con derecho a decidir.",
+  "a2": "Ampliarla al sufrimiento físico y psicológico."
+ },
+ "expl": {}
+}
